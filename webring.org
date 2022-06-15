@@ -504,6 +504,7 @@
 - https://github.com/isamert/orgmdb.el - 'orgmdb.el', an Emacs package that includes tools for managing your watchlist in org-mode and some functions for interacting with OMDb API
 - https://github.com/olavfosse/eradio - 'eradio', a simple Internet radio player for Emacs
 - https://github.com/nyyManni/ejira - 'ejira', an Emacs package that allows for Jira integration to Emacs Org Mode
+- https://github.com/kuanyui/hexo.el - hexo.el', a package that provides an Emacs major-mode and tools for the Hexo blogging framework
 * Emulation (ROMs, Emulators, ROM hacking, retro handhelds, etc.)
 - https://vimm.net - Awesome emulator and rom site
 - https://theromdepot.com/ - A website for video game ROMs
