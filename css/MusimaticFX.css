@@ -1,0 +1,36 @@
+#IxBody {
+	background-color: #3100ad;
+	color: #dcceff;
+}
+
+#IxHeaderContent {
+	text-align: center;
+}
+
+#IxNavBar {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#IxMainContent{
+	padding-left: 50px;
+}
+
+#IxFooter {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#IxFooterContactHeader {
+	font-size: 25px;
+}
+
+#IxFooterCopyrightHeader{
+	font-size: 15px;
+}

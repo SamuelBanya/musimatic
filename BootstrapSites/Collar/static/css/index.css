@@ -1,0 +1,39 @@
+* {
+	background-color: orange;
+}
+
+#IxTopBannerContainer {
+  text-align: center;
+}
+
+#IxBannerLinksContainer {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#IxBannerLinksContainer a {
+  font-size: 18px;
+}
+
+#IxCelebrityContainer {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#mainCelebrityImage {
+  width: 40%;
+  height: 40%;
+}
+
+#IxFooter h1{
+	background-color: black;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	text-align: center;
+}

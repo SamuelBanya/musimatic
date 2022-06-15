@@ -1,0 +1,179 @@
+/* Enable DOS style fonts: */
+/* DOS fonts taken from this site: */
+/* https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_8x16 */
+/* Specifically, the 'web' pack so I can use '.woff' format to render DOS fonts in a browser accordingly: */
+/* https://int10h.org/oldschool-pc-fonts/download/ */
+@font-face {
+  font-family: "IBM-VGA-8X16";
+  src: url("/fonts/woff - Web (webfonts)/Web437_IBM_VGA_8x16.woff") format("woff");
+}
+
+@font-face {
+  font-family: "IBM-Conv";
+  src: url("/fonts/woff - Web (webfonts)/Web437_IBM_Conv.woff") format("woff");
+}
+
+body {
+  background-color: #2A0E62;
+  color: #ffffff;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+a, p, li {
+  font-family: "IBM-VGA-8X16";
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: "IBM-Conv";  
+}
+
+a {
+  color: #A177F8;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* Title Container: */
+.titleContainer {
+  text-align: center;
+}
+
+/* Navbar Container: */
+/* Centered using the ideas from these links: */
+/* https://css-tricks.com/centering-css-complete-guide/ */
+/* https://flexbox.io/ */
+/* https://cssgrid.io/ */
+/* https://flexboxfroggy.com/ */
+.navBarContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS Styling Inspired By Button 78: */
+/* https://getcssscan.com/css-buttons-examples */
+/* CSS */
+.button {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  float: left;
+  /* font-size: 16px; */
+  font-size: 150%;
+  /* font-weight: 800; */
+  justify-content: center;
+  line-height: 24px;
+  /* margin-left: auto; */
+  margin-right: 18px;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  pointer-events: auto;
+  position: relative;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 19px 32px;
+  }
+}
+
+.button:before,
+.button:after {
+  border-radius: 80px;
+}
+
+.button:before {
+  background-image: linear-gradient(92.83deg, #7549D0 0, #A177F8 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button:after {
+  background-color: initial;
+  background-image: linear-gradient(#10091E 0, #311965 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 1000ms ease-out;
+  z-index: -1;
+}
+
+.button:hover:not(:disabled):before {
+  /* background: linear-gradient(92.83deg, #321965 0%, #7549D0 100%); */
+}
+
+.button:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #7549D0 0, #321965 100%);
+}
+
+.button:active:not(:disabled):after {
+  background-image: linear-gradient(#311965 0, #10091E 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+/* Accommmodate Mobile device users to make fonts larger:*/
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  body {
+    /* Taken from this MDN docs page: */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/unset */
+    margin-left: unset;
+    margin-right: unset;
+    max-width: 1000px;
+  }
+}
+

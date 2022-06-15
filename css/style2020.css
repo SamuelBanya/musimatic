@@ -1,0 +1,107 @@
+.navbar {
+    background-color: black;
+}
+
+.blog-post {
+    /* color: #fc8ba7; */
+    background-color: black;
+    /* color: #ffe29d; */
+    /* color: #98a7e5; */
+    color: #a9f295;
+    /* muted red-pink: #fc9ba7 */
+    /* muted yellow: #ffe29d */
+    /* muted blue: #98a7e5 */
+    /* muted green: #a9f295 */
+}
+
+#homeLink {
+    font-weight: bold;
+}
+
+#blogLink {
+    color: #fc9ba7;
+    font-weight: bold;
+}
+
+#projectsLink {
+    color: #ffe29d;
+    font-weight: bold;
+}
+
+#artLink {
+    color: #98a7e5;
+    font-weight: bold;
+}
+
+#musicLink {
+    color: #a9f295;
+    font-weight: bold;
+}
+
+.centered-header {
+    text-align: center;
+}
+
+/* Body Content */
+
+.body-container {
+}
+
+.centered-section {
+    text-align: center;
+}
+
+.left-align-section {
+    margin-left: 25px;
+}
+
+
+/* Design for mobile site to make fonts larger: */
+/* Mobile: 360 */
+@media (min-width: 360px) and (max-width: 1000px) {
+    .header-container a {
+	font-size: 250%;
+    }
+    .body-container h1, h2, p {
+	font-size: 300%;
+    }
+}
+
+/* Tablet: 768px */
+
+/* Laptop: 992px */
+
+/* Projects Page CSS Styling */
+
+#programming-projects-table {
+    font-family: "Georgia";
+    border-collapse: collapse;
+    margin-left: 25px;
+}
+
+#programming-projects-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+#programming-projects-table td, #programming-projects th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#programming-projects-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#programming-projects-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Art Page CSS */
+#gif-image {
+    width: 25%;
+    height: 25%;
+}

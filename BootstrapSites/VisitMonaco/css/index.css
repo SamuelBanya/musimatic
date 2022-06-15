@@ -1,0 +1,44 @@
+#IxBody{
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.IxHeaderRedText{
+  color: red;
+}
+
+.IxHeaderBlueText{
+  color: blue;
+}
+
+.IxHeaderOrangeText{
+  color: orange;
+}
+
+.IxNavBarLinks{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.IxLandscapePictures{
+	width: 550px;
+	height: 400px;
+}
+
+.IxPortraitPictures{
+	width: 450px;
+	height: 550px;
+}
+
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+ol{
+  display: inline-block;
+  text-align:left;
+}

@@ -1,0 +1,53 @@
+*{
+	background-color: grey;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#FsNavBar{
+	text-align: center;	
+}
+
+#FsNavBarLink1{
+	background-color: #B78C58;
+	color: #FFE0BA;
+}
+
+#FsNavBarLink2{
+	background-color: #B7AA58;
+	color: #FFF6BA;
+}
+
+#FsNavBarLink3{
+	background-color: #A55067;
+	color: #FFBACD;
+}
+
+#FsNavBarLink4{
+	background-color: #3C5F74;
+	color: #BEE7FF;
+}
+
+#FsHomeHeaderContent{
+	text-align: center;
+}
+
+#FsHomeHeader{
+	text-align: center;
+	background-color: #0000A8;
+	color: white;
+}
+
+.FsImages{
+	width: 250px;
+	height: 325px;
+}
+
+
+.FsListItemPresent{
+	color: green;
+}
+
+.FsListItemNotPresent{
+	color: red;
+}

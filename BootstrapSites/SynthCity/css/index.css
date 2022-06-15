@@ -1,0 +1,138 @@
+.inline-block {
+    display: inline-block;
+}    
+
+.IxBodyContent {
+    background-color: yellow;
+}
+
+.IxContact {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+#addButton {
+    width: 25%;
+    height: 25%;
+}
+
+/* Synth List Page Based CSS Items: */
+.list-group-item {
+    margin-right: 80%;
+}
+
+.typical {
+    background-color: red;
+}
+
+.unique {
+    background-color: blue;
+    font-style: italic;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.material {
+    background-color: yellow;
+}
+
+#page-controls {
+    text-align: center;
+
+}
+
+/* History page styling: */
+#remove-attr {
+    color: blue;
+    background-color: red;
+}
+
+.red-button-class {
+    color: red;
+    background-color: black;
+}
+
+.blue-button-class {
+    color: blue;
+    background-color: black;
+}
+
+/* "synthlist.html CSS Styling Section: */
+.seasonal {
+    background-color: orange;
+}
+
+.favorite {
+    background-color: green;
+    color: red;
+}
+
+#guitar-list-header {
+    background-color: black;    
+    color: red;
+}
+
+#synth-list-header {
+    color: blue;
+}
+
+.retro-purple {
+    background-color: black;
+    color: purple;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.coca-cola {
+    background-color: black;
+    color: red;
+}
+
+.green-term-colors {
+    background-color: black;
+    color: green;
+}
+
+.complete {
+    background-color: purple;
+    color: white;
+}
+
+.red-list-item {
+    background-color: black;
+    color: red;    
+}
+
+.blue-list-item {
+    background-color: black;
+    color: blue;
+}
+
+.green-list-item {
+    background-color: black;
+    color: green;
+}
+
+.blue-class {
+    background-color: black;
+    color: blue;
+}
+
+.green-class {
+    background-color: black;
+    color: green;
+}
+
+.red-class {
+    background-color: black;
+    color: red;
+}

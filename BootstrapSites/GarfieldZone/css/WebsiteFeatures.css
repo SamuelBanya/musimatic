@@ -1,0 +1,29 @@
+#WBody {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.WHeaderBlueText {
+    color: blue;
+}
+
+.WListItemPresent {
+    color: green;
+}
+
+.WListItemNotPresent {
+    color: red;
+}
+
+.RoundedDiv {
+    background-color: orange;
+    border-radius: 15px;
+    width: 25%;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}

@@ -1,0 +1,86 @@
+/* Basic HTML Element CSS Styling: */
+body {
+    background: linear-gradient(#000000, #990099) no-repeat fixed;
+}
+
+h1 {
+    color: white;
+    font-size: 26px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+}
+
+h3 {
+    color: white;
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+/* Class-Based CSS Styling: */
+.divider_header {
+    color: purple;
+}
+
+/* ID-Based CSS Styling: */
+#site_header {
+    background-color: yellow;
+    color: black;
+    margin: 0px 25px 25px 25px;    
+}
+
+#logo_div {
+    text-align: center;
+}
+
+#left_menu_div {
+    /* text-align: left; */
+    background-color: black;
+    float: left;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 25px;
+    height: 250px;
+    width: 200px;    
+}
+
+#center_lane {
+    text-align: center;
+}
+
+#right_menu_div {
+    /* text-align: right; */
+    background-color: black;    
+    float: right;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 25px 0px 0px;
+    height: 250px;
+    width: 200px;
+}

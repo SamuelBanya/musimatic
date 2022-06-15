@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Current State of Website: As of 10-12-2017: Looks good, might add some minor font size and GUI tweaks, but the joke is obvious :) -->
+
+<!-- 
+
+Update as of 11-13-2017:
+Page looks pretty good. New goals: 
+1. Use the box model to clean up the website event more
+2. Make the different sections into different tabs
+
+Update as of 11-19-2017:
+Bucketized sections into ID containers, followed CSS Box Model idea, added different quote
+* Goal: Make first section left aligned, block out individual sections, and the rest of the page a separate scrolled portion
+* Idea for next site: Convict Speed Dating Website: Filter by crime, mugshot, etc
+
+Update as of 11-29-2017:
+Tried to change alignment of <div> elements to bucketize them as containers for left, right, and bottom portions of site
+Ideally, I would like the page to have a clear left and right side
+
+-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Slings</title>
+		<link href="index.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<script src="index.js"></script>
+		<div id="BodyContainer">
+			<div id="LeftSideContainer">
+				<h1>Welcome to Slings</h1>
+				<h2>The All Inclusive Stay At Home Dad Night Club</h2>
+				<div id="SlingImg">
+					<img src="ultimateDad.jpg" width="20%" height="20%"/>
+				</div>
+				<div id="BillClintonQuote">
+					<strong><p>"Party All Night, Father All Day" ~ Bill Clinton, 1998 </p></strong>
+				</div>
+			</div>
+			<div id="RightSideContainer">
+				<h2>Our Three Hottest Locations (*Beards Not Included)</h2>
+				<ul id="LocationListContainer">
+				  <b>
+					<li>Brooklyn, NY</li>
+					<li>Portland, OR</li>
+					<li>Oakland, CA</li>
+				  </b>
+				</ul>
+				 <h2>Current High Profile Clients:</h2>
+				<table id="DadTable" align="center">
+				  <thead style="colspan=3">
+					  <th>Name</th>
+					  <th>Age</th>
+					  <th>Location</th>
+				  </thead>
+				  <tbody>
+					  <tr>
+						<td>Phil Collins</td>
+						<td>66</td>
+						<td>London, UK</td>
+					  </tr>
+					  <tr>
+						<td>Tim Allen</td>
+						<td>64</td>
+						<td>Denver, CO</td>
+					  </tr>
+					  <tr>
+						<td>John Goodman</td>
+						<td>65</td>
+						<td>New Orleans, LA</td>
+					  </tr>
+					  <tr>
+						<td>Son Goku</td>
+						<td>24</td>
+						<td>Planet Vegeta</td>
+					  </tr>
+				  </tbody>
+				</table>
+				<h2>Pricing And VIP Packages</h3>
+				<ul id="PackagesContainer">
+				  <li>$15 Cover Fee</li>
+				  <li>Slings and earplugs included for your child with $15 cover fee</li>
+				  <li>VIP nightcare service available for your child to hang out and watch Peppa Pig re-runs</li>
+				</ul>
+				<h2>Top Three Links To Meet Other Stay At Home Dads</h2>
+				<ol id="LinkListContainer">
+				  <li><a href="http://www.dadstayshome.com/">DadsStayHome.com</a></li>
+				  <li><a href="http://www.daddyplace.com/">Daddy Place</a></li>
+				  <li><a href="http://athomedad.org/">National At-Home Dad Network</a></li>
+				</ol>
+			</div>
+			<div id="BottomSideContainer">
+				<h2>Contact Info</h2>
+				<marquee direction="up"><p>Call This Phone Number: 1-855-706-2450</p></a></marquee>
+				<h2>Facebook Page</h2>
+				<marquee><a href="https://www.facebook.com/HomeDadNet/">CLICK THIS LINK! I DARE YOU, RIGHT NOW, DO IT, COME ON, DO IT NOW!</a></marquee>
+			</div>
+		</div>
+	</body>
+</html>

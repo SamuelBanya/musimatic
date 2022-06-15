@@ -1,0 +1,53 @@
+#IBody {
+    background-color: black;
+    color: green;
+    text-align: center;
+}
+
+#IRetroSunset {
+	width: 500px;
+	height: 350px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+table {
+	width: 50%;
+	margin-left: 25px;
+}
+
+.cool {
+	color: blue;	
+}
+
+.hot {
+	color: red;
+}
+
+.boldYellow {
+	color: yellow;
+}
+
+.italicGreen {
+	color: green;
+}
+
+.CLandscapePics {
+	width: 300px;
+	height: 250px;
+
+}
+
+.blueColorClass {
+	color: blue;
+}
+
+.redColorClass {
+	color: red;
+}
+
+.yellowColorClass {
+	color: yellow;
+}

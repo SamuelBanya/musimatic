@@ -1,0 +1,17 @@
+body {
+  background-color: #330014;
+  color: #ffe6f2;
+  margin: 0px 0px 0px 25px;    
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+a {
+  color: #ff3385;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sector T</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div id="HBody">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="types.html">Types Of Text Editors</a></li>
+                    <li><a href="vim.html">Vim</a></li>
+                    <li><a href="emacs.html">Emacs</a></li>
+                    <li><a href="features.html">Website Features</a></li>
+                </ul>
+            </nav>
+            <div id="HHeaderContent">
+                <h1>Sector T</h1>
+                <h3>
+                    This is a webpage that discusses the various types of Text Editors.
+                    <br />
+                    <br />
+                    NOTE: This webpage was created using the Vim text editor.
+                </h3>
+            </div>
+            <div id="HBodyContent">
+                <h1>Background Definitions</h1>
+                <p>
+                <b>Line Editor:</b> text editor that involves the user modifying document text by entering in
+                commands on a text-only terminal.
+                </p>
+                <figure>
+                    <img src="images/PDP1Pic.gif"/>
+                    <br />
+                    <figcaption>
+                        <b>PDP-1 (Programmed Data Processor-1):</b> computer which was capable of running 
+                        Colossal Typewriter, one of the earliest computer text editors.
+                    </figcaption>
+                </figure>
+                <p>
+                <b>Visual Editor / Full-Screen Editor:</b> text editor that uses a text or graphical user
+                interface to display text in an easy to read fashion.
+                </p>
+                <figure>
+                    <img src="images/VimScreenshot.png"/>
+                    <br />
+                    <figcaption>
+                        <b>Vim:</b> Vi IMproved, A visual editor created by Bram Moolenaar in 1991 originally 
+                        for the Amiga computer.
+                    </figcaption>
+                </figure>
+                <h1>Common Features Of Text Editors</h1>
+                <ul class="collection">
+                    <li class="collection-item">
+                        <b>Find And Replace:</b> Searching and replacing text, which can be done by using regular expressions.
+                    </li>
+                    <li class="collection-item">
+                        <b>Cut, Copy, And Paste:</b> The ability to move and duplicate text throughout a file.
+                    </li>
+                    <li class="collection-item">
+                        <b>Text Formatting:</b> The ability to use line wrap, auto-indentation, bullet lists, 
+                        commenting, syntax highlighting.
+                    </li>
+                    <li class="collection-item">
+                        <b>Undo And Redo:</b> The ability to make corrections, and also return to a future statement.
+                    </li>
+                </ul>
+                <h1>Advanced Features Of Text Editors</h1>
+                <ul class="collection">
+o                    <li class="collection-item">
+                        <b>Data Transformation:</b> Merging the contents of another text file into the one that's 
+                        currently being edited.
+                    </li>
+                    <li class="collection-item">
+                        <b>Filtering:</b> The ability to send all or portions of a file to another utility, which includes
+                        sorting alphabetically or numerically, indentation of code, etc.
+                    </li>
+                    <li class="collection-item">
+                        <b>Syntax Highlighting:</b> Highlighting of source code, markup languages, and configuration files
+                        to make text within code more legible, and more stylized for the end user.
+                    </li>
+                    <li class="collection-item">
+                        <b>Extensibility:</b> The ability to use plugins to allow for additional features, and to 
+                        customize functionality (ex: key bindings for programming languages and version control systems)
+                    </li>
+                </ul>
+                <figure>
+                    <img src="images/SyntaxHighlighting.png"/>
+                    <br />
+                    <figcaption>
+                        Syntax highlighting which makes reading and writing code much easier.
+                    </figcaption>
+                </figure>
+                <h1>Types Of Specialized Editors</h1>
+                <ul class="collection">
+                    <li class="collection-item">
+                        <b>Source Code Editors:</b> Text editors for the purpose of writing and editing source code.
+                    </li>
+                    <li class="collection-item">
+                        <b>Folding Editors:</b> Text editors that are derivatives of Xedit.
+                    </li>
+                    <li class="collection-item">
+                        <b>IDEs:</b> Integrated Development Environments, which are designed to manage and streamline 
+                        large programming projects.
+                    </li>
+                    <li class="collection-item">
+                        <b>Collaborative Editors:</b> Text editors that allow multiple users to work on the same
+                        document simultaneously from remote locations over a network, which includes changes that 
+                        are tracked and merged into the document automatically to avoid conflicting edits.
+                    </li>
+                    <li class="collection-item">
+                        <b>Distraction-free Editors:</b> Minimalistic text editors that have the purpose of isolating
+                        the writer from the rest of the applications and operating system.
+                    </li>
+                </ul>
+                <figure>
+                    <img src="images/XEDIT.png"/>
+                    <br />
+                    <figcaption>
+                        Xedit: A visual editor created by IBM employee, Xavier de Lamberterie for the use on 
+                        IBM 3270 terminals, which supports automatic line numbers, and has commands that operate 
+                        on blocks of lines.
+                    </figcaption>
+                </figure>
+                <h1>Text Editor Quiz<h1>
+                        <h2>What do you think is the best text editor?</h2>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer" type="text"></input>
+                                        <label for="elAnswer">Name of the best text editor:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus">Status: No Input Yet</p>
+                        <h2>Why don't you think that the best text editor is Vim?</h2>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer2" type="text"></input>
+                                        <label for="elAnswer2">Reason why Vim isn't the best text editor:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus2">Status: No Input Yet</p>
+                        <h2>What's the first name of the creator of the Vim text editor?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer3" type="text"></input>
+                                        <label for="elAnswer3">First name of the creator of the Vim text editor:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus3">Status: No Input Yet</p>
+                        <h2>What's the first name of the creator of the Emacs text editor?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer4" type="text"></input>
+                                        <label for="elAnswer4">First name of the creator of the Emacs text editor:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus4">Status: No Input Yet</p>
+                        <h2>What's the first name of the creator of the Vim text editor?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer3" type="text"></input>
+                                        <label for="elAnswer3">First name of the creator of the Vim text editor:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <h2>What's the first text editor that you used?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer5" type="text"></input>
+                                        <label for="elAnswer5">Name of the first text editor you've ever used:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus5">Status: No Input Yet</p>
+                        <h2>What's the name of your favorite font?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer6" type="text"></input>
+                                        <label for="elAnswer6">Name of your favorite font:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus6">Status: No Input Yet</p>
+                        <h2>What's the name of your favorite text color?</h2>
+                        <div>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="elAnswer7" type="text"></input>
+                                        <label for="elAnswer7">Name of your favorite text color:</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p id="elStatus7">Status: No Input Yet<p>
+                        <h2>List Of Text Editors You Enjoy (Eliminate The Ones You Don't By Clicking The Name!)</h2>
+                        <ul class="collection" id="textEditorList">
+                            <li class="collection-item"><a href="https://www.gnu.org/software/emacs/"><em>Emacs</em></a></li>
+                            <li class="collection-item"><a href="https://www.vim.org/"><em>Vim</em></a></li>
+                            <li class="collection-item"><a href="https://www.nano-editor.org/"><em>Nano</em></a></li>
+                            <li class="collection-item"><a href="https://notepad-plus-plus.org/"><em>Notepad++</em></a></li>
+                            <li class="collection-item"><a href="https://atom.io/"><em>Atom</em></a></li>
+                            <li class="collection-item"><a href="https://www.sublimetext.com/"><em>Sublime</em></a></li>
+                            <li class="collection-item"><a href="https://www.geany.org/"><em>Geany</em></a></li>
+                        </ul>
+                        <h1>Sources</h1>
+                        <ul class="collection">
+                            <a href="https://en.wikipedia.org/wiki/Text_editor" class="collection-item">
+                                https://en.wikipedia.org/wiki/Text_editor
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/XEDIT" class="collection-item">
+                                https://en.wikipedia.org/wiki/XEDIT
+                            </a>
+                        </ul>
+                        <h1>Webmaster Contact</h1>
+                        <address>
+                            <h3><a href="mailto:webscraperguru@gmail.com">Samuel Banya</a></h3>
+                            <p>New York, NY</p>
+                        </address>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="js/types.js"></script>
+    </body>
+</html>

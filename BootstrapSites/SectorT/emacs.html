@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sector T</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div id="EBody">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="types.html">Types Of Text Editors</a></li>
+                    <li><a href="vim.html">Vim</a></li>
+                    <li><a href="emacs.html">Emacs</a></li>
+                    <li><a href="features.html">Website Features</a></li>
+                </ul>
+            </nav>
+            <div id="EHeaderContent">
+                <h1>Sector T</h1>
+                <h3>
+                    This is a webpage that discusses the history of Emacs, and its customization ability.
+                </h3>
+            </div>
+            <div id="EBodyContent">
+                <figure>
+                    <img src="images/RichardStallmanWithHalo.jpeg"/>
+                    <br />
+                    <figcaption>
+                        Richard Stallman, the patron saint and co-creator of Emacs.
+                    </figcaption>
+                </figure>
+                <h1>History</h1>
+                <h2>Key Dates</h2>
+                <ul class="collection">
+                    <li class="collection-item">1972 OR 1974: Richard Stallman visited the Stanford AI Lab, and observed the lab's E editor which was written by Fred Wright, and was impressed by the editor's WYSIWG (What You See Is What You Get) behavior.</li>
+                    <li class="collection-item">1976: Emacs was originally written by Carl Mikkelsen, David A. Moon, and Guy L. Steele Jr. This incorporated many of the macros that were implemented by Richard Stallman.</li>
+                    <li class="collection-item">1979: Emacs was the main editor in MIT's AI lab and its Laboratory for Computer Science.</li>
+                    <li class="collection-item">1985: Richard Stallman released GNU Emacs, which was the free software implementation of the Emacs text editor.</li>
+                </ul>
+                <h1>Emacs History Quiz</h1>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="elAnswer" type="text"></input>
+                        <label for="elAnswer">In what year was Emacs first created?</label>
+                    </div>
+                </div>
+                <p id="elStatus">Status: No Input Yet</p>
+                <h1>Features Of Emacs</h1>
+		<figure>
+		  <img id="EEmacsScreenshot" src="images/EmacsScreenshot.png"/>
+		  <br />
+		  <figcaption>
+		    Screenshot of Emacs that shows multiple panes to access an OS's file manager, shell, text editor, and more!
+		  </figcaption>
+		</figure>
+                <p>Emacs is a text editor by default, but be used to format and print documents when interfaced with external programs like LaTeX (prounounced "La-Tech"), Ghostscript, or a web browser. It is also able to display words, sentences, paragraphs, and source code. It also supports user-created keyboard macros by allowing users to edit the "emacs.el" file.</p>
+                <h1>Emacs Feature Quiz</h1>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="elAnswer2" type="text"></input>
+                        <label for="elAnswer2">What is the name of the file that a user has to edit in order to create  user-defined macros?</label>
+                    </div>
+                </div>
+                <p id="elStatus2">Status: No Input Yet</p>
+		<h1>Useful Extensions For Emacs That Are Not Present In Other Editors</h1>
+		<ul class="collection">
+		  <li class="collection-item"><a href="https://orgmode.org/">Org-Mode: This allows you to prepare documents, take notes, make TODO lists, and plan projects.</a></li>
+		  <li class="collection-item"><a href="http://www.gnu.org/software/auctex/index.html">AUCTEX: This allows you to write and format TEX files in Emacs.</a></li>
+		  <li class="collection-item"><a href="https://www.emacswiki.org/emacs/Anything">Anything: This allows you to easily jump between buffers in Emacs.</a></li>
+		  <li class="collection-item"><a href="https://magit.vc/">Magit: This is an interface to the Git Version Control System, which allows Emacs users to use Git commands directly inside Emacs.</a></li>
+		</ul>
+		<h1>Emacs Is Not Vim</h1>
+		<div id="EVimNote"></div>
+		<h1>Game: Find The Coordinates Where Richard Stallman Is Pointing!</h1>
+		<img src="images/RichardStallmanPointing.jpeg"/>
+		<ul>
+		  <li>screenX: <input id="Esx" type="text"/></li>
+		  <li>screenY: <input id="Esy" type="text"/></li>
+		  <li>pageX: <input id="Epx" type="text"/></li>
+		  <li>pageY: <input id="Epy" type="text"/></li>
+		  <li>clientX: <input id="Ecx" type="text"/></li>
+		  <li>clientY: <input id="Ecy" type="text"/></li>
+		</ul>
+		<h1>Facts About Richard Stallman</h1>
+		<ul class="collection">
+		  <li class="collection-item">Prefers the nickname, "rms", instead of his own name.</li>
+		  <li class="collection-item">In 1999, he had the idea for developing a free online encyclopedia that the public could edit, which later became the idea behind Wikipedia.</li>
+		  <li class="collection-item">Was born in Manhattan in 1953.</li>
+		</ul>
+		<h1>User Quiz: What Is Your Favorite Fact About Richard Stallman?</h1>
+		<label for="EMessage">Please enter your text response here:</label>
+		<textarea id="EMessage"></textarea>
+		<p id="ECharactersLeft"></p>
+		<p id="EASCIIKey"></p>
+		<p id="EExactKey"></p>
+                <h1>Sources</h1>
+                <ul class="collection">
+		  <li class="collection-item">
+		    <a href="https://en.wikipedia.org/wiki/Emacs">https://en.wikipedia.org/wiki/Emacs</a>
+		  </li>
+		  <li class="collection-item">
+		    <a href="https://upload.wikimedia.org/wikipedia/en/3/36/Emacs-linux-console.png">https://upload.wikimedia.org/wikipedia/en/3/36/Emacs-linux-console.png</a>
+		  </li>
+		  <li class="collection-item">
+		    <a href="https://i.pinimg.com/736x/53/64/4e/53644e733abbb2fa4a9a05187e192910.jpg">https://i.pinimg.com/736x/53/64/4e/53644e733abbb2fa4a9a05187e192910.jpg</a>
+		  </li>
+		  <li>
+		    <a href="https://www.stallman.org/biographies.html">https://www.stallman.org/biographies.html</a>
+		  </li>
+                </ul>
+                <h1>Webmaster Contact</h1>
+                <address>
+                    <h3><a href="mailto:webscraperguru@gmail.com">Samuel Banya</a></h3>
+                    <p>New York, NY</p>
+                </address>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="js/emacs.js"></script>
+    </body>
+</html>

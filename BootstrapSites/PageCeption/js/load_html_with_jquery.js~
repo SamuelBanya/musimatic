@@ -1,0 +1,5 @@
+$("#content").load("jq-load.html" + "#container");
+
+$("#content-2").load("jq-load2.html" + "#container-2");
+
+$("#content-3").load("jq-load3.html" + "#container-3");

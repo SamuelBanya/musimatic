@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+	color: white;
+}
+
+.divider_header {
+	color: purple;
+}
+
+#logo_div {
+	text-align: center;
+}
+
+#menu_div {
+	/* text-align: left; */
+	float: left;
+}
+
+#menu_header {
+	
+}
+
+#link_div {
+	/* text-align: right; */
+	float: right;
+}

@@ -1,0 +1,39 @@
+* {
+	background-color: orange;
+}
+
+#RNTopBannerContainer {
+	text-align: center;
+}
+
+#RNBannerLinksContainer {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#RNBannerLinksContainer a {
+	font-size: 18px;
+}
+
+#RNReleaseNoteHeader{
+	padding-left: 25px;
+}
+
+.RNDay{
+	padding-left: 50px;
+}
+
+.RNReleaseNote{
+	padding-left: 75px;
+}
+
+#RNFooter h1{
+	background-color: black;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	text-align: center;
+}

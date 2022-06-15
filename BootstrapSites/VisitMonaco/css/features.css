@@ -1,0 +1,43 @@
+#WfBody{
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.WfHeaderRedText{
+  color: red;
+}
+
+.WfHeaderBlueText{
+  color: blue;
+}
+
+.WfHeaderOrangeText{
+  color: orange;
+}
+
+.WfNavBarLinks{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.WfListItemPresent{
+  color: green;
+}
+
+.WfListItemNotPresent{
+  color: red;
+}
+
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+ol{
+  display: inline-block;
+  text-align:left;
+}
+

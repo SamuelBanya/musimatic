@@ -1,0 +1,840 @@
+#+SETUPFILE: ./setup/dessertrecipes.setup
+#+TITLE: Dessert Recipes (HOMEPAGE LINK: https://www.musimatic.xyz)
+#+OPTIONS: num:nil
+* README For "Dessert Recipes":
+NOTE: These are recipes that I have gathered from the internet, and are mostly NOT my own.
+
+I will indicate my own recipes with a "By: Samuel Banya" section in its title whenever 
+necessary.
+
+This being noted, I have the related links whenever possible to the original creators, so
+feel free to visit those links to find out even more great food recipes.
+
+I am including them here in one quick and accessible page for myself, but also for you to 
+enjoy in plain-text format to be read on any device, courtesy of Emacs Org Mode :)
+* Banana Bread Recipe
+** Link:
+- https://thesaltymarshmallow.com/one-bowl-chocolate-chip-banana-bread/
+** Ingredients:
+- 3 Ripe Bananas
+- 1/2 Cup Butter, Melted
+- 1/2 Cup Sour Cream
+- 2 Large Eggs
+- 1 Cup Granulated Suar
+- 1 Teaspoons Vanilla Extract
+- 1 Teaspoon Baking Soda
+- 1 Teaspoon Salt
+- 1 1/2 Cups All Purpose Flour
+- 1/2 Cup Chocolate Chips
+** Directions
+1. Preheat oven to 350F degrees.
+
+2. Grease a 9x5 inch loaf pan with vegetable oil, or spray with non stick cooking spray that has flour added.
+
+3. In a large bowl mash the bananas until smooth.
+
+4. Stir in the melted butter and sour cream.
+
+5. Stir in the eggs, sugar, and vanilla extract.
+    
+6 . Stir in the baking soda, salt, and flour until just combined.
+
+7. Fold in the chocolate chips.
+    
+8. Pour batter into the prepared pan.
+
+9. Bake for 50-60 minutes, until a toothpick inserted in the center comes out clean.
+* Cherry Pie Recipe
+** Link:
+- https://www.seriouseats.com/recipes/2016/06/fresh-cherry-pie-filling-recipe.html
+** Ingredients:
+*** Filling:
+- 28 ounces pitted cherries (5 heaping cups; 790g), from about 2 pounds whole fruit (6 heaping cups; 910g) (see note)
+- 1 ounce fresh lemon juice (2 tablespoons; 30g) from 1 small lemon
+- 7 ounces sugar (1 cup; 195g)
+- 3/4 teaspoon (3g) Diamond Crystal kosher salt; for table salt, use half as much by volume or use the same weight
+- 1 1/2 ounces tapioca starch, such as Bob's Red Mill (1/3 cup plus 1 teaspoon; 40g)
+*** Crust
+- Old-Fashioned Flaky Pie Dough, rolled and chilled as per the directions for a double crust
+*** For the Egg Wash (optional):
+- 1 large egg
+- 1 large egg yolk
+- 1/2 ounce heavy cream (1 tablespoon; 15g)
+- 1/8 teaspoon (1/2g) Diamond Crystal kosher salt; for table salt, use half as much by volume or use the same weight
+** Directions:
+1. Combine pitted cherries, lemon juice, sugar, salt, and tapioca starch in a large bowl, folding with a flexible spatula until well combined. 
+
+2. Scrape into prepared pie shell and top with remaining dough, using a solid sheet, cutouts, or a lattice-top design. (Check out my tutorials here.) 
+
+3. Trim away excess dough and refrigerate pie to ensure top crust is completely chilled, about 30 minutes. 
+
+4. Meanwhile, adjust oven rack to lower-middle position and preheat to 400°F.
+
+5. Whisk egg, egg yolk, cream, and salt in a small bowl. 
+
+6. Brush over chilled top crust in a thin, even layer. This will give the crust a glossy, golden sheen, but it is not necessary in any way.
+
+7. Place chilled pie on a parchment-lined rimmed baking sheet. 
+
+8. Bake until crust is golden, about 1 hour, then loosely cover with tented foil. (Alternatively, an empty baking sheet can be placed on the topmost rack of the oven to serve as a shield.) 
+
+9. Continue baking until filling is bubbling even in the very center of the pie, about 15 minutes more. 
+
+10. If crust completely covers filling, bake until pie reaches an internal temperature of 213°F on a digital thermometer. 
+
+11. The time can vary considerably depending on the thickness and type of pie plate, the amount of top crust, how long the pie was refrigerated, et cetera.
+
+12. Cool pie until no warmer than 85°F on a digital thermometer, about 3 hours depending on the type of pie plate (at higher temperatures, filling will be runny and thin). 
+
+13. Slice into wedges with a sharp knife, pressing firmly against bottom and sides of pie plate to ensure the under-crust is completely cut. 
+
+14. If you like, serve with Cherry Pit Whipped Cream. 
+
+15. Wrapped in foil, leftovers will keep up to 3 days at room temperature; warm 10 minutes in a 350°F oven to revive crust before serving.
+* Chocolate Babka Recipe
+** Link:
+- https://prettysimplesweet.com/chocolate-babka/
+** Ingredients:
+*** Dough Ingredients:
+- 3 1/4 cups (530 g/18.7oz) all-purpose flour , plus extra for dusting
+- 1/2 cup (100 g/3.5oz) granulated sugar
+- 1 tablespoon (10g) instant yeast
+- 3 large eggs
+- 1/2 cup (120 m) water
+- 3/4 teaspoon fine sea salt
+- 2/3 cup (150 g/5.3 oz) unsalted butter , at room temperature, cut into small cubes
+- Neutral oil (sunflower, canola) for dressing
+*** Chocolate Filling Ingredients:
+- 1/2 cup (50 g/1.7oz) powdered sugar
+- 1/3 cup (30 g/1oz) unsweetened cocoa powder
+- 130 g (4 oz) dark chocolate , melted*
+- 1/2 cup (120 g/4oz) unsalted butter , melted
+- 2/3 cup (120 g/4oz) chocolate chips or chunks OR 1 cup (100g/3.5oz) pecans, coarsely chopped (optional)
+*** Sugar Syrup Ingredients:
+- 1/2 cup (120ml) water
+- 1/2 cup (100g) granulated sugar
+** Directions:
+1. Making the dough: Place flour, sugar, and yeast in a standing mixer fitted with the dough hook and mix on low speed until combined.
+
+2. Add eggs and water, and mix on medium speed until dough comes together, 2-3 minutes.
+
+3. Add salt, then butter, adding a few cubes at a time, mixing until incorporated.
+
+4. Continue mixing for about 10 minutes on medium speed, until dough is completely smooth, elastic, shiny, and pulls away from the sides of the bowl.
+
+5. During mixing, you will need to scrape down the sides of the bowl.
+
+6. Place dough in a large bowl brushed with oil, cover with plastic wrap, and leave in the fridge for at least half a day or overnight.
+
+7. Grease two 2¼-lb/1kg loaf pans (9x4 inch/23x10 cm) with oil and line the bottom of each pan with parchment paper. Divide dough in half and keep one half covered in the fridge.
+
+8. Making the filling: Whisk together powdered sugar, cocoa powder, chocolate, and butter until you have a spreadable paste.
+
+9. Roll out dough on a lightly floured surface and shape into a rectangle measuring 15x11 inches (38x28 cm).
+
+10. Position dough so that a long side is closest to you.
+
+11. Using an offset spatula, spread half of the chocolate mixture over the rectangle, leaving a ¾ inch/2 cm border all around. Sprinkle half of the pecans or chocolate chips on top of the chocolate.
+
+12. Shaping the dough (photos here): Use both hands to roll up the rectangle like a roulade, starting from the long side closest to you and ending at the other long end.
+
+13. Press to seal the dampened end onto the roulade, then use both hands to even out the roll into a perfect thick cigar.
+
+14. Rest the cigar on its seam.
+
+15. Trim about ¾ inch/2 cm off both ends of the roulade with a serrated knife.
+
+16. Then use the knife to gently cut the roll in half lengthwise, starting at the top and finishing at the seam, essentially dividing the log into two long even halves, with the layers of dough and filling visible along the length of both halves.
+
+17. With the cut sides facing up, gently press together one end of each half, then lift the right half over the left half.
+
+18. Repeat this process, but this time lifting the left half over the right, to create a simple two-pronged plait.
+
+19. Gently squeeze together the other ends so that you are left with the two halves, intertwined, showing the filling on top.
+
+20. Carefully lift the cake into a loaf pan.
+
+21. Don’t worry if there are gaps in the pan since the cake will rise and will eventually look fine, even if you feel like it’s messy at this point.
+
+22. Cover the pan loosely with plastic wrap or a wet tea towel and leave to rise in a warm place for 1 to 1½ hours.
+
+23. Repeat to make the second cake.
+
+24. Preheat oven to 375°F/190°C, making sure to allow plenty of time for it to heat fully before the cakes have finished rising.
+
+25. Remove plastic wrap or tea towels, place cakes on middle rack of oven, and bake for about 25-30 minutes, until a skewer inserted into the center comes out clean with no dough attached.
+
+26. While the cakes are in the oven, make the syrup.
+
+27. In a small saucepan over medium heat, bring water and sugar to a boil.
+
+28. As soon as the sugar dissolves, remove from heat and set aside to cool.
+
+29. As soon as the cakes come out of the oven, brush the syrup over them.
+
+30. Use all of the syrup, even if it looks a lot.
+
+31. Let cakes cool until they are warm, then remove from pans and let cool completely before serving.
+
+32. Serve warm or at room temperature.
+
+33. Babka will stay fresh for 24 hours in an airtight container at room temperature. Don’t place in the fridge.
+
+34. Babka freezes well for up to 2 months.
+
+35. To thaw, leave on counter or overnight in the fridge.
+* Coconut Custard Pie Recipe
+** Links:
+- This is the link for the actual recipe:
++ https://www.allrecipes.com/recipe/12580/coconut-custard-pie-i/
+- This isn't the actual main recipe link, but this is a good backup recipe link for later use if I decide that this is a more legit recipe to use:
++ https://www.prouditaliancook.com/2018/10/vintage-coconut-custard-pie.html
+** Ingredients:
+- 1/2 cup butter
+- 1 1/2 cups white sugar
+- 2 tablespoons all-purpose flour
+- 2 eggs
+- 1 cup milk
+- 1 cup flaked coconut
+- 1 teaspoon vanilla extract
+- 1 recipe pastry for a 9 inch single crust pie
+- 1 tablespoon flaked coconut
+** Directions:
+1. Preheat oven to 350 degrees F (175 degrees C).
+
+2. In a large bowl, beat together butter or margarine, sugar, and eggs with an electric mixer on low speed.
+
+3. Blend in flour.
+
+4. Mix in 1/2 cup of milk at a time.
+
+5. Add 1 cup coconut and vanilla, and mix well.
+
+6. Pour filling into unbaked pie shell.
+
+7. Sprinkle top with additional coconut before baking, just enough to lightly cover the top.
+
+8. Bake for 40 to 50 minutes, or until set.
+* Diós Tészta (Hungarian Sweet Walnut Pasta) Recipe
+** Link
+- https://budapestcookingclass.com/hungarian-sweet-walnut-pasta-dios-teszta/
+** Ingredients: (Serves 4 people)
+- 500 grams (17.6 ounces) dried wide stripe or tagliatelle pasta
+- 1/2 stick (4 tablespoons, 2 ounces) of butter
+- 100 grams (3.6 ounces) of ground walnuts (1.7 oz --> 1/2 cup, Converted: this would be about 3.4 oz or 1 cup)
+- 50 grams (1.8 ounces) of powdered sugar (1.7 oz --> 1/2 cup)
+- Salt
+** Directions:
+1. Cook the pasta in salted water according to package instructions, rinse under cold running water, drain.
+
+2. Mix the ground walnuts with the powdered sugar.
+
+3. In a pot melt the butter. Pour the pasta over the melted butter and mix it all together.
+ 
+3. Sprinkle on the sweet walnuts and serve.
+* Hideg Meggyleves Recipe (Cold Cherry Soup)
+** Links:
+- https://budapestcookingclass.com/hungarian-chilled-sour-cherry-soup-recipe-hideg-meggyleves/
+- https://www.youtube.com/watch?v=yjuDl2cBpEg
+** Ingredients:
+- 500 grams (17.6 ounces) of sour cherries – pitted
+- 3 tablespoons of sugar
+- 1 cinnamon stick
+- 10-15 pieces of cloves
+- 200 ml (3/4 cup) of heavy cream (20-30%)
+- 1000 ml (4 cups) of water
+- Juice of half a lemon
+** Directions:
+1. In a soup pot cook the pitted sour cherries in water with 3 tablespoons of sugar, the cloves and the cinnamon stick until cherries are cooked, it takes about 5-10 minutes.
+
+2. Remove the pot from the heat. 
+
+3. In a bowl, mix the heavy cream with some soup liquid and pour this mixture back into the soup pot. 
+
+4. NOTE: You cannot add the cream directly to the hot liquid, as it will cause it to curdle. You need to temper the cream first.
+
+5. Bring it back to a boil. 
+
+6. When it starts boiling, turn the heat off and add the lemon juice slowly, spoon by spoon. 
+
+7. Taste it.
+
+8. It is a refreshing soup with a nice balance of sweet and sour. 
+
+9. Add more sugar or lemon juice if necessary.
+
+10. Cool the soup to room temperature in a cold water bath and refrigerate until cold.
+* Hungarian Gerbeaud Cake (Zserbó Szelet)
+** Link:
+- https://budapestcookingclass.com/hungarian-gerbeaud-cake-recipe-zserbo-szelet/
+** Ingredients:
+- 500 grams (17.6 ounces) of plain flour
+- 250 grams (8.8 ounces) of margarine or butter
+- 25 grams (0.9 ounces) of fresh yeast
+- 1 whole egg
+- 2 egg yolks
+- 1 tablespoon of sugar
+- 100 ml (0.44 cups) of whole milk
+- Zest of half a lemon
+- Pinch of salt
+- 150 grams (5.3 ounces) of ground walnuts
+- 50 grams (1.8 ounces) of powdered sugar
+- 400 grams (14.1 ounces) of homemade apricot jam
+- 100 grams (1 stick) of butter
+- 4 tablespoons of sugar
+- 4 tablespoons of cocoa powder (20-22%)
+- 4 tablespoons of water
+
+** Directions:
+1.  In a smaller pan heat milk until lukewarm and dissolve the sugar and the yeast.
+
+2. In a large bowl mix the flour and the cubed 250g (8,8 ounces) margarine or butter by hand. 
+
+3. The mixture will be quite crumbly.
+
+4. Add the whole egg, 2 egg yolks, the dissolved sugar and yeast mixture, pinch of salt and the lemon zest. 
+
+5. Knead thoroughly. 
+
+6. Add more flour if necessary.
+
+7. Divide the dough into 4 balls, cover and let rest for 30 minutes.
+
+8. Heat the oven to 180°C (355°F). 
+
+9. Butter and flour your baking tin, ex: a 16×10 inch (40x25cm) pan.
+
+10. On a floured surface roll out one part of the dough to the size of the baking tin, then lay it in.
+
+11. Mix the ground walnuts (150g) with the powdered sugar (50g). 
+
+12. Spread one third of the apricot jam on the first layer of dough. 
+
+13. Sprinkle with third of the walnut-sugar mixture.
+
+14. Roll out the second piece of dough. 
+
+15. Put the jam on it and sprinkle with walnut-sugar mixture.
+
+16. Roll out the third piece of dough. 
+
+17. Spread the jam on it and sprinkle with walnut-sugar mixture.
+
+18. Roll out the forth layer and place on top.
+
+19. Bake the cake for 30 minute, until the top is light-brown. 
+
+20. Let it cool completely.
+
+21. For the chocolate cover: in a smaller pan melt 100 grams (3,5 ounces) butter
+
+22. Then, add 4 tablespoons of cocoa powder, 4 tablespoons of sugar and 4 tablespoons of water
+
+22. Stir until the sugar melts and the mixture thickens. 
+
+23. Cover your cake with the chocolate sauce. 
+
+24. The butter will make the chocolate have a glassy elegant look. 
+
+25. Cut into diamonds and serve.
+* Ice Cream In A Blender Recipe
+** Link:
+- https://betterfood.co/how-to-make-ice-cream-in-ninja-blender/
+** Ingredients:
+- 2 1/2 cups plus 2 Tablespoons of whole milk, divided
+- 1 package (3.4 ounces) vanilla instant pudding mix
+- 2 teaspoons vanilla extract
+- 2 standard ice cube trays
+- 1 large mixing bowl
+- 1 wire whisk
+** Directions:
+1. In your mixing bowl, combine two cups of whole milk with the package of vanilla instant pudding.
+
+2. Lightly mix with your whisk until dissolved (~1 minute).
+
+3. Pour the mixture equally into the ice cube trays.
+
+4. Place the trays where they can stay perfectly flat in your freezer.
+
+5. Freeze for at least 8 hours or overnight if you can.
+
+6. Fit the standard blade into your Ninja blender before adding all your frozen pudding cubes.
+
+7. Then add ½ cup plus 2 Tablespoons of cold whole milk and the 2 teaspoons vanilla extract.
+
+8. Using the crush option on your machine, blend for 35-40 seconds.
+
+9. Remove lid and blades.
+
+10. Serve ice cream immediately.
+* Idea For Animal Cracker Ice Cream
+** Idea: 
+Here's my idea:
+- Fuse Ice Cream recipe with pink animal crackers
+* Idea To Make Soft Serve Ice Cream
+** Link:
+- https://www.wikihow.com/Make-Soft-Serve-Ice-Cream
+* Instant Pot Old-Fashioned Rice Pudding
+** Link:
+- https://www.allrecipes.com/recipe/276840/instant-pot-old-fashioned-rice-pudding/
+** Ingredients:
+- 3 1/3 cups whole milk
+- 1/2 cup white sugar
+- 1/2 cup long-grain white rice
+- 2 large eggs
+- 1/4 cup raisins
+- 1 teaspoon vanilla extract
+- 1/2 teaspoon ground cinnamon 
+** Directions:
+1. Turn on a multi-functional pressure cooker (such as Instant Pot®) and select Saute function.
+
+2. Stir in milk and sugar.
+
+3. Warm the mixture, stirring continuously, until sugar dissolves, 3 to 4 minutes.
+
+4. Turn Instant Pot off.
+
+5. Add rice.
+
+6. Close and lock the lid.
+
+7. Select high pressure according to manufacturer's instructions; set timer for 15 minutes.
+
+8. Allow 10 to 15 minutes for pressure to build.
+
+9. Release pressure using the natural-release method according to manufacturer's instructions, at least 10 minutes.
+
+10. Beat eggs in a bowl.
+
+11. Remove lid of the Instant Pot.
+
+12. Scoop 1 cup of pudding mixture out of the pot; add to the beaten eggs and whisk until completely blended.
+
+13. Pour back into the Instant Pot and add raisins, vanilla extract, and cinnamon.
+
+14. Select Saute function.
+
+15. Cook until mixture thickens, about 3 minutes.
+
+16. Serve warm or chilled.
+* Kifli Recipe (Hungarian Crescent Rolls)
+** Links:
+- https://thecakedr.com/hungarian-pastry/hungarian-kifli-crescent-rolls/
+- https://www.youtube.com/watch?v=HNyPkn8po7E
+- https://www.youtube.com/watch?v=sH394uz6wc0
+- https://www.youtube.com/watch?v=SVxafY1D1SI
+- https://www.youtube.com/watch?v=Or13tRPUvM8
+- https://www.youtube.com/watch?v=fvfEV3jUumc
+- https://www.youtube.com/watch?v=rAR5wRtuSok
+** Ingredients:
+- 500 gm all-purpose flour (approx 4 cups)
+- 200 gm unsalted butter at room temp (about 2 sticks or 1 cup), cubed
+- 100 gm granulated sugar (approx 1/2 cup)
+- 2 eggs at room temp
+- 1 package of active-dry yeast (21 gm)
+- about 3/4 cup whole milk, warm
+- Lekvar or jam of your choice 
+** Directions:
+1. Combine yeast and 1/4 cup of the warm milk and set aside for a few minutes.
+
+2. Combine flour, sugar and butter in your stand mixer and run on low speed with your dough hook until just combined.
+
+3. Add eggs one at a time.
+
+4. Add yeast mixture then slowly add enough milk to bring the dough together. The dough should be tacky but not actually stick to your fingers.
+
+5. Remove from mixing bowl, divide into two balls and allow to rise at room temp for about 30 minutes.
+
+6. Then wrap in saran wrap and chill for a minimum of 2 hours to overnight.
+
+7. Preheat oven to 375F and line 2 rimmed cookie sheets with parchment paper or silicone mats.
+
+8. Remove one ball of dough from the fridge at a time.
+
+9. Roll out into a thin circle on a well-floured surface.
+
+10. Cut into pie slices with a teaspoon-sized dollop of jam at the wide end of each pie slice.
+
+11. Roll up, press the edges together and shape into crescents.
+
+12. Bake at 375F for 15-18 minutes or until golden brown on top.
+
+13. Serve warm or store at room temp in an airtight container.
+* Krémes Recipe
+** Link:
+- https://www.tasteatlas.com/kremes/recipe
+** Ingredients:
+*** For Vanilla-Infused Milk:
+- 2 cups milk
+- 1 vanilla bean
+*** For Flaky Pastry:
+- 1 1/2 cup flour + 1 tbsp
+- 3/4 cup margarine
+- 1 pinch salt
+- 4 tbsp cold water
+- 4 tsp vinegar
+*** For Custard:
+- 8 egg yolks
+- 1/2 cup sugar
+- 1/3 cup flour + 1 tbsp
+- 2 packages (2 tbsp) vanilla sugar
+- 3 packages (21 g) gelatine
+- 1/4 cup unsalted butter
+- 8 egg whites
+- 1/2 cup sugar
+- 1 tsp fresh lemon juice
+*** For Dusting: 
+- 1/4 cup powdered sugar
+** Directions (Makes 12 Servings):
+1. Start by making the vanilla-infused milk.
+
+2. Place the milk in a small saucepan and heat it over low to medium heat.
+
+3. Take the vanilla bean, scrape the seeds into the milk, and toss the bean pod into the milk as well.
+
+4. Cover the saucepan, remove it from heat, and leave for 1 hour.
+
+5. The next step is to prepare the flaky pastry.
+
+6. Place chilled margarine and flour into a large bowl and combine them into fine crumbs.
+
+7. Add salt, water, and vinegar, and knead into a firm dough.
+
+8. Flour the working surface generously and roll out the dough into a thin rectangle.
+
+9. Divide it into 4 parts, then roll out each part and stack them on top of one another.
+
+10. Place in a refrigerator for 20 minutes.
+
+11. Meanwhile, preheat the oven to 400°F.
+
+12. Cut the chilled dough in half.
+
+13. Take the first half and roll it out very thinly - this will be the top of your krémes.
+
+14. Now, fold the dough in half and transfer it into a 9x13-inch baking pan.
+
+15. Unfold the dough and arrange it, so it goes halfway up the sides of a baking dish and so that it has deep folds at the bottom.
+
+16. This is done because the dough shrinks during baking.
+
+17. Bake for 14 to 18 minutes, until the dough turns golden, but be careful not to burn it.
+
+18. Cut into 12 equal pieces immediately, and set them aside, making sure you arrange them as they were in the baking pan.
+
+19. Repeat the procedure with the second half of the dough, which will make the bottom of your krémes.
+
+20. Now, make the custard.
+
+21. Beat the egg yolks with ½ cup sugar in a medium bowl until light and fluffy - for approximately 8 minutes.
+
+22. Combine flour, gelatin and vanilla sugar in a separate bowl.
+
+23. Add them to the egg yolk mixture gradually and mix until smooth.
+
+24. Take the vanilla pods out of the vanilla-infused milk, and slowly pour the milk into the bowl with the custard mixture.
+
+25. Transfer the custard mixture into a medium-sized saucepan and place over medium heat.
+
+26. Stir constantly until the temperature reaches 176°F (80°C).
+
+27. Use a cooking thermometer to determine the temperature.
+
+28. Remove the custard from heat, add butter, and set it aside.
+
+29. In the meantime, whip the egg whites with an electric mixer until soft peaks form.
+
+30. Add lemon juice and sugar and continue mixing until stiff and shiny.
+
+31. Gently fold the custard into the egg white snow.
+
+32. Pour the custard over the bottom layer of flaky pastry and place the baking dish into the fridge.
+
+33. When the custard begins to set, arrange the pastry squares over the top.
+
+34. Allow the krémes to cool completely.
+
+35. Right before serving the krémes, cut them into individual pieces and dust generously with powdered sugar.
+* Mákos Nudli Recipe
+** Recipe Link
+- https://honestcooking.com/makos-nudli-hungarian-noodle-dish-recipe/
+** Ingredients:
+- 7 medium size potatoes (about 550 grams), peeled and diced
+- 200-220 grams all-purpose flour
+- 2 pinches of salt
+- 2 tablespoons sunflower oil
+- 100 grams grated poppy seed
+- 40 grams powder sugar
+** Directions: 
+1. Place the diced potatoes in a large pot, add one pinch of salt and cover with water.
+
+2. Cook the potatoes over medium-high heat for about 15 minutes until tender.
+
+3. Drain the potatoes, let them cool a bit, then mash them well with no chunks left.
+
+4. Add flour, sunflower oil and mix thoroughly.
+
+5. Kneed the dough until smooth, adding more flour if needed.
+
+6. The dough should be light and pliable but not sticky.
+
+7. Working with small portions at a time, roll the dough into “ropes” on a lightly floured surface.
+
+8. Cut the “ropes” into 3-4 cm long pieces.
+
+9. Meanwhile mix the grated poppy seed and the powder sugar in a small bowl and set aside.
+
+10. Boil a large pan of water.
+
+11. Add a pinch of salt and the nudli to the boiling water in batches (important: not to over-crowd them) and gently simmer until they float on the top.
+
+12. Use a slotted spoon to transfer to a colander.
+
+13. Drain for a minute or two and transfer to a large serving bowl.
+
+14. Finish with the remaining nudli.
+
+15. Sprinkle the nudli with the sugary poppy seed.
+
+16. Gently shake the bowl to coat the nudli everywhere.
+
+17. Serve immediately.
+* Mákos Tészta Recipe
+** Link
+- https://budapestcookingclass.com/hungarian-sweet-poppy-seed-pasta/
+** Ingredients: (Serves 4 People)
+- 500 grams (17.6 ounces) dried wide stripe or tagliatelle pasta
+- 1/2 stick (4 tablespoons, 2 ounces) of butter
+- 100 grams (3.6 ounces) of ground poppy seeds
+- 1/2 cup powdered sugar (Recipe originally called for: 50 grams (1.8 ounces) of powdered sugar)
+- Salt
+** Directions:
+1. Boil the pasta, drain with a colander, and place into a bowl.
+
+2. While still warm, add the half stick of butter, and then add desired amount of Mak mixture until done.
+
+3. Serve while still warm.
+
+4. If reheated later, put it in the microwave for 20 to 40 seconds tops, and frequently stop the microwave as poppy seed based food tends to burn easily in the microwave.
+* Magyar Szilvásgombóc Recipe (Hungarian Plum Dumplings)
+** Ingredients:
+- 12 sweet plums (the small Italian ones are best, we were not able to find them so we cut them in half)
+- Boiled potatoes (we used 5 medium-sized yukon gold potatoes)
+- All purpose flour
+- 1 egg
+- 4 tbsp cinnamon, divided
+- 3/4 cup of unseasoned bread crumbs (we made our own from whole wheat bread)
+- 2-3 tbsp sugar
+** Directions:
+1. While boiling the peeled potatoes, wash, pit and cut the plums in half and season with 2 tbsp of cinnamon, set aside.
+
+2. Rice potatoes while still warm (Éva made a point of this). Beat the egg by hand and combine it with the riced potatoes.
+    
+3. Slowly add flour to the potato and egg mixture to make a soft dough.
+    
+4. Using about two tablespoons of dough, press out to about 1 cm thick in the palm of your hand (about the size of the palm of your hand).
+
+5. Add a quarter of a plum to the centre and cover entirely with the dough, pinching the seams shut.
+
+6. Boil water with a pinch of salt.
+
+7. Boil plum dumpling until done (they should float to the top, just like gnocchi).
+    
+8. Meanwhile, in a large frying pan, toast the breadcrumbs until golden and while still warm, add the sugar and mix gently until the sugar has melted and caramelized.
+
+9. It should not be a sopping mess.
+
+10. Turn off the heat.
+
+11. Add the remaining 2 tbsp cinnamon and mix well.
+
+12. Roll each cooked dumpling in the bread crumbs and plate.
+    
+13. Serve warm or cold, with or without yogurt or sour cream.
+
+14. Some people even put them in hot butter, and then cover them with mak (ground poppy seed and sugar).
+* Millionaire Short Bread Cookie Recipe
+** Link
+- http://www.siftingfocus.com/2012/11/christmas-cookie-countdown-and-millionaires-shortbread-cookies-baking-recipe/
+* Palascinta Recipe (Food Network)
+** Link
+- https://www.foodnetwork.com/recipes/hungarian-crepes-palacsinta-recipe-1944703
+** Palascinta Ingredients:
+- 3 eggs
+- 1 1/4 cups all-purpose flour
+- 1 cup milk
+- 1 teaspoon sugar
+- Pinch salt
+- 1 cup carbonated water
+- Butter, for cooking pancakes
+** Directions:
+1. Mix eggs, flour, milk, sugar and salt to make a smooth pancake dough. 
+
+2. Let the dough rest for 1 to 2 hours.
+
+3. Stir in the carbonated water at the last moment, just before cooking the pancakes.
+
+4. Heat an 8-inch frying pan. 
+
+5. When the pan is hot, add 1/4 teaspoon of the butter. 
+
+6. Let butter melt and swirl to cover the bottom of the pan.
+
+7. Pour a ladle of the batter into the pan and gently tip and twist the pan so that the batter covers the entire bottom of the pan. 
+
+8. When the top of the batter bubbles, turn the pancake over and cook for 4 or 5 seconds longer. 
+
+9. Remove the pancake. 
+
+10. Continue until the batter is all cooked; add butter before cooking each pancake.
+
+11. Serve by spreading raspberry jam, cocoa mix, or your favorite filling, roll up the pancake, and serve with fresh berries.
+* Palascinta Recipe (By: Samuel Banya)
+** Palascinta Ingredients:
+- 2 cups flour
+- 2 eggs
+- 1 cup milk
+- 1 cup soda water
+- 1/2 cup vegetable oil
+- 1 pinch salt
+** Turos Filling Ingredients:
+- 1/2 cup sugar
+- 1 lb ricotta cheese
+- few drops of vanilla
+- few drops of lemon juice (pre-squeezed or actual lemon)
+** Directions:
+1. Mix palascinta ingredients in a large bowl.
+
+2. Make sure that you mix well so that it is thin without bubbles.
+
+3. Then, mix the turos filling together in a separate bowl, and add more sugar or lemon juice to personal preference.
+
+4. Put some vegetable oil on your skillet or crepe pan, and heat up the pan on your stove stop (around '4' to '5' setting).
+
+5. Pay Attention: Once the pan is hot enough, then take a ladle, and add half a ladle's worth to the pan. Let it sit there for a solid 2 seconds, and then let the mixture spread to the edges of the pan.
+
+6. Place the pan back back on the stove top, and use a spatula to flip up JUST the edge of the crepe to check in on it.
+
+7. Once it's semi-soft-solid after about 10 to 25 seconds (depends on your oven), then flip to the next side.
+
+8. This is a preference thing, but you can let them be a bit more done to be more on the solid side.
+
+9. However, some people prefer them soft, so its really up to you, try it out later on and figure out what you like (we like them on the more-done side, which are awesome when you re-heat them later in the microwave).
+
+10. NOTE: The first palascinta is usually bad, since its pretty much a tester one to make sure the pan is working correctly, so know this ahead of time so you don't feel bad that the first one sucks.
+
+11. Get a plate and start stacking the crepes ontop of each other as you finish cooking them.
+
+12. When you're ready to serve them, grab a crepe and place it onto your plate.
+
+13. Put any filling you would like onto the palascinta, including the turos filling you made.
+
+14. NOTE: Some people like strawberry jam, nutella, chocolate or strawberry Nesquik, peanut butter etc., so have fun with it.
+
+15. Once your filling is ontop of a palascinta, roll it up and enjoy!
+* Rizskoch Recipe (Hungarian Rice Pudding Cake)
+** Link:
+- https://www.youtube.com/watch?v=jlPq6WiCm6k
+** Ingredients (Makes 6 to 8 portions)
+- 350 grams (0.8 lbs) short grain rice --> 1.4 cups
+- 500 ml (about 2 cups) water
+- 500 ml (about 2 cups) milk
+- A pinch of salt
+- 100 grams (3.5 oz) butter at room temperature (plus some for greasing the pan) --> 7 tablespoons
+- 150 grams (5.3 oz) sugar --> 0.6 cups
+- 1 pack (about 2 tbsp) vanilla sugar
+- 4 eggs (separated)
+- Zest of half of a lemon
+- 1 to 2 tbsp fine breadcrumbs (for dusting the pan)
+- Icing sugar
+- Raspberry cordial or apricot jam
+** Directions:
+1. Put the washed and drained rice into a pot, pour the water over, add a pinch of salt and cover the pot. 
+
+2. Cook on medium-low heat, (stirring sometime) until all the water has absorbed.
+
+3. Now, pour in the milk, stir and cover the pot. 
+
+4. Cook on very low heat (stirring now and then) until the rice is tender, and has absorbed the milk. 
+
+5. It takes about 20-30 minutes, depending on the rice you use.
+
+6. When it's done, remove from the heat and let it cool uncovered.
+
+7. Meanwhile separate the eggs.
+
+8. Add sugar, vanilla sugar and butter (at room temperature) to the egg yolks and stir well until you've got a smooth, creamy and fluffy texture. 
+
+9. Set aside this mixture.
+
+10. Beat the egg whites with a hand mixer until they form soft peaks.
+
+11. Now, add the egg yolk-mixture to the cooled rice, and gently mix them together until well combined.
+
+12. Add the egg whites and gently fold it into the rice mixture (be careful not to break the airy texture of the egg whites!).
+
+13. Grate in the zest of half of a lemon and stir gently.
+
+14. Grease a baking pan (I used a 30x20x5 cm) with butter then dust it with a handful of fine breadcrumbs.
+
+15. Pour in the rice mixture and bake in the preheated oven, at 180C (360F) for 35-40 minutes
+
+16. When the top is nice golden brown, remove the pan from the oven.
+
+17. Cut the cake into 6 or 8 squares and serve while it's still warm.
+
+18. Sift some icing sugar over and pour 3-4 tablespoon of raspberry cordial on top. (or serve it with good quality, homemade smooth apricot jam).
+* Sour Cherry Blondies
+** Link:
+- https://www.thisisnotdietfood.com/sour-cherry-blindies/
+** Ingredients:
+- 1 cup light brown sugar, packed
+- 1/2 cup butter, melted
+- 1 egg
+- 2 tsp vanilla
+- 1/2 tsp salt
+- 1 cup flour
+- 1 tsp baking powder
+- 1 cup pitted sour cherries
+** Directions:
+1. Preheat oven to 350F.
+
+2. In a medium mixing bowl combine the brown sugar, melted butter, egg, vanilla and salt.
+
+3. Stir in the flour and baking powder.
+
+4. Gently stir in the cherries trying not to break them apart.
+
+5. Pour mixture into a greased 8 inch square pan and bake.
+
+6. Bake for 28-30 minutes until toothpick inserted in center comes out clean.
+
+7. Allow to cool before slicing and serving.
+* Strawberry Ice Cream In A Blender Recipe
+** Link:
+- https://betterfood.co/how-to-make-ice-cream-in-ninja-blender/
+** Ingredients:
+- 1 1/2 cup frozen strawberries
+- 1 cup heavy cream
+- 1/3 cup sugar
+- 1 tsp vanilla
+** Directions:
+1. Add all ingredients to your Ninja blender pitcher (with the blade already inside).
+
+2. Pulse for 30 seconds or until well-blended.
+
+3. Serve as is or freeze for 30 minutes to thicken up.
+
+4. Would you prefer Ninja peach ice cream? No problem. Swap the frozen strawberries out for frozen peaches!
+* Turos Ice Cream Recipe (By: Samuel Banya)
+** Ingredients:
+- 1/2 cup sugar
+- 1 lb (2 cups) ricotta cheese
+- 1 cup heavy cream
+- 1 tsp vanilla
+** Directions:
+1. Add all ingredients to your blender.
+
+2. Blend ingredients.
+
+3. Store in freezer for 6+ hours in ice-cream container.

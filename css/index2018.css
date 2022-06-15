@@ -1,0 +1,61 @@
+#IxBody {
+    background-color: #3100ad;
+	color: #dcceff;
+}
+
+#IxHeaderContent {
+	text-align: center;
+}
+
+#IxNavBar {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#IxMainContent {
+	padding-left: 50px;
+}
+
+.IxSiteUpdatePost {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 350px;
+}
+
+.IxSiteUpdateDate {
+    padding-bottom: 20px;
+}
+
+.IxSiteUpdatePostContent {
+	margin-left: 75px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #1c0063;
+}
+
+.IxSiteUpdatePostContent li{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: yellow;
+	text-shadow: red 1px 1px;
+}
+
+#IxFooter {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#IxFooterContactHeader {
+	font-size: 25px;
+}
+
+#IxFooterCopyrightHeader{
+	font-size: 15px;
+}

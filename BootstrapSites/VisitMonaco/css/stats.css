@@ -1,0 +1,44 @@
+#SsBody{
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.SsHeaderRedText{
+  color: red;
+}
+
+.SsHeaderBlueText{
+  color: blue;
+}
+
+.SsHeaderOrangeText{
+  color: orange;
+}
+
+.SsNavBarLinks{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.SsLandscapePictures{
+	width: 400px;
+	height: 300px;
+}
+
+.SsPortraitPictures{
+	width: 250px;
+	height: 350px;
+}
+
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+ol{
+  display: inline-block;
+  text-align:left;
+}

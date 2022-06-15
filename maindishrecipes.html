@@ -1,0 +1,2602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-05-30 Mon 11:59 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Main Dish Recipes (HOMEPAGE LINK: https://www.musimatic.xyz)</title>
+<meta name="author" content="Samuel Banya" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<link rel="stylesheet" type="text/css" href="css/maindishrecipes.css"/>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Main Dish Recipes (HOMEPAGE LINK: <a href="https://www.musimatic.xyz">https://www.musimatic.xyz</a>)</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3345811">README For "Main Dish Recipes":</a></li>
+<li><a href="#org2e368fc">Burma Superstar Style Tea Leaf Salad Recipe</a>
+<ul>
+<li><a href="#org3efacde">Link:</a></li>
+<li><a href="#orgd49dd8c">Ingredients For Tea Leaf Dressing:</a></li>
+<li><a href="#org8dd3055">Directions For Tea Leaf Dressing:</a></li>
+<li><a href="#orgb6b4d4a">Ingredients For Fried Garlic Chips and Garlic Oil:</a></li>
+<li><a href="#org7cfed61">Directions For Fried Garlic Chips And Garlic Oil:</a></li>
+<li><a href="#orgc0ddacd">Ingredients For Fried Yellow Split Peas:</a></li>
+<li><a href="#orgfed5119">Directions For Fried Yellow Split Peas:</a></li>
+<li><a href="#org30c04ea">Ingredients For Tea Leaf Salad</a></li>
+<li><a href="#orge255dd5">Directions For Assembling The Tea Leaf Salad:</a></li>
+</ul>
+</li>
+<li><a href="#org30fa437">Cheeseburger Casserole Recipe</a>
+<ul>
+<li><a href="#org9aad34e">Links:</a></li>
+<li><a href="#org88ac934">Ingredients:</a></li>
+<li><a href="#orge9c579e">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org5637094">Chicken Fried Steak Recipe</a>
+<ul>
+<li><a href="#org4284452">Link:</a></li>
+<li><a href="#orgfa1f716">Ingredients (Chicken Fried Steak):</a></li>
+<li><a href="#org9b64a0f">Ingredients (Gravy):</a></li>
+<li><a href="#org242c0f7">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org06fb909">Deep Dish Pizza Recipe</a>
+<ul>
+<li><a href="#orgfc225fd">Link:</a></li>
+<li><a href="#org7063ee0">Dough Ingredients:</a></li>
+<li><a href="#orgc446be8">Sauce Ingredients:</a></li>
+<li><a href="#org31fc327">Sausage Ingredients:</a></li>
+<li><a href="#orgbd9653d">Directions To Prepare Sauce:</a></li>
+<li><a href="#org55a3074">Directions To Prepare Sausage:</a></li>
+<li><a href="#org93fcd43">Directions To Prepare Entire Pizza:</a></li>
+</ul>
+</li>
+<li><a href="#org3211ed7">Gluten Free Bread Recipe</a>
+<ul>
+<li><a href="#org82821aa">Link:</a></li>
+<li><a href="#org54591bc">Ingredients:</a></li>
+<li><a href="#org7bdd4e5">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org699ca4f">Gnocchi Recipe From Gennaro Contaldo</a>
+<ul>
+<li><a href="#org0ac4ef2">Links:</a>
+<ul>
+<li><a href="#orge56ad42">Recipe Link:</a></li>
+<li><a href="#org898bee8">YouTube Video Links:</a></li>
+</ul>
+</li>
+<li><a href="#org744a5e3">Ingredients:</a>
+<ul>
+<li><a href="#org00ad666">Gnocci Ingredients:</a></li>
+<li><a href="#orgcc37dae">Sage Butter Sauce Ingredients:</a></li>
+</ul>
+</li>
+<li><a href="#org325655a">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgea5dae9">Goulash Recipe</a>
+<ul>
+<li><a href="#orgd953119">Link:</a></li>
+<li><a href="#org9f1eff4">Ingredients:</a></li>
+<li><a href="#org0239e26">Optional Ingredients:</a></li>
+<li><a href="#org2ee7ef0">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orga4a28f7">Hawaiian Chicken Casserole Recipe</a>
+<ul>
+<li><a href="#org64b837f">Links:</a></li>
+<li><a href="#org12b18b6">Ingredients:</a></li>
+<li><a href="#org056c93f">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org21b54bd">Instant Pot Chicken Taco Bowls</a>
+<ul>
+<li><a href="#orgaa12b51">Link:</a></li>
+<li><a href="#org724c1e5">Ingredients</a></li>
+<li><a href="#org00ab1b0">Directions</a></li>
+</ul>
+</li>
+<li><a href="#orgfd80c85">Instant Pot Mac And Cheese Recipe</a>
+<ul>
+<li><a href="#org12bcc03">Links:</a></li>
+<li><a href="#org1ccde64">Ingredients:</a></li>
+<li><a href="#org2142d6b">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgbe430d2">Italian Style Green Bean Casserole Recipe</a>
+<ul>
+<li><a href="#org3fd4424">Links:</a></li>
+<li><a href="#org259baf5">Ingredients:</a></li>
+<li><a href="#org9e304d3">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org5fbcf03">Kale Pie Recipe</a>
+<ul>
+<li><a href="#orgbaa96de">Link:</a></li>
+</ul>
+</li>
+<li><a href="#org92b7b31">Langos Recipe</a>
+<ul>
+<li><a href="#org26d08a4">Link:</a></li>
+<li><a href="#org8eba237">Ingredients:</a></li>
+<li><a href="#org280dfd2">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org5ecb488">Overnight Oats Recipe</a>
+<ul>
+<li><a href="#orgb558b9d">Link:</a></li>
+<li><a href="#orgc0785fa">Ingredients:</a></li>
+<li><a href="#orgbdda298">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org2bee52e">Meatball Stroganoff Recipe (One-Pot)</a>
+<ul>
+<li><a href="#orgfe81c10">Link:</a></li>
+<li><a href="#orge15830a">Ingredients:</a></li>
+<li><a href="#org5261075">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org71fcfb0">Nokedli Recipe</a>
+<ul>
+<li><a href="#orgcb455ad">Link:</a></li>
+<li><a href="#org709e2e3">Ingredients (converted from metric to imperial units)</a></li>
+<li><a href="#org9001f5f">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org064fbf7">Philly Mac And Cheese Steak Casserole Recipe</a>
+<ul>
+<li><a href="#org58604bc">Links:</a></li>
+<li><a href="#org1635251">Ingredients:</a></li>
+<li><a href="#orge123f26">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org48eddf4">Pho Recipe</a>
+<ul>
+<li><a href="#orgea80bdd">Link:</a></li>
+<li><a href="#org4572e20">Ingredients:</a>
+<ul>
+<li><a href="#orgeb1cf90">Broth</a></li>
+<li><a href="#orgdd98932">For Serving</a></li>
+</ul>
+</li>
+<li><a href="#orgfa53284">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgbcb40fa">Pogacsa Recipe</a>
+<ul>
+<li><a href="#orgc368694">Link:</a></li>
+<li><a href="#orgeef9afb">Ingredients:</a></li>
+<li><a href="#org1a573f9">Topping Ingredients:</a></li>
+<li><a href="#orgdd3f7b5">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org6da24f4">Porkolt Recipe</a>
+<ul>
+<li><a href="#orgaadee89">Link:</a></li>
+<li><a href="#org5627817">Ingredients:</a></li>
+<li><a href="#org67db95b">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgd3bb337">Rakott Krumpli (Hungarian Layered Potatoes) Recipe</a>
+<ul>
+<li><a href="#org5d834fb">Link:</a></li>
+<li><a href="#org14891bf">Ingredients (Serves 6):</a></li>
+<li><a href="#org97a3bb8">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org5aff4d6">Sausage Gravy Breakfast Pizza</a>
+<ul>
+<li><a href="#orged253f4">Link:</a></li>
+<li><a href="#org522d3a3">Ingredients:</a></li>
+<li><a href="#orgcb32eb4">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org85606d5">Smoked Salmons And Chive Soda Bread</a>
+<ul>
+<li><a href="#org9379082">Link:</a></li>
+<li><a href="#org836c9e2">Ingredients:</a>
+<ul>
+<li><a href="#org83539cf">For the bread:</a></li>
+<li><a href="#orgb554659">For the dill and black garlic butter:</a></li>
+</ul>
+</li>
+<li><a href="#org9dcdee5">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgedd348f">Stuffed Peppers Recipe</a>
+<ul>
+<li><a href="#orgd698816">Link:</a></li>
+<li><a href="#orgb73a75f">Ingredients:</a></li>
+<li><a href="#org70c365b">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org624a015">Toltott Kaposzta (Hungarian Stuffed Cabbage)</a>
+<ul>
+<li><a href="#org30f633a">Link:</a></li>
+<li><a href="#org960c82c">Ingredients:</a></li>
+<li><a href="#org5c78dce">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#org052eaea">Taco Cake Recipe</a>
+<ul>
+<li><a href="#org7844d6a">Link:</a></li>
+</ul>
+</li>
+<li><a href="#orga914005">Tiger Bread Recipe</a>
+<ul>
+<li><a href="#orgfcc81ff">YouTube Video Link:</a></li>
+<li><a href="#orgd5df307">Ingredients:</a>
+<ul>
+<li><a href="#orgd9563da">For The Dough</a></li>
+<li><a href="#org03a6667">For the topping</a></li>
+</ul>
+</li>
+<li><a href="#orgb298640">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgfd9b2c3">Turkey Meatloaf Recipe</a>
+<ul>
+<li><a href="#orgd206a13">Link:</a></li>
+<li><a href="#org58b90c2">Ingredients:</a>
+<ul>
+<li><a href="#org9941138">Meatloaf Ingredients:</a></li>
+<li><a href="#orga23ae71">Topping Ingredients:</a></li>
+</ul>
+</li>
+<li><a href="#orgb0e9b67">Directions:</a></li>
+</ul>
+</li>
+<li><a href="#orgacfc851">Zöldbab Krémmel Greenbeans With Cream Recipe</a>
+<ul>
+<li><a href="#org618c9d0">Link:</a></li>
+<li><a href="#org00117dd">Ingredients:</a></li>
+<li><a href="#org49a2c29">Directions:</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3345811" class="outline-2">
+<h2 id="org3345811">README For "Main Dish Recipes":</h2>
+<div class="outline-text-2" id="text-org3345811">
+<p>
+NOTE: These are recipes that I have gathered from the internet, and are mostly NOT my own.
+</p>
+
+<p>
+I will indicate my own recipes with a "By: Samuel Banya" section in its title whenever
+necessary.
+</p>
+
+<p>
+This being noted, I have the related links whenever possible to the original creators, so
+feel free to visit those links to find out even more great food recipes.
+</p>
+
+<p>
+I am including them here in one quick and accessible page for myself, but also for you to
+enjoy in plain-text format to be read on any device, courtesy of Emacs Org Mode :)
+</p>
+</div>
+</div>
+<div id="outline-container-org2e368fc" class="outline-2">
+<h2 id="org2e368fc">Burma Superstar Style Tea Leaf Salad Recipe</h2>
+<div class="outline-text-2" id="text-org2e368fc">
+</div>
+<div id="outline-container-org3efacde" class="outline-3">
+<h3 id="org3efacde">Link:</h3>
+<div class="outline-text-3" id="text-org3efacde">
+<ul class="org-ul">
+<li><a href="https://www.mercurynews.com/2017/04/15/recipe-burma-superstars-tea-leaf-salad/">https://www.mercurynews.com/2017/04/15/recipe-burma-superstars-tea-leaf-salad/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd49dd8c" class="outline-3">
+<h3 id="orgd49dd8c">Ingredients For Tea Leaf Dressing:</h3>
+<div class="outline-text-3" id="text-orgd49dd8c">
+<ul class="org-ul">
+<li>1/2 cup packed cup (about 2 ounces) whole fermented tea leaves (laphet) or 1/3 cup packed seasoned tea leaf paste (without oil)</li>
+<li>1/3 cup canola oil</li>
+<li>1 garlic clove, coarsely chopped</li>
+<li>1/4 teaspoon dried chile flakes</li>
+<li>1 teaspoon lime or lemon juice</li>
+<li>Salt</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8dd3055" class="outline-3">
+<h3 id="org8dd3055">Directions For Tea Leaf Dressing:</h3>
+<div class="outline-text-3" id="text-org8dd3055">
+<ol class="org-ol">
+<li>If using whole, unseasoned laphet leaves, soak them for 5 minutes in cold water to extract some of the bitterness.</li>
+
+<li>Drain, squeezing the leaves to remove excess water.</li>
+
+<li>Taste the leaves. If they still taste extremely bitter, soak and drain again.</li>
+
+<li>Skip this step if using a seasoned paste.</li>
+
+<li>Put the leaves or paste in a food processor with the garlic and chile flakes; pulse a few times.</li>
+
+<li>Add the lemon juice and half the oil, briefly pulse.</li>
+
+<li>Then, with the processor running, drizzle in the rest of the oil.</li>
+
+<li>If the leaves are not preseasoned, add 1 teaspoon salt.</li>
+
+<li>If the leaves are already seasoned, add only a pinch or two of salt.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb6b4d4a" class="outline-3">
+<h3 id="orgb6b4d4a">Ingredients For Fried Garlic Chips and Garlic Oil:</h3>
+<div class="outline-text-3" id="text-orgb6b4d4a">
+<ul class="org-ul">
+<li>1/2 cup canola oil</li>
+<li>1/3 cup thinly sliced fresh garlic</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7cfed61" class="outline-3">
+<h3 id="org7cfed61">Directions For Fried Garlic Chips And Garlic Oil:</h3>
+<div class="outline-text-3" id="text-org7cfed61">
+<ol class="org-ol">
+<li>Line a heatproof bowl with a strainer.</li>
+
+<li>Line a plate with paper towels.</li>
+
+<li>In a wok or small saucepan, heat the oil over medium heat for a minute or two (the oil shouldn’t be scorching hot).</li>
+
+<li>Add garlic and gently stir.</li>
+
+<li>When bubbles start to form rapidly around the garlic, decrease heat to low and cook.</li>
+
+<li>Stir often, until the garlic is an even golden color and nearly completely crisp, about 3 minutes.</li>
+
+<li>If the garlic starts to darken too quickly, remove it from the heat and let it continue to fry in the oil.</li>
+
+<li>Garlic and oil into the strainer.</li>
+
+<li>Lift the strainer up and shake off the excess oil.</li>
+
+<li>Scatter garlic onto the lined plate.</li>
+
+<li>The garlic should crisp up as it cools.</li>
+
+<li>The chips can be stored in an airtight container at room temperature for 1 month.</li>
+
+<li>Refrigerate the oil up to 6 months.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc0ddacd" class="outline-3">
+<h3 id="orgc0ddacd">Ingredients For Fried Yellow Split Peas:</h3>
+<div class="outline-text-3" id="text-orgc0ddacd">
+<ul class="org-ul">
+<li>1/3 cup yellow split peas</li>
+<li>1/2 cup canola oil</li>
+<li>Pinch of salt</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfed5119" class="outline-3">
+<h3 id="orgfed5119">Directions For Fried Yellow Split Peas:</h3>
+<div class="outline-text-3" id="text-orgfed5119">
+<ol class="org-ol">
+<li>Place peas in a bowl and cover 1 inch of water.</li>
+
+<li>Soak at least 4 hours or overnight.</li>
+
+<li>Drain split peas through a fine-mesh strainer, shaking off the excess water.</li>
+
+<li>Line a plate with paper towels.</li>
+
+<li>In a wok or small saucepan, heat the oil over medium-high heat for 1 minute.</li>
+
+<li>Add the split peas.</li>
+
+<li>Once the oil starts to bubble rapidly around the split peas, lower the heat slightly and continue to fry.</li>
+
+<li>Stir often, until they begin to crisp up and turn slightly darker, about 5 minutes.</li>
+
+<li>Drain well.</li>
+
+<li>Scatter the split peas on the lined plate and season with salt.</li>
+
+<li>The split peas should be crunchy, but not rock-hard, once cooled.</li>
+
+<li>Store in an airtight container at room temperature for up to 2 weeks.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org30c04ea" class="outline-3">
+<h3 id="org30c04ea">Ingredients For Tea Leaf Salad</h3>
+<div class="outline-text-3" id="text-org30c04ea">
+<ul class="org-ul">
+<li>6 cups thinly sliced romaine lettuce (about 1 1/2 heads romaine)</li>
+<li>1/2 cup tea leaf dressing (see recipe)</li>
+<li>1/4 cup fried garlic chips (see recipe)</li>
+<li>1/4 cup fried yellow split peas (see recipe)</li>
+<li>1/4 cup coarsely chopped toasted peanuts</li>
+<li>1/4 cup toasted sunflower seeds</li>
+<li>1 tablespoon toasted sesame seeds</li>
+<li>1 Roma tomato, seeded and diced</li>
+<li>1 small jalapeño, seeded and diced (about 1/4 cup)</li>
+<li>1 tablespoon shrimp powder</li>
+<li>2 teaspoons fish sauce or a few generous pinches salt</li>
+<li>1 lemon or lime, cut into wedges</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge255dd5" class="outline-3">
+<h3 id="orge255dd5">Directions For Assembling The Tea Leaf Salad:</h3>
+<div class="outline-text-3" id="text-orge255dd5">
+<ol class="org-ol">
+<li>Place a bed of lettuce in the center of a large platter.</li>
+
+<li>Spoon the tea leaf dressing into the center of the lettuce.</li>
+
+<li>Around the lettuce, arrange separate piles of fried garlic, split peas, peanuts, sunflower seeds, sesame seeds, tomato and jalapeño.</li>
+
+<li>Sprinkle with shrimp powder and drizzle with fish sauce.</li>
+
+<li>Before serving, squeeze 2 lemon wedges over the plate.</li>
+
+<li>Using 2 forks, mix the ingredients together until the tea leaves lightly coat the lettuce.</li>
+
+<li>Taste, adding more lemon or fish sauce at the table, if desired.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org30fa437" class="outline-2">
+<h2 id="org30fa437">Cheeseburger Casserole Recipe</h2>
+<div class="outline-text-2" id="text-org30fa437">
+</div>
+<div id="outline-container-org9aad34e" class="outline-3">
+<h3 id="org9aad34e">Links:</h3>
+<div class="outline-text-3" id="text-org9aad34e">
+<ul class="org-ul">
+<li><a href="https://www.myrecipes.com/recipe/cheeseburger-casserole">https://www.myrecipes.com/recipe/cheeseburger-casserole</a></li>
+<li><a href="https://www.youtube.com/watch?v=_wZkmBUkdbE">https://www.youtube.com/watch?v=_wZkmBUkdbE</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org88ac934" class="outline-3">
+<h3 id="org88ac934">Ingredients:</h3>
+<div class="outline-text-3" id="text-org88ac934">
+<ul class="org-ul">
+<li>6 thick-cut bacon slices, chopped</li>
+<li>2 large yellow onions, thinly sliced</li>
+<li>1 Tbsp. Worcestershire sauce</li>
+<li>1 1/4 tsp. kosher salt, divided</li>
+<li>1 tsp. black pepper, divided</li>
+<li>1 1/2 lb. (90/10 lean) ground beef sirloin</li>
+<li>1/4 cup ketchup</li>
+<li>2 Tbsp. yellow mustard</li>
+<li>8 (3/4-oz.) American cheese slices</li>
+<li>3 brioche hamburger buns, cut in 3/4-in. cubes</li>
+<li>4 oz. sharp Cheddar cheese, shredded (about 1 cup)</li>
+<li>Shredded lettuce, diced tomato, pickle slices, mayonnaise</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge9c579e" class="outline-3">
+<h3 id="orge9c579e">Directions:</h3>
+<div class="outline-text-3" id="text-orge9c579e">
+<ol class="org-ol">
+<li>Cook bacon in a large nonstick skillet over medium, stirring occasionally, until browned and crisp.</li>
+
+<li>Transfer to a plate; set aside.</li>
+
+<li>Pour off half of the bacon drippings from skillet, and reserve.</li>
+
+<li>Add onions to skillet with remaining drippings over medium-low; cook, stirring occasionally, until browned and caramelized, about 30 minutes.</li>
+
+<li>Stir in Worcestershire, 1/2 teaspoon of the salt, and 1/4 teaspoon of the pepper.</li>
+
+<li>Transfer to a bowl; set aside.</li>
+
+<li>Preheat oven to 350°F.</li>
+
+<li>Heat skillet over medium-high.</li>
+
+<li>Add ground beef, 1/2 teaspoon of the pepper, and remaining 3/4 teaspoon salt; cook, stirring occasionally, until browned, 8 to 10 mintues.</li>
+
+<li>Stir in ketchup and mustard; remove from heat.</li>
+
+<li>Spread beef mixture in bottom of a lightly greased 3-quart baking dish.</li>
+
+<li>Top with caramelized onions and crumbled bacon.</li>
+
+<li>Arrange cheese slices over bacon.</li>
+
+<li>Toss bun cubes in reserved bacon drippings, and place in an even layer over cheese slices.</li>
+
+<li>Sprinkle with cheddar cheese and remaining 1/4 teaspoon pepper.</li>
+
+<li>Bake in preheated oven until golden and bubbly, about 20 minutes.</li>
+
+<li>Serve with desired toppings.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org5637094" class="outline-2">
+<h2 id="org5637094">Chicken Fried Steak Recipe</h2>
+<div class="outline-text-2" id="text-org5637094">
+</div>
+<div id="outline-container-org4284452" class="outline-3">
+<h3 id="org4284452">Link:</h3>
+<div class="outline-text-3" id="text-org4284452">
+<ul class="org-ul">
+<li><a href="https://www.foodnetwork.com/recipes/ree-drummond/chicken-fried-steak-with-gravy-recipe-1925056">https://www.foodnetwork.com/recipes/ree-drummond/chicken-fried-steak-with-gravy-recipe-1925056</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa1f716" class="outline-3">
+<h3 id="orgfa1f716">Ingredients (Chicken Fried Steak):</h3>
+<div class="outline-text-3" id="text-orgfa1f716">
+<ul class="org-ul">
+<li>1 1/2 cups whole milk</li>
+<li>2 large eggs</li>
+<li>2 cups all-purpose flour</li>
+<li>2 teaspoons seasoned salt</li>
+<li>Freshly ground black pepper</li>
+<li>3/4 teaspoon paprika</li>
+<li>1/4 teaspoon cayenne pepper</li>
+<li>3 pounds cube steak (tenderized round steak that's been extra tenderized)</li>
+<li>Kosher salt</li>
+<li>1/2 cup canola or vegetable oil</li>
+<li>1 tablespoon butter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9b64a0f" class="outline-3">
+<h3 id="org9b64a0f">Ingredients (Gravy):</h3>
+<div class="outline-text-3" id="text-org9b64a0f">
+<ul class="org-ul">
+<li>1/3 cup all-purpose flour</li>
+<li>3 to 4 cups whole milk</li>
+<li>1/2 teaspoon seasoned salt</li>
+<li>Freshly ground black pepper</li>
+<li>Mashed potatoes, for serving</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org242c0f7" class="outline-3">
+<h3 id="org242c0f7">Directions:</h3>
+<div class="outline-text-3" id="text-org242c0f7">
+<ol class="org-ol">
+<li>For the steak: Begin with setting up an assembly line of dishes.</li>
+
+<li>Mix the milk with the eggs in one; the flour mixed with the seasoned salt, 1 1/2 teaspoons black pepper, paprika and cayenne in another; and the meat in a third.</li>
+
+<li>Then have one clean plate at the end to receive the breaded meat.</li>
+
+<li>Work with one piece of meat at a time.</li>
+
+<li>Sprinkle both sides with kosher salt and black pepper, then place it in the flour mixture.</li>
+
+<li>Turn to coat.</li>
+
+<li>Place the meat into the milk/egg mixture, turning to coat.</li>
+
+<li>Finally, place it back in the flour and turn to coat (dry mixture/wet mixture/dry mixture).</li>
+
+<li>Place the breaded meat on the clean plate, then repeat with the remaining meat.</li>
+
+<li>Heat the oil in a large skillet over medium heat.</li>
+
+<li>Add the butter.</li>
+
+<li>Drop in a few sprinkles of flour to make sure it's sufficiently hot.</li>
+
+<li>When the butter sizzles immediately, you know it's ready. (It should not brown right away, if it does, the fire is too hot.)</li>
+
+<li>Cook the meat, 3 pieces at a time, until the edges start to look golden brown, about 2 minutes each side.</li>
+
+<li>Remove the meat to a paper towel-lined plate and keep them warm by covering lightly with another plate or a sheet of foil.</li>
+
+<li>Repeat until all the meat is cooked.</li>
+
+<li>After all the meat is fried, pour off the grease into a heatproof bowl.</li>
+
+<li>Without cleaning the skillet, return it to the stove over medium-low heat.</li>
+
+<li>Add 1/4 cup of the grease back to the skillet and allow it to heat up.</li>
+
+<li>For the gravy: When the grease is hot, sprinkle the flour evenly over the grease.</li>
+
+<li>Using a whisk, mix the flour with the grease, creating a golden-brown paste.</li>
+
+<li>Add more flour if it looks overly greasy; add a little more grease if it becomes too pasty/clumpy.</li>
+
+<li>Keep cooking until the roux reaches a deep golden brown color.</li>
+
+<li>Pour in the milk, whisking constantly.</li>
+
+<li>Add the seasoned salt and black pepper to taste and cook, whisking, until the gravy is smooth and thick, 5 to 10 minutes.</li>
+
+<li>Be prepared to add more milk if it becomes overly thick.</li>
+
+<li>Be sure to taste to make sure gravy is sufficiently seasoned.</li>
+
+<li>Serve the meat next to a big side of mashed potatoes.</li>
+
+<li>Pour gravy over the whole shebang!</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org06fb909" class="outline-2">
+<h2 id="org06fb909">Deep Dish Pizza Recipe</h2>
+<div class="outline-text-2" id="text-org06fb909">
+</div>
+<div id="outline-container-orgfc225fd" class="outline-3">
+<h3 id="orgfc225fd">Link:</h3>
+<div class="outline-text-3" id="text-orgfc225fd">
+<ul class="org-ul">
+<li>The 4 keys to make perfect CHICAGO DEEP DISH pizza every time (<a href="https://www.youtube.com/watch?v=89RYM6k0tKA">https://www.youtube.com/watch?v=89RYM6k0tKA</a>)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7063ee0" class="outline-3">
+<h3 id="org7063ee0">Dough Ingredients:</h3>
+<div class="outline-text-3" id="text-org7063ee0">
+<ul class="org-ul">
+<li>450g or about 3 1/4 cup flour</li>
+<li>40g or 1/4 cup cornmeal</li>
+<li>12g or 3 tsp sugar  15g or 3 tsp salt</li>
+<li>275g or 1 1/4 cup water (85F)</li>
+<li>110g or 8 tbsp (1 stick) butter cubed</li>
+<li>9g or 3 tsp yeast</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc446be8" class="outline-3">
+<h3 id="orgc446be8">Sauce Ingredients:</h3>
+<div class="outline-text-3" id="text-orgc446be8">
+<ul class="org-ul">
+<li>1 28oz can nice crushed tomato</li>
+<li>1/4 red onion (grated)</li>
+<li>2 garlic cloves ( run through press or minced)</li>
+<li>40g or 2 tbps tomato paste</li>
+<li>10g or 1 tbps sugar</li>
+<li>1g or 1/2 tsp dried basil</li>
+<li>1g or 1/2 tsp dried oregano</li>
+<li>2-3 tbps butter</li>
+<li>5g salt or 1 tsp</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org31fc327" class="outline-3">
+<h3 id="org31fc327">Sausage Ingredients:</h3>
+<div class="outline-text-3" id="text-org31fc327">
+<ul class="org-ul">
+<li>1 lb fatty ground pork</li>
+<li>7g or 1.5 tsp salt</li>
+<li>5g or 1 tsp sugar</li>
+<li>3g or 1 tsp paprika</li>
+<li>1g or 1/2 tsp dried sage</li>
+<li>1g or 1/2 tsp black pepper</li>
+<li>5g or 1.5 tsp red wine vinegar</li>
+<li>1g or 1/2 tsp chile flake</li>
+<li>1g or 1/2 tsp garlic powder</li>
+<li>2g or 1 tsp toasted crushed fennel seed</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbd9653d" class="outline-3">
+<h3 id="orgbd9653d">Directions To Prepare Sauce:</h3>
+<div class="outline-text-3" id="text-orgbd9653d">
+<ol class="org-ol">
+<li>In a medium saute or sauce pan, preheat over medium heat, melt butter.</li>
+
+<li>Add in onion and garlic and 5g salt, then sweat until translucent and starting to take on color.</li>
+
+<li>Add in tomato paste and fry until rusty color emerges (30-40 seconds).</li>
+
+<li>Add in crushed tomatoes, sugar, dried herbs and cook on low heat for 20 minutes stir often, cool for later pizza building.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org55a3074" class="outline-3">
+<h3 id="org55a3074">Directions To Prepare Sausage:</h3>
+<div class="outline-text-3" id="text-org55a3074">
+<ol class="org-ol">
+<li>Fold ingredients to combine, cook a little off to taste for seasoning.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org93fcd43" class="outline-3">
+<h3 id="org93fcd43">Directions To Prepare Entire Pizza:</h3>
+<div class="outline-text-3" id="text-org93fcd43">
+<ol class="org-ol">
+<li>Combine dry ingredients in food processor, add in cubed butter and run food processor until incorporated and pebble-like.</li>
+
+<li>While running, stream in warm water until combines, run for 30-40 seconds total.</li>
+
+<li>Transfer to bowl and let rise for 90 minutes.</li>
+
+<li>Divide into 2 equal pieces and shape into loose rounds, move to oiled sheet tray and cover with another sheet tray.</li>
+
+<li>Let rise 1 hour.</li>
+
+<li>Then roll into 12" round, oil a 9"-10 cast iron (LINK BELOW) or cake pan with 3 TBPS olive oil.</li>
+
+<li>Lay in rolled out dough and then build pizza: CHEESE + SAUSAGE + SAUCE + PARM CHILE FLAKE .</li>
+
+<li>Bake 30-40 minutes in 425 oven until crust is fried and golden.</li>
+
+<li>Let cool 10 minutes then serve.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3211ed7" class="outline-2">
+<h2 id="org3211ed7">Gluten Free Bread Recipe</h2>
+<div class="outline-text-2" id="text-org3211ed7">
+</div>
+<div id="outline-container-org82821aa" class="outline-3">
+<h3 id="org82821aa">Link:</h3>
+<div class="outline-text-3" id="text-org82821aa">
+<ul class="org-ul">
+<li><a href="https://www.goodforyouglutenfree.com/gluten-free-sandwich-bread/">https://www.goodforyouglutenfree.com/gluten-free-sandwich-bread/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org54591bc" class="outline-3">
+<h3 id="org54591bc">Ingredients:</h3>
+<div class="outline-text-3" id="text-org54591bc">
+<ul class="org-ul">
+<li>3 cups Bob’s Red Mill 1-to-1 Gluten-Free Flour blend 430 grams</li>
+<li>2 Tbsp light brown sugar</li>
+<li>2 tsp instant yeast equivalent to one packet</li>
+<li>2 tsp Kosher salt</li>
+<li>1 cup warm milk or milk substitute</li>
+<li>1 Tbsp raw honey</li>
+<li>4 Tbsp soft butter or butter substitute</li>
+<li>3 large eggs</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7bdd4e5" class="outline-3">
+<h3 id="org7bdd4e5">Directions:</h3>
+<div class="outline-text-3" id="text-org7bdd4e5">
+<ol class="org-ol">
+<li>Combine flour, brown sugar, yeast, salt in the bowl of your standing mixer.</li>
+
+<li>Attach the paddle attachment to your standing mixer and slowly mix all ingredients on low speed.</li>
+
+<li>Drizzle in milk, then add honey and butter and continue to mix well.</li>
+
+<li>Turn mixer to medium speed and add each egg, one at a time until incorporated.</li>
+
+<li>Once all the eggs are added, mix dough for 1 minute until all ingredients are well combined.</li>
+
+<li>The batter will be sticky and soft (not like normal bread dough).</li>
+
+<li>Grease an 8.5 x 4.5" loaf pan and gently pour dough into the pan without deflating it.</li>
+
+<li>Cover with plastic wrap and place in warm spot to rise for 90-120 minutes.</li>
+
+<li>Preheat oven to 350º F and bake for 38-40 minutes until the top is slightly browned and the dough is cooked through.</li>
+
+<li>Place bread on a wire rack to cool completely.</li>
+
+<li>Use a serrated bread knife to cut bread into slices.</li>
+
+<li>The bread tastes fantastic toasted and lasts for several days when wrapped in plastic wrap.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org699ca4f" class="outline-2">
+<h2 id="org699ca4f">Gnocchi Recipe From Gennaro Contaldo</h2>
+<div class="outline-text-2" id="text-org699ca4f">
+</div>
+<div id="outline-container-org0ac4ef2" class="outline-3">
+<h3 id="org0ac4ef2">Links:</h3>
+<div class="outline-text-3" id="text-org0ac4ef2">
+</div>
+<div id="outline-container-orge56ad42" class="outline-4">
+<h4 id="orge56ad42">Recipe Link:</h4>
+<div class="outline-text-4" id="text-orge56ad42">
+<ul class="org-ul">
+<li><a href="https://www.yellowmellowlife.com/gennaro-contaldos-gnocchi/">https://www.yellowmellowlife.com/gennaro-contaldos-gnocchi/</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org898bee8" class="outline-4">
+<h4 id="org898bee8">YouTube Video Links:</h4>
+<div class="outline-text-4" id="text-org898bee8">
+<ul class="org-ul">
+<li>Simple Gnocchi Recipe (Video in which Genarro goes over how to make Gnocci in an easier all-in-one video):</li>
+<li><a href="https://www.youtube.com/watch?v=FveqjpehElM">https://www.youtube.com/watch?v=FveqjpehElM</a></li>
+</ul>
+
+<p>
+Jamie Oliver's YouTube Videos Featuring Gennaro Making Gnocchi:
+</p>
+<ul class="org-ul">
+<li>Gennaro makes Gnocchi (Part 1):</li>
+<li><a href="https://www.youtube.com/watch?v=LRmPcaGAG0s&amp;t=18s">https://www.youtube.com/watch?v=LRmPcaGAG0s&amp;t=18s</a></li>
+
+<li>Amazing Gnocchi Al Forno with Gennaro Contaldo Video (Part 2):</li>
+<li><a href="https://www.youtube.com/watch?v=GqxE5hBe7LA&amp;t=49s">https://www.youtube.com/watch?v=GqxE5hBe7LA&amp;t=49s</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org744a5e3" class="outline-3">
+<h3 id="org744a5e3">Ingredients:</h3>
+<div class="outline-text-3" id="text-org744a5e3">
+</div>
+<div id="outline-container-org00ad666" class="outline-4">
+<h4 id="org00ad666">Gnocci Ingredients:</h4>
+<div class="outline-text-4" id="text-org00ad666">
+<ul class="org-ul">
+<li>2 pounds potatoes (roughly 1 kg)</li>
+<li>2 egg yolks</li>
+<li>1 cup all-purpose flour</li>
+<li>Leaves from few sprigs of coriander – chopped</li>
+<li>Salt and pepper to taste</li>
+<li>Rice flour to dust (all-purpose flour can also be used)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcc37dae" class="outline-4">
+<h4 id="orgcc37dae">Sage Butter Sauce Ingredients:</h4>
+<div class="outline-text-4" id="text-orgcc37dae">
+<ul class="org-ul">
+<li>Quarterstick of butter</li>
+<li>Handful of sage</li>
+<li>1/2 cup / 100 grams Fontina cheese</li>
+<li>Parmesean cheese to grate ontop of finished Gnocchi</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org325655a" class="outline-3">
+<h3 id="org325655a">Directions:</h3>
+<div class="outline-text-3" id="text-org325655a">
+<ol class="org-ol">
+<li>The first thing is to boil potatoes. It helps if your potatoes are roughly of the same size. That way they all take the same time to cook.</li>
+
+<li>Otherwise, potatoes can also be baked.</li>
+
+<li>The only thing to keep in mind is that we want the potatoes to get cooked, but not overcook.</li>
+
+<li>If you are boiling them, make sure you take them out well on time or else I have noticed water seeping into potatoes making them a little soggy.</li>
+
+<li>Boil or bake, what we are looking for is a cooked potato, whose skin you can peel easily with hand.</li>
+
+<li>And when you cut it in two pieces, it should feel fluffy.</li>
+
+<li>The method that Gennaro recommends (and which I use) is putting raw potatoes in a pot full of cold water.</li>
+
+<li>Then, I let the water come to a boil.</li>
+
+<li>After that boil them for additional 20 minutes.</li>
+
+<li>If not, keep going for another 10 minutes.</li>
+
+<li>I use the toothpick check to check my potatoes: Insert the toothpick in the potatoes – if it goes in and comes out easily, they are done.</li>
+
+<li>After the potatoes are boiled, peeled them at your own convenience. However, let them come at room temperature before you go to the next step.</li>
+
+<li>Now we need to mash the potatoes You can crumble them using your hands. Many people use potato ricer, you can even use a fork. I use a grater.</li>
+
+<li>Make sure that the grated/ mashed potato remains flaky and retains its shape. Try not to handle it too much.</li>
+
+<li>Now sprinkle a nice amount of rice flour on your work surface.</li>
+
+<li>Put your grated potatoes in the shape of a well. Add in chopped coriander leaves and salt and pepper to taste.</li>
+
+<li>Now dust the all purpose flour on your well. Inside the well, dump the 2 egg yolks.</li>
+
+<li>Now start kneading. Remember not to apply a lot of pressure to your dough. Instead work with light hands and just try to bring everything together.</li>
+
+<li>Feel free to add in a little more all purpose flour if you require. But just don’t go overboard with it.</li>
+
+<li>The secret of good gnocchi, according to me, is to have as much as possible of potato and as little as possible of flour. Lot of potato, perfect!</li>
+
+<li>Your gnocchi would be soft and light. Lot of flour, not perfect…gnocchi would be thick and heavy.</li>
+
+<li>You’ll be left with nice ball of dough in no time.</li>
+
+<li>Now take a little portion out of the dough and roll it into a rope, with thickness that of a cigar.</li>
+
+<li>Dust the tip of a knife with flour and start cutting in pieces about 1 inch wide. You got your gnocchi.</li>
+
+<li>You can get more creative and give each of gnocchi pieces a nice shape. The classic being indentation by a fork.</li>
+
+<li>One other famous shape is the pillow shape. Just give a little dig in the middle of your gnocchi.</li>
+
+<li>You can make balls or ovals, possibilities are endless. n</li>
+
+<li>Keep placing them on a dusted surface.</li>
+
+<li>Now if you are making the gnocchi right at this moment, just bring a large pot of water to boil.</li>
+
+<li>Add in a little salt and your gnocchi to it. It is a good idea to tilt the pot side to side every once in a while to stop gnocchi from sticking.</li>
+
+<li>Let gnocchi simmer in water till it starts floating at the top of the water.</li>
+
+<li>At this point, take your gnocchi out using a ladle.</li>
+
+<li>Leave it to steam dry for another 2 minutes before using it.</li>
+
+<li>Make the sage butter sauce by using a quarterstick of butter in a saute pan, add a handful of sage. then add 1/2 cup of fontina cheese.</li>
+
+<li>Add the boiled gnocchi into the pan, and grate parmesean cheese on top.</li>
+
+<li>Put the oven's broiler mode on, and then add the pan into the top broiler of the oven for 1 minute or so until the cheese crisps a bit.</li>
+
+<li>If you are intending to use your gnocchi later, dust your uncooked gnocchi with a generous amount of flour.</li>
+
+<li>Spread it on a plate and keep it in deep freezer till it becomes as hard as stones.</li>
+
+<li>After that, just store it in a zip lock and tuck it away in your deep freezer till next time.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgea5dae9" class="outline-2">
+<h2 id="orgea5dae9">Goulash Recipe</h2>
+<div class="outline-text-2" id="text-orgea5dae9">
+</div>
+<div id="outline-container-orgd953119" class="outline-3">
+<h3 id="orgd953119">Link:</h3>
+<div class="outline-text-3" id="text-orgd953119">
+<ul class="org-ul">
+<li><a href="https://www.spendwithpennies.com/hungarian-goulash/">https://www.spendwithpennies.com/hungarian-goulash/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9f1eff4" class="outline-3">
+<h3 id="org9f1eff4">Ingredients:</h3>
+<div class="outline-text-3" id="text-org9f1eff4">
+<ul class="org-ul">
+<li>2 medium onions</li>
+<li>2 teaspoons butter or lard (preferred)</li>
+<li>1 teaspoon caraway seeds</li>
+<li>2 tablespoons paprika</li>
+<li>1/4 cup flour</li>
+<li>1 1/2 pound stewing beef trimmed and cut into 1 inch cubes</li>
+<li>2 cups beef broth or water</li>
+<li>1 cup diced tomatoes canned</li>
+<li>1 teaspoon salt</li>
+<li>1/4 teaspoon pepper</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0239e26" class="outline-3">
+<h3 id="org0239e26">Optional Ingredients:</h3>
+<div class="outline-text-3" id="text-org0239e26">
+<ul class="org-ul">
+<li>1 1/2 cup carrots optional</li>
+<li>3 cups potatoes optional</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2ee7ef0" class="outline-3">
+<h3 id="org2ee7ef0">Directions:</h3>
+<div class="outline-text-3" id="text-org2ee7ef0">
+<ol class="org-ol">
+<li>In a large pot, melt butter and add onion.</li>
+
+<li>Cook till translucent.</li>
+
+<li>Stir in caraway seeds and paprika and mix well.</li>
+
+<li>In a bowl, dredge the stew beef with flour.</li>
+
+<li>Add beef to the onion mixture and cook for about 2-3 minutes.</li>
+
+<li>Slowly add about 1/4 cup of the beef broth to lift the brown bits off the bottom of the pan.</li>
+
+<li>Then add remaining broth, diced tomatoes (potatoes and carrots if using), salt and pepper.</li>
+
+<li>Stir and bring to a boil, cover, then reduce to a simmer for about 1 1/2 - 2 hours or until tender.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orga4a28f7" class="outline-2">
+<h2 id="orga4a28f7">Hawaiian Chicken Casserole Recipe</h2>
+<div class="outline-text-2" id="text-orga4a28f7">
+</div>
+<div id="outline-container-org64b837f" class="outline-3">
+<h3 id="org64b837f">Links:</h3>
+<div class="outline-text-3" id="text-org64b837f">
+<ul class="org-ul">
+<li><a href="https://www.myrecipes.com/recipe/hawaiian-chicken-casserole">https://www.myrecipes.com/recipe/hawaiian-chicken-casserole</a></li>
+<li><a href="https://www.youtube.com/watch?v=_wZkmBUkdbE">https://www.youtube.com/watch?v=_wZkmBUkdbE</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org12b18b6" class="outline-3">
+<h3 id="org12b18b6">Ingredients:</h3>
+<div class="outline-text-3" id="text-org12b18b6">
+<ul class="org-ul">
+<li>1 Tbsp. canola oil</li>
+<li>1 Tbsp. minced fresh ginger</li>
+<li>1 Tbsp. minced garlic</li>
+<li>1 jalapeño chile, seeded and chopped</li>
+<li>3/4 cup sweet onion, diced</li>
+<li>3/4 tsp. kosher salt</li>
+<li>2/3 cup light brown sugar</li>
+<li>1/3 cup soy sauce</li>
+<li>3 Tbsp. ketchup</li>
+<li>2 Tbsp. rice vinegar</li>
+<li>1 1/2 cups diced fresh pineapple</li>
+<li>1 1/2 cups diced red bell pepper</li>
+<li>1 1/2 lb. frozen, fully-cooked crispy breaded chicken strips, thawed and cut in 1 1/2-in. pieces</li>
+<li>1/2 cup sliced fresh scallions</li>
+<li>3 cups cooked jasmine rice</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org056c93f" class="outline-3">
+<h3 id="org056c93f">Directions:</h3>
+<div class="outline-text-3" id="text-org056c93f">
+<ol class="org-ol">
+<li>Preheat oven to 375°F.</li>
+
+<li>Heat oil in a medium saucepan over medium-high.</li>
+
+<li>Add ginger, garlic, and jalapeño; cook, stirring often, until fragrant, about 1 minute.</li>
+
+<li>Add onion and salt, and cook, stirring often, until onion begins to soften, about 2 minutes.</li>
+
+<li>Add brown sugar, soy sauce, ketchup, and rice vinegar; bring to a simmer, stirring constantly, until sugar is dissolved.</li>
+
+<li>Sprinkle pineapple and bell pepper evenly in bottom of a lightly greased 3 quart baking dish.</li>
+
+<li>Pour brown sugar-soy mixture over pineapple mixture; top evenly with chicken tenders.</li>
+
+<li>Bake in preheated oven until bubbly, and chicken is slightly crisp on top, about 20 minutes.</li>
+
+<li>Toss mixture lightly to coat chicken, and sprinkle with scallions.</li>
+
+<li>Serve over rice.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org21b54bd" class="outline-2">
+<h2 id="org21b54bd">Instant Pot Chicken Taco Bowls</h2>
+<div class="outline-text-2" id="text-org21b54bd">
+</div>
+<div id="outline-container-orgaa12b51" class="outline-3">
+<h3 id="orgaa12b51">Link:</h3>
+<div class="outline-text-3" id="text-orgaa12b51">
+<ul class="org-ul">
+<li><a href="https://wondermomwannabe.com/instant-pot-chicken-taco-bowls/">https://wondermomwannabe.com/instant-pot-chicken-taco-bowls/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org724c1e5" class="outline-3">
+<h3 id="org724c1e5">Ingredients</h3>
+<div class="outline-text-3" id="text-org724c1e5">
+<ul class="org-ul">
+<li>4 to 5 uncooked boneless, skinless breasts if large, cut in half</li>
+<li>1 to 2 packets taco seasoning 1 for mild flavor, 2 for more flavor</li>
+<li>1 15 oz can black beans, drained and rinsed</li>
+<li>1 12 oz bag frozen corn</li>
+<li>1 15.5 oz jar salsa</li>
+<li>3 cups uncooked jasmine rice rinsed</li>
+<li>3 cups water or chicken broth</li>
+<li>cheddar cheese</li>
+<li>cilantro optional</li>
+<li>sour cream optional</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org00ab1b0" class="outline-3">
+<h3 id="org00ab1b0">Directions</h3>
+<div class="outline-text-3" id="text-org00ab1b0">
+<ol class="org-ol">
+<li>Add one cup of liquid (water or broth) to the bottom of the pot.</li>
+<li>Place chicken breasts in bottom of pressure cooker on top of the liquid.</li>
+<li>Sprinkle with taco seasoning.</li>
+<li>Top with beans and corn.</li>
+<li>Then, pour salsa over everything.</li>
+<li>Add rice, then remaining liquid (water or broth).</li>
+<li>Cook on manual high pressure for 12 minutes.</li>
+<li>Then, use quick release to release the pressure.</li>
+<li>Once the pressure has been fully released, remove lid carefully.</li>
+<li>Shred chicken.</li>
+<li>Serve immediately.</li>
+<li>Top with cheddar cheese, cilantro, and sour cream as desired.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfd80c85" class="outline-2">
+<h2 id="orgfd80c85">Instant Pot Mac And Cheese Recipe</h2>
+<div class="outline-text-2" id="text-orgfd80c85">
+</div>
+<div id="outline-container-org12bcc03" class="outline-3">
+<h3 id="org12bcc03">Links:</h3>
+<div class="outline-text-3" id="text-org12bcc03">
+<ul class="org-ul">
+<li><a href="https://www.myrecipes.com/recipe/instant-pot-mac-and-cheese-with-bacon">https://www.myrecipes.com/recipe/instant-pot-mac-and-cheese-with-bacon</a></li>
+<li><a href="https://www.youtube.com/watch?v=kOAXRpKHdTY&amp;t=1295s">https://www.youtube.com/watch?v=kOAXRpKHdTY&amp;t=1295s</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1ccde64" class="outline-3">
+<h3 id="org1ccde64">Ingredients:</h3>
+<div class="outline-text-3" id="text-org1ccde64">
+<ul class="org-ul">
+<li>4 strips bacon, chopped</li>
+<li>1 pound uncooked medium pasta shells</li>
+<li>4 cups water</li>
+<li>2 tablespoons unsalted butter</li>
+<li>2 teaspoons salt</li>
+<li>1 (5-ounce) can evaporated milk</li>
+<li>8 ounces cheddar cheese, shredded</li>
+<li>8 ounces Gouda, shredded</li>
+<li>black pepper to taste</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2142d6b" class="outline-3">
+<h3 id="org2142d6b">Directions:</h3>
+<div class="outline-text-3" id="text-org2142d6b">
+<ol class="org-ol">
+<li>In a 6-quart Instant Pot® add chopped bacon and press [Sauté].</li>
+
+<li>Cook bacon for 8 minutes or until crispy.</li>
+
+<li>Remove bacon with a slotted spoon and set aside.</li>
+
+<li>Turn Instant Pot off by hitting [Cancel].</li>
+
+<li>Add the pasta, water, butter, and salt.</li>
+
+<li>Close and lock the lid of the Instant Pot® and press [Manual], select high pressure and use [Adjust] to select "Less" mode.</li>
+
+<li>Press [-] or [+] to choose 4 minutes cook time.</li>
+
+<li>Carefully turn knob to vent position to release steam.</li>
+
+<li>Remove lid.</li>
+
+<li>Stir in the evaporated milk, cheddar cheese, Gouda cheese and black pepper.</li>
+
+<li>Press [Sauté] and cook for about 4 minutes or until the cheese had melted, stirring frequently.</li>
+
+<li>Stir in bacon and serve warm.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbe430d2" class="outline-2">
+<h2 id="orgbe430d2">Italian Style Green Bean Casserole Recipe</h2>
+<div class="outline-text-2" id="text-orgbe430d2">
+</div>
+<div id="outline-container-org3fd4424" class="outline-3">
+<h3 id="org3fd4424">Links:</h3>
+<div class="outline-text-3" id="text-org3fd4424">
+<ul class="org-ul">
+<li><a href="https://www.myrecipes.com/recipe/Italian-style-green-bean-casserole">https://www.myrecipes.com/recipe/Italian-style-green-bean-casserole</a></li>
+<li><a href="https://www.youtube.com/watch?v=_wZkmBUkdbE">https://www.youtube.com/watch?v=_wZkmBUkdbE</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org259baf5" class="outline-3">
+<h3 id="org259baf5">Ingredients:</h3>
+<div class="outline-text-3" id="text-org259baf5">
+<ul class="org-ul">
+<li>6 ounces Parmesan cheese, grated (about 1 1/2 cups), divided</li>
+<li>1 1/4 cups Italian-style breadcrumbs, divided</li>
+<li>4 garlic cloves, minced</li>
+<li>1 teaspoon kosher salt</li>
+<li>3/4 teaspoon black pepper, divided</li>
+<li>3 (28-oz.) cans Italian-style green beans, drained</li>
+<li>2 (9-oz.) pkg. frozen artichoke hearts, thawed, drained well and chopped</li>
+<li>2/3 extra-virgin olive oil</li>
+<li>Fresh flat-leaf parsley, chopped</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9e304d3" class="outline-3">
+<h3 id="org9e304d3">Directions:</h3>
+<div class="outline-text-3" id="text-org9e304d3">
+<ol class="org-ol">
+<li>Preheat oven to 375°F.</li>
+
+<li>Combine Parmesan, breadcrumbs, garlic, salt, and 1/2 teaspoon pepper in a large bowl.</li>
+
+<li>Reserve 1/3 cup of the breadcrumb mixture; set aside.</li>
+
+<li>Add green beans, artichoke hearts, and olive oil to bowl with remaining breadcrumb mixture, and fold to combine well.</li>
+
+<li>Pour green bean mixture into a lightly greased 13- x 9-inch baking dish.</li>
+
+<li>Sprinkle reserved breadcrumb mixture evenly over casserole.</li>
+
+<li>Cover with aluminum foil, and bake until heated through, about 30 minutes.</li>
+
+<li>Uncover and bake until lightly golden and bubbly, about 10 minutes.</li>
+
+<li>Sprinkle with remaining 1/4 teaspoon pepper, and if desired, chopped parsley.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org5fbcf03" class="outline-2">
+<h2 id="org5fbcf03">Kale Pie Recipe</h2>
+<div class="outline-text-2" id="text-org5fbcf03">
+</div>
+<div id="outline-container-orgbaa96de" class="outline-3">
+<h3 id="orgbaa96de">Link:</h3>
+<div class="outline-text-3" id="text-orgbaa96de">
+<ul class="org-ul">
+<li><a href="https://ingmar.app/blog/kale-pie-with-walnuts-and-blue-cheese/">https://ingmar.app/blog/kale-pie-with-walnuts-and-blue-cheese/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org92b7b31" class="outline-2">
+<h2 id="org92b7b31">Langos Recipe</h2>
+<div class="outline-text-2" id="text-org92b7b31">
+</div>
+<div id="outline-container-org26d08a4" class="outline-3">
+<h3 id="org26d08a4">Link:</h3>
+<div class="outline-text-3" id="text-org26d08a4">
+<ul class="org-ul">
+<li><a href="https://honestcooking.com/hungarian-langos/">https://honestcooking.com/hungarian-langos/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8eba237" class="outline-3">
+<h3 id="org8eba237">Ingredients:</h3>
+<div class="outline-text-3" id="text-org8eba237">
+<ul class="org-ul">
+<li>300 g all-purpose flour (1.27 cups)</li>
+<li>7 g dried (instant) yeast (1.40 teaspoons)</li>
+<li>250 ml water (1.05 cups)</li>
+<li>1/2 teaspoon salt</li>
+<li>sunflower oil for frying</li>
+<li>toppings: sour cream, grated cheese, garlic</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org280dfd2" class="outline-3">
+<h3 id="org280dfd2">Directions:</h3>
+<div class="outline-text-3" id="text-org280dfd2">
+<ol class="org-ol">
+<li>In a mug dissolve the salt in the water.</li>
+
+<li>In a bowl combine the sifted flour with the yeast.</li>
+
+<li>Add salty water to it and stir through (if it’s very sticky, add a little bit more flour).</li>
+
+<li>Work the dough with a wooden spoon or with your hands until the dough comes off the bowl and gets smooth.</li>
+
+<li>Leave the dough in the bowl, cover with a clean cloth and let it rise for 30-40 minutes or until it has doubled in bulk.</li>
+
+<li>Once it is rested, carefully tip out the dough onto a floured surface, stretch out into a square and cut out about 10 cm (3,93 inch) round shapes with a big glass (big cookie cutter also good).</li>
+
+<li>Stretch out each piece with your fingers into a round shape with the centre being thinner than the edges.</li>
+
+<li>Let the pieces rest for another 30 minutes on the floured surface.</li>
+
+<li>In a saucepan heat sunflower oil.</li>
+
+<li>Place lángos into the hot oil, fry it on one side until golden brown then turn.</li>
+
+<li>Repeat with the remaining lángos dough.</li>
+
+<li>Serve while it’s hot.</li>
+
+<li>You can eat it simple or sprinkle with chopped garlic or douse with garlic water and top with grated cheese and sour cream.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org5ecb488" class="outline-2">
+<h2 id="org5ecb488">Overnight Oats Recipe</h2>
+<div class="outline-text-2" id="text-org5ecb488">
+</div>
+<div id="outline-container-orgb558b9d" class="outline-3">
+<h3 id="orgb558b9d">Link:</h3>
+<div class="outline-text-3" id="text-orgb558b9d">
+<ul class="org-ul">
+<li><a href="https://lemonsandzest.com/stumbling-blocks-stepping-stones-recipe-peanut-butter-cup-overnight-oats/">https://lemonsandzest.com/stumbling-blocks-stepping-stones-recipe-peanut-butter-cup-overnight-oats/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc0785fa" class="outline-3">
+<h3 id="orgc0785fa">Ingredients:</h3>
+<div class="outline-text-3" id="text-orgc0785fa">
+<ul class="org-ul">
+<li>1/2 cup rolled oats regular or gluten free</li>
+<li>2 to 3 tsp peanut butter or any nut or seed butter</li>
+<li>1 tsp cocoa powder</li>
+<li>1 tsp vanilla</li>
+<li>2 tsp pure maple syrup or honey</li>
+<li>1/2 cup milk of choice</li>
+<li>Dash of sea salt</li>
+<li>1 tsp chia seeds optional</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbdda298" class="outline-3">
+<h3 id="orgbdda298">Directions:</h3>
+<div class="outline-text-3" id="text-orgbdda298">
+<ol class="org-ol">
+<li>Combine all ingredients in small jar or bowl that can be sealed.</li>
+
+<li>Stir well and then cover.</li>
+
+<li>Refrigerate overnight.</li>
+
+<li>Serving options: serve with a sprinkle of cocoa nibs, extra peanut butter drizzle, dark chocolate chips, or sliced banana.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org2bee52e" class="outline-2">
+<h2 id="org2bee52e">Meatball Stroganoff Recipe (One-Pot)</h2>
+<div class="outline-text-2" id="text-org2bee52e">
+</div>
+<div id="outline-container-orgfe81c10" class="outline-3">
+<h3 id="orgfe81c10">Link:</h3>
+<div class="outline-text-3" id="text-orgfe81c10">
+<ul class="org-ul">
+<li><a href="https://www.pillsbury.com/recipes/one-pot-meatball-stroganoff-for-two/3a2b6bb9-fb65-4f09-8ba5-211ef587d272">https://www.pillsbury.com/recipes/one-pot-meatball-stroganoff-for-two/3a2b6bb9-fb65-4f09-8ba5-211ef587d272</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge15830a" class="outline-3">
+<h3 id="orge15830a">Ingredients:</h3>
+<div class="outline-text-3" id="text-orge15830a">
+<ul class="org-ul">
+<li>2 tablespoons butter</li>
+<li>4 oz sliced baby bella mushrooms (about 1 1/3 cups)</li>
+<li>1/8 teaspoon salt</li>
+<li>1/8 teaspoon pepper</li>
+<li>2 cups Progresso™ beef flavored broth (from 32-oz carton)</li>
+<li>2 cups uncooked wide egg noodles (from 12-oz bag)</li>
+<li>12 frozen fully cooked beef meatballs, thawed (from 22-oz bag)</li>
+<li>1/3 cup sour cream</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5261075" class="outline-3">
+<h3 id="org5261075">Directions:</h3>
+<div class="outline-text-3" id="text-org5261075">
+<ol class="org-ol">
+<li>In 2-quart saucepan, heat butter over medium-high heat.</li>
+
+<li>Add mushrooms, salt and pepper; cook 3 to 5 minutes, stirring frequently, until tender.</li>
+
+<li>Add beef broth, egg noodles and meatballs; heat to boiling.</li>
+
+<li>Reduce heat to medium; simmer uncovered 9 to 11 minutes, stirring occasionally, until liquid is mostly absorbed.</li>
+
+<li>Remove from heat; let stand 5 minutes.</li>
+
+<li>Stir in sour cream; serve immediately.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org71fcfb0" class="outline-2">
+<h2 id="org71fcfb0">Nokedli Recipe</h2>
+<div class="outline-text-2" id="text-org71fcfb0">
+</div>
+<div id="outline-container-orgcb455ad" class="outline-3">
+<h3 id="orgcb455ad">Link:</h3>
+<div class="outline-text-3" id="text-orgcb455ad">
+<ul class="org-ul">
+<li><a href="https://dailynewshungary.com/traditional-hungarian-nokedli-dumpling-recipe-as-we-inherited-it-from-our-grandmothers/">https://dailynewshungary.com/traditional-hungarian-nokedli-dumpling-recipe-as-we-inherited-it-from-our-grandmothers/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org709e2e3" class="outline-3">
+<h3 id="org709e2e3">Ingredients (converted from metric to imperial units)</h3>
+<div class="outline-text-3" id="text-org709e2e3">
+<ul class="org-ul">
+<li>2 cups flour</li>
+<li>4 eggs</li>
+<li>0.84535057 cup water (less than a cup, 200 mL water originally)</li>
+<li>pinch of salt</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9001f5f" class="outline-3">
+<h3 id="org9001f5f">Directions:</h3>
+<div class="outline-text-3" id="text-org9001f5f">
+<ol class="org-ol">
+<li>Mixing the dough: After the ingredients are prepared, you can start mixing the dough.</li>
+
+<li>First, pour the flour, the eggs and the salt into a bowl.</li>
+
+<li>If you do not add enough eggs, the dough will be too sticky.</li>
+
+<li>Start combining the first two ingredients and add water gradually.</li>
+
+<li>The secret of good dumplings is that you should not overmix the dough or leave it to rest because it can harden.</li>
+
+<li>Put a bigger pot of water to boil (add some salt and oil to the water) before you start mixing the ingredients.</li>
+
+<li>Forming the dumplings: You can use a dumpling maker/grater, a teaspoon or a knife to form the dumplings.</li>
+
+<li>In the first case, place the grater on top of the pot, fill the sliding basket with the dough and slide it back and forth.</li>
+
+<li>I would recommend using a spoon because it allows you to form even and perfectly-shaped ‘nokedli’.</li>
+
+<li>Stir the dumplings occasionally, so they do not stick to the bottom of the pot.</li>
+
+<li>Cooking the dumplings: You have to keep it in mind that dumplings do not take much time to cook, so try forming them as quickly as you can.</li>
+
+<li>The dumplings are ready when they float to the surface of the water.</li>
+
+<li>Rinsing and seasoning: After you drain the cooked dumplings, you can rinse them with water so they do not stick together.</li>
+
+<li>However, this step is a bit controversial since it cools the dish.</li>
+
+<li>Another solution is to add a bit of oil, fat or butter to the dumplings.</li>
+
+<li>You can season the dumplings with some chives or garlic and it is the perfect side dish for chicken paprikash.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org064fbf7" class="outline-2">
+<h2 id="org064fbf7">Philly Mac And Cheese Steak Casserole Recipe</h2>
+<div class="outline-text-2" id="text-org064fbf7">
+</div>
+<div id="outline-container-org58604bc" class="outline-3">
+<h3 id="org58604bc">Links:</h3>
+<div class="outline-text-3" id="text-org58604bc">
+<ul class="org-ul">
+<li><a href="https://www.myrecipes.com/recipe/philly-mac-and-cheese-steak">https://www.myrecipes.com/recipe/philly-mac-and-cheese-steak</a></li>
+<li><a href="https://www.youtube.com/watch?v=_wZkmBUkdbE">https://www.youtube.com/watch?v=_wZkmBUkdbE</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1635251" class="outline-3">
+<h3 id="org1635251">Ingredients:</h3>
+<div class="outline-text-3" id="text-org1635251">
+<ul class="org-ul">
+<li>4 teaspoons olive oil, divided</li>
+<li>1 cup sliced mushrooms</li>
+<li>1 cup thinly sliced onion (from 1 onion)</li>
+<li>3/4 cup sliced red bell pepper (from 1 pepper)</li>
+<li>3/4 cup sliced green bell pepper (from 1 pepper)</li>
+<li>1 teaspoon garlic powder</li>
+<li>3/4 teaspoon kosher salt</li>
+<li>1/2 teaspoon black pepper</li>
+<li>4 tablespoons unsalted butter</li>
+<li>4 tablespoons all-purpose flour</li>
+<li>2 1/2 cups whole milk</li>
+<li>2 teaspoons Worcestershire sauce</li>
+<li>1/2 teaspoon dry mustard</li>
+<li>4 ounces processed cheese (such as Velveeta)</li>
+<li>8 ounces cavatappi or elbow pasta, prepared according to package directions</li>
+<li>12 ounces chopped deli roast beef</li>
+<li>8 ounces sharp provolone cheese, shredded (about 2 cups), divided</li>
+<li>1/3 cup panko (Japanese-style bread crumbs)</li>
+<li>Chopped fresh flat-leaf parsley (optional)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge123f26" class="outline-3">
+<h3 id="orge123f26">Directions:</h3>
+<div class="outline-text-3" id="text-orge123f26">
+<ol class="org-ol">
+<li>Preheat oven to 375°F.</li>
+
+<li>Heat 1 tablespoon of the oil in a large skillet over medium-high.</li>
+
+<li>Add mushrooms, onion, and bell peppers; cook, stirring constantly, until veggies begin to soften, about 3 minutes.</li>
+
+<li>Add garlic powder, salt, and pepper; cook, stirring often, 2 minutes.</li>
+
+<li>Add butter to veggie mixture; cook until butter is melted.</li>
+
+<li>Sprinkle in flour; cook, stirring constantly, 1 to 2 minutes.</li>
+
+<li>Whisk in milk, Worcestershire, and dry mustard until smooth.</li>
+
+<li>Reduce heat to medium-low, and stir in Velveeta until smooth.</li>
+
+<li>Remove from heat, and stir in cooked pasta, roast beef, and 1 1/4 cups provolone until combined.</li>
+
+<li>Pour mixture into an 11- x 7-inch baking dish lightly coated with cooking spray; top with remaining 3/4 cup cheese.</li>
+
+<li>Stir together panko and remaining 1 teaspoon oil in a small bowl.</li>
+
+<li>Sprinkle breadcrumb mixture evenly over pasta mixture, and bake in preheated oven until golden and bubbly, 20 to 25 minutes.</li>
+
+<li>Sprinkle with parsley, if desired.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org48eddf4" class="outline-2">
+<h2 id="org48eddf4">Pho Recipe</h2>
+<div class="outline-text-2" id="text-org48eddf4">
+</div>
+<div id="outline-container-orgea80bdd" class="outline-3">
+<h3 id="orgea80bdd">Link:</h3>
+<div class="outline-text-3" id="text-orgea80bdd">
+<ul class="org-ul">
+<li><a href="https://www.vice.com/en_us/article/yw75w7/homemade-pho-recipe">https://www.vice.com/en_us/article/yw75w7/homemade-pho-recipe</a>?</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4572e20" class="outline-3">
+<h3 id="org4572e20">Ingredients:</h3>
+<div class="outline-text-3" id="text-org4572e20">
+</div>
+<div id="outline-container-orgeb1cf90" class="outline-4">
+<h4 id="orgeb1cf90">Broth</h4>
+<div class="outline-text-4" id="text-orgeb1cf90">
+<ul class="org-ul">
+<li>7 pounds beef bones with marrow (can do oxtail)</li>
+<li>1 pound beef brisket</li>
+<li>3 pounds chuck short rib</li>
+<li>1/4 cup fish sauce</li>
+<li>6-8 shallots</li>
+<li>2 large hands ginger</li>
+<li>2 large white onions, halved</li>
+<li>1 tablespoon coriander seed</li>
+<li>1 tablespoon fennel seed</li>
+<li>10 whole fructus amomi</li>
+<li>5 whole star anise</li>
+<li>6 whole cloves</li>
+<li>3 cinnamon sticks</li>
+<li>1 whole green cardamom pod</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdd98932" class="outline-4">
+<h4 id="orgdd98932">For Serving</h4>
+<div class="outline-text-4" id="text-orgdd98932">
+<ul class="org-ul">
+<li>1 pound, 450 grams pho rice noodles</li>
+<li>1/2 pound eye of round, sirloin, flank, London broil, sliced very thinly</li>
+<li>1 bunch scallions, sliced into small rings</li>
+<li>1 medium onion, sliced thinly</li>
+<li>3-4 cups bean sprouts</li>
+<li>1 bunch cilantro</li>
+<li>1 bunch Thai basil</li>
+<li>Lime wedges</li>
+<li>hoisin sauce</li>
+<li>Sriracha sauce</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfa53284" class="outline-3">
+<h3 id="orgfa53284">Directions:</h3>
+<div class="outline-text-3" id="text-orgfa53284">
+<ol class="org-ol">
+<li>Place the beef bones into a stockpot of 10 to 12-quart capacity.</li>
+
+<li>Fill the pot with enough water to just cover all the bones, leaving at least 1 inch at the top to allow room for boiling.</li>
+
+<li>Heat the pot on high until the water boils and let it continue to boil aggressively for 5 minutes to release impurities from the sides of the bones.</li>
+
+<li>Once clean, turn off the heat. Pour the contents of the pot into a colander or directly into a clean sink that is lined with a strainer to catch solids.</li>
+
+<li>Rinse the bones until they are clean of blood and impurities. Be careful not to lose any marrow in the process.</li>
+
+<li>Char the onion, ginger, and shallots either by holding them with metal tongs over an open flame or setting them directly on an electric burner.</li>
+
+<li>Alternatively, you can put them under a broiler.</li>
+
+<li>Remove once they take on some color and char, but before they become burned.</li>
+
+<li>Make sure the onion and shallots are at the very top of the stockpot during the simmering time so that you can remove them if they begin to disintegrate into the stock.</li>
+
+<li>In a small dry pan, toast the spices on low heat for a few minutes, or until they begin to release their aroma.</li>
+
+<li>Add the toasted spices into the fine mesh bag or cheesecloth and tie shut with string.</li>
+
+<li>Put the parboiled and/or roasted bones into a clean stockpot.</li>
+
+<li>Add the chuck for flavor, brisket, oxtail, or short ribs you plan to serve.</li>
+
+<li>Add the charred onion, ginger, shallots, and toasted spices.</li>
+
+<li>Fill the pot with water, or until all the ingredients are covered.</li>
+
+<li>Turn the heat on high, but keep a close eye on the pot to prevent the water from reaching a full boil.</li>
+
+<li>Just before the water reaches boiling (small bubbles will begin to rise), turn the heat to the lowest setting to maintain a very low simmer.</li>
+
+<li>If you’re not already using the smallest burner on your stovetop, then move the pot there now to keep the heat at a minimum.</li>
+
+<li>You want as little movement in the water as possible.</li>
+
+<li>Keep the broth at a very low simmer for 6 to 8 hours, skimming regularly for any scum and impurities that rise to the surface.</li>
+
+<li>If you are not using a mesh bag or cheesecloth to hold the onion and garlic, check to make sure that they don’t start to disintegrate and cloud the stock after several hours if so, go ahead and remove them.</li>
+
+<li>For the eye of round, which will be served rare, put the whole raw piece of meat in the freezer for about 30 minutes to let it harden a bit. This makes it easier to slice thinly.</li>
+
+<li>Then take the meat out and slice across the grain as thinly as possible.</li>
+
+<li>Refrigerate the sliced meat until the pho is ready to serve.</li>
+
+<li>If cooking flank, brisket, or oxtail, check the softness of these meats after 2 to 3 hours of simmering in the stock (depending on how large the pieces of oxtail, that cut may take longer).</li>
+
+<li>When tender, take these meats out (but make sure to leave the chuck in) and let them rest for at least 15 minutes.</li>
+
+<li>Slice the flank and brisket across the grain. Leave small pieces of oxtail as is or, if large, they can also be roughly shredded with a fork.</li>
+
+<li>Let the meat cool, then refrigerate until ready to serve.</li>
+
+<li>After the stock has simmered 6-8 hours, remove all of the stock ingredients (bones, meat, aromatics, and spices).</li>
+
+<li>Strain the broth with a cheesecloth to filter out everything.</li>
+
+<li>Season the broth with the rock sugar and fish sauce, starting in small increments and tasting as you go.</li>
+
+<li>The broth should end up on the saltier side and will balance out when served with the noodles and other ingredients.</li>
+
+<li>I usually end up with about 4 quarts of broth after simmering and find that the listed amount of salt and fish sauce is about what’s needed for my tastes.</li>
+
+<li>But every pot of broth turns out differently depending on many factors, and you may end up with more or less liquid after simmering, so season incrementally and according to your tastes.</li>
+
+<li>You can also add more sugar if you like your pho on the sweeter side.</li>
+
+<li>After seasoning, the broth can be either served right away or allowed to cool at room temperature.</li>
+
+<li>If serving right away, the fat can be skimmed off with a spoon (though a little bit of fat lends flavor!).</li>
+
+<li>Always cook the noodles in a separate pot of water, never in the stock itself.</li>
+
+<li>If cooking the noodles beforehand (that is, before your broth is ready), always undercook them slightly since they will need to be reheated before serving.</li>
+
+<li>If using dried noodles, first soak them in hot water for 30 minutes.</li>
+
+<li>Then, add the soaked noodles to a pot of boiling water and cook for about 20 seconds.</li>
+
+<li>Drain and rinse under cold water.</li>
+
+<li>If using fresh noodles, loosen them first under cold water before adding them into a pot of boiling water.</li>
+
+<li>Cook for about 20 seconds or until just al dente.</li>
+
+<li>Drain and rinse under cold water.</li>
+
+<li>To reheat just before serving, place individual portions of noodles in a sieve and submerge the sieve into boiling water for a few seconds, just until the noodles come loose.</li>
+
+<li>Serve with all the fixings for people to build their own bowls.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbcb40fa" class="outline-2">
+<h2 id="orgbcb40fa">Pogacsa Recipe</h2>
+<div class="outline-text-2" id="text-orgbcb40fa">
+</div>
+<div id="outline-container-orgc368694" class="outline-3">
+<h3 id="orgc368694">Link:</h3>
+<div class="outline-text-3" id="text-orgc368694">
+<ul class="org-ul">
+<li><a href="https://www.food.com/recipe/pogacsa-hungarian-cheese-biscuits-510722">https://www.food.com/recipe/pogacsa-hungarian-cheese-biscuits-510722</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeef9afb" class="outline-3">
+<h3 id="orgeef9afb">Ingredients:</h3>
+<div class="outline-text-3" id="text-orgeef9afb">
+<ul class="org-ul">
+<li>1/2 cup whole milk, heated to 110 degrees F to 115 degrees F</li>
+<li>2 teaspoons active dry yeast</li>
+<li>1/2 teaspoon sugar</li>
+<li>4 cups all-purpose flour</li>
+<li>5 ounces gruyere cheese, finely shredded</li>
+<li>1 tablespoon salt</li>
+<li>2 eggs</li>
+<li>14 tablespoons unsalted butter, softened (1 3/4 American sticks)</li>
+<li>1/2 cup sour cream</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1a573f9" class="outline-3">
+<h3 id="org1a573f9">Topping Ingredients:</h3>
+<div class="outline-text-3" id="text-org1a573f9">
+<ul class="org-ul">
+<li>1 egg yolk</li>
+<li>2 ounces gruyere cheese, finely shredded</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdd3f7b5" class="outline-3">
+<h3 id="orgdd3f7b5">Directions:</h3>
+<div class="outline-text-3" id="text-orgdd3f7b5">
+<ol class="org-ol">
+<li>In a large bowl, combine milk, yeast and sugar and let stand until yeast is softened, about 10 minutes.</li>
+
+<li>Add flour, cheese, salt, eggs, butter, and sour cream to the yeast mixture.</li>
+
+<li>Using an electric mixer, mix on low speed until dough comes together.</li>
+
+<li>Beat on medium speed 1 to 2 minutes. The dough should be smooth and not sticky.</li>
+
+<li>Roll dough 1/2 inch thick on a lightly floured surface.</li>
+
+<li>Make a shallow cross-hatched pattern with the point of a sharp knife over the top of the dough and brush with egg yolk.</li>
+
+<li>Sprinkle cheese on top, and cut out rounds with a 1 to 1 1/2 inch cutter.</li>
+
+<li>Arrange circles in rows on a parchment-lined baking sheet, about 1/4 inch apart.</li>
+
+<li>Put pan in a cold oven and set temperature to 400 degrees F.</li>
+
+<li>Bake about 25 minutes, until pogacsa are nicely browned on their tops and bottoms.</li>
+
+<li>Let cool completely and store airtight.</li>
+
+<li>Pogacsa may also be frozen up to 1 month.</li>
+
+<li>Thaw and reheat at 225 degrees F for 20 minutes.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org6da24f4" class="outline-2">
+<h2 id="org6da24f4">Porkolt Recipe</h2>
+<div class="outline-text-2" id="text-org6da24f4">
+</div>
+<div id="outline-container-orgaadee89" class="outline-3">
+<h3 id="orgaadee89">Link:</h3>
+<div class="outline-text-3" id="text-orgaadee89">
+<ul class="org-ul">
+<li><a href="https://www.allrecipes.com/recipe/190100/porkolt-hungarian-stew-made-with-pork/">https://www.allrecipes.com/recipe/190100/porkolt-hungarian-stew-made-with-pork/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5627817" class="outline-3">
+<h3 id="org5627817">Ingredients:</h3>
+<div class="outline-text-3" id="text-org5627817">
+<ul class="org-ul">
+<li>5 slices bacon, diced</li>
+<li>2 large onions, diced</li>
+<li>1/4 cup Hungarian paprika</li>
+<li>1 1/2 teaspoons garlic powder</li>
+<li>1/4 teaspoon ground black pepper</li>
+<li>5 pounds boneless pork chops, trimmed</li>
+<li>1 large yellow bell pepper, seeded and diced</li>
+<li>2 (14 ounce) cans diced tomatoes, with liquid</li>
+<li>2/3 cup beef broth</li>
+<li>2 cups reduced-fat sour cream</li>
+<li>2 (6 ounce) packages wide egg noodles</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org67db95b" class="outline-3">
+<h3 id="org67db95b">Directions:</h3>
+<div class="outline-text-3" id="text-org67db95b">
+<ol class="org-ol">
+<li>Place the bacon in a large, deep skillet, and cook over medium-high heat until evenly browned, about 10 minutes.</li>
+
+<li>Drain, and reserve the drippings.</li>
+
+<li>Add the onions to the bacon and cook together until the onion is translucent.</li>
+
+<li>Remove skillet from heat and stir the paprika, garlic powder, and pepper into the bacon mixture.</li>
+
+<li>Transfer the mixture into a large stockpot.</li>
+
+<li>Heat a small amount of the reserved bacon drippings in the skillet again over medium-high heat.</li>
+
+<li>Cook the pork chops in batches in the hot drippings until evenly browned on both sides.</li>
+
+<li>Use additional bacon drippings for each batch as needed.</li>
+
+<li>Remove the pork chops to a cutting board and blot excess fat off the surface of the chops with a paper towel.</li>
+
+<li>Cut into bite-sized cubes and stir into the bacon mixture.</li>
+
+<li>Heat a small amount of the bacon drippings in the skillet.</li>
+
+<li>Cook and stir the bell pepper in the hot drippings until softened and fragrant.</li>
+
+<li>Drain on a plate lined with paper towels.</li>
+
+<li>Stir the cooked pepper into the bacon mixture.</li>
+
+<li>Pour the tomatoes with liquid and beef broth into a stockpot and place the pot over medium-high heat.</li>
+
+<li>Bring to a simmer and reduce heat to medium-low.</li>
+
+<li>Cook until the stew begins to thicken, stirring occasionally, about 90 minutes.</li>
+
+<li>Stir the sour cream into the stew just before serving.</li>
+
+<li>Bring a pot with lightly-salted water and bring to a rolling boil.</li>
+
+<li>Add the egg noodles to the water and return to a boil.</li>
+
+<li>Cook uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, about 5 minutes.</li>
+
+<li>Drain well in a colander set in the sink.</li>
+
+<li>Ladle the stew over the drained noodles to serve.</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd3bb337" class="outline-2">
+<h2 id="orgd3bb337">Rakott Krumpli (Hungarian Layered Potatoes) Recipe</h2>
+<div class="outline-text-2" id="text-orgd3bb337">
+</div>
+<div id="outline-container-org5d834fb" class="outline-3">
+<h3 id="org5d834fb">Link:</h3>
+<div class="outline-text-3" id="text-org5d834fb">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=S_vlBM95g1A&amp;t=175s">https://www.youtube.com/watch?v=S_vlBM95g1A&amp;t=175s</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org14891bf" class="outline-3">
+<h3 id="org14891bf">Ingredients (Serves 6):</h3>
+<div class="outline-text-3" id="text-org14891bf">
+<ul class="org-ul">
+<li>4 lbs (about 2kg) potatoes (use waxy or all-purpose type, which retain their shape)</li>
+<li>8 eggs</li>
+<li>3 oz (80-100g gr) smoked bacon</li>
+<li>1 lb (450gr) Smoked Hungarian Sausage (or Chorizo)</li>
+<li>1.1 lbs (500 gr) full fat sour cream</li>
+<li>1 tsp Paprika</li>
+<li>1 tbsp Vegeta (all purpose seasoning) – optional</li>
+<li>Salt</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org97a3bb8" class="outline-3">
+<h3 id="org97a3bb8">Directions:</h3>
+<div class="outline-text-3" id="text-org97a3bb8">
+<ol class="org-ol">
+<li>In a large pot boil the potatoes with skin on until almost done.</li>
+
+<li>Be careful, do not overcook! It's better if slightly under-cooked (as they will cook in the oven too).</li>
+
+<li>Make 8 hard boiled eggs.</li>
+
+<li>Cut the smoked bacon into small cubes, then cook them until golden (half-done).</li>
+
+<li>Cut the sausage (not too thin) slices.</li>
+
+<li>When the potatoes are ready, drain them and let them cool a little.</li>
+
+<li>Peel and slice the eggs.</li>
+
+<li>Peel the boiled potatoes while they're still warm (almost hot, if you can handle them).</li>
+
+<li>Not too thinly slice all the potatoes, or, you can slice them directly into the tray when layering the dish.</li>
+
+<li>Mix the sour cream with 1 tbsp of Vegeta (all-purpose seasoning). It's optional, you can use the sour cream without it. (I like it, because it gives a nice, salty flavor).</li>
+
+<li>Preheat the oven to 350F (180 C).</li>
+
+<li>Grease the baking tray with the fat from the bacon.</li>
+
+<li>Place one layer of the sliced potatoes, then sprinkle with salt. The second layer is the sliced sausage, then one layer of sliced eggs.</li>
+
+<li>Cover it with the (seasoned) sour cream.</li>
+
+<li>Repeat this one more time: potatoes, (salt), sausages, eggs, sour cream.</li>
+
+<li>Finish it with a layer of potatoes, covered with sour cream.</li>
+
+<li>Sprinkle the bacon pieces on top (you can add some bacon pieces between the layers too!), and also sprinkle some paprika on top.</li>
+
+<li>Bake in the preheated oven for 40-45 minutes (until the top is nicely browned, the sausages released their fat, and the sour cream is set).</li>
+
+<li>Let it stay and cool about 10-15 minutes, then serve.</li>
+
+<li>You can add some extra sour cream on top, and serve some pickles on side.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org5aff4d6" class="outline-2">
+<h2 id="org5aff4d6">Sausage Gravy Breakfast Pizza</h2>
+<div class="outline-text-2" id="text-org5aff4d6">
+</div>
+<div id="outline-container-orged253f4" class="outline-3">
+<h3 id="orged253f4">Link:</h3>
+<div class="outline-text-3" id="text-orged253f4">
+<ul class="org-ul">
+<li><a href="https://flavorite.net/sausage-gravy-breakfast-pizza/">https://flavorite.net/sausage-gravy-breakfast-pizza/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org522d3a3" class="outline-3">
+<h3 id="org522d3a3">Ingredients:</h3>
+</div>
+<div id="outline-container-orgcb32eb4" class="outline-3">
+<h3 id="orgcb32eb4">Directions:</h3>
+</div>
+</div>
+<div id="outline-container-org85606d5" class="outline-2">
+<h2 id="org85606d5">Smoked Salmons And Chive Soda Bread</h2>
+<div class="outline-text-2" id="text-org85606d5">
+</div>
+<div id="outline-container-org9379082" class="outline-3">
+<h3 id="org9379082">Link:</h3>
+<div class="outline-text-3" id="text-org9379082">
+<ul class="org-ul">
+<li><a href="https://thegreatbritishbakeoff.co.uk/recipes/all/hermine-smoked-salmon-and-chive-soda-bread/">https://thegreatbritishbakeoff.co.uk/recipes/all/hermine-smoked-salmon-and-chive-soda-bread/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org836c9e2" class="outline-3">
+<h3 id="org836c9e2">Ingredients:</h3>
+<div class="outline-text-3" id="text-org836c9e2">
+</div>
+<div id="outline-container-org83539cf" class="outline-4">
+<h4 id="org83539cf">For the bread:</h4>
+<div class="outline-text-4" id="text-org83539cf">
+<ul class="org-ul">
+<li>200g plain flour</li>
+<li>2 tbsp plain wholemeal flour</li>
+<li>2 tbsp spelt flour</li>
+<li>1/2 tsp baking powder</li>
+<li>1 tsp bicarbonate of soda</li>
+<li>1/2 tsp cream of tartar</li>
+<li>2 tbsp porridge oats</li>
+<li>3 tsp onion powder</li>
+<li>30g salted butter, chilled</li>
+<li>120g smoked salmon, very finely chopped</li>
+<li>50g gruyère cheese, grated</li>
+<li>15g chives, finely snipped</li>
+<li>Good pinch of freshly ground black pepper</li>
+<li>1 large egg</li>
+<li>160ml buttermilk</li>
+<li>1 tbsp runny honey</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb554659" class="outline-4">
+<h4 id="orgb554659">For the dill and black garlic butter:</h4>
+<div class="outline-text-4" id="text-orgb554659">
+<ul class="org-ul">
+<li>300ml double cream</li>
+<li>1 whole bulb of black garlic, flesh squeezed out</li>
+<li>30g dill fronds, finely chopped</li>
+<li>pinch of sea salt</li>
+<li>1 lemon wedge and dill sprig, to decorate</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org9dcdee5" class="outline-3">
+<h3 id="org9dcdee5">Directions:</h3>
+<div class="outline-text-3" id="text-org9dcdee5">
+<ol class="org-ol">
+<li>Heat the oven to 220°C/200°C fan/Gas 7.</li>
+
+<li>Sift the flours, baking powder, bicarbonate and cream of tartar together into a mixing bowl.</li>
+
+<li>Stir in the porridge oats and onion powder.</li>
+
+<li>Add the butter, rubbing it into the flour until it’s finely distributed.</li>
+
+<li>Stir in the salmon, cheese, chives and pepper and toss everything together.</li>
+
+<li>Crack the egg into a measuring jug and add enough buttermilk to give 210ml.</li>
+
+<li>Add the honey and beat the mixture together with a fork.</li>
+
+<li>Stir the wet ingredients into the dry using a round-bladed knife until they come together, then gather the mixture into a ball.</li>
+
+<li>Turn out the dough onto a floured work surface, flatten the ball slightly, then place it on a baking sheet.</li>
+
+<li>Using a sharp knife, cut a deep cross in the top.</li>
+
+<li>Bake for 35–40 minutes, or until golden brown and a skewer inserted into the centre comes out clean.</li>
+
+<li>While the bread is baking, make the butter.</li>
+
+<li>Place the cream in the bowl of a stand mixer fitted with the whisk attachment.</li>
+
+<li>Whisk on a medium speed until the cream curdles, the butter solidifies on the whisk, and the buttermilk separates from the fat.</li>
+
+<li>Place the butter inside the muslin-lined sieve over a bowl.</li>
+
+<li>Gather up the muslin and squeeze gently to remove the excess buttermilk, then place the butter in a separate bowl.</li>
+
+<li>Add the squeezed garlic into the bowl with the butter, along with the chopped dill and pinch of sea salt.</li>
+
+<li>Use a hand-held stick blender to blitz until smooth, then spoon into a serving bowl.</li>
+
+<li>Garnish with lemon and dill and serve alongside the bread.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgedd348f" class="outline-2">
+<h2 id="orgedd348f">Stuffed Peppers Recipe</h2>
+<div class="outline-text-2" id="text-orgedd348f">
+</div>
+<div id="outline-container-orgd698816" class="outline-3">
+<h3 id="orgd698816">Link:</h3>
+<div class="outline-text-3" id="text-orgd698816">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=_yRH88ooGtg">https://www.youtube.com/watch?v=_yRH88ooGtg</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb73a75f" class="outline-3">
+<h3 id="orgb73a75f">Ingredients:</h3>
+<div class="outline-text-3" id="text-orgb73a75f">
+<ul class="org-ul">
+<li>7-8 yellow wax pepper</li>
+<li>1 lb ground pork</li>
+<li>About 1 cup rice</li>
+<li>1 onion / finely chopped</li>
+<li>1 egg</li>
+<li>2 garlic cloves / crushed</li>
+<li>1 jar (750ml &#x2013;&gt; 25 oz) thick tomato juice (use Passata if you can find it)</li>
+<li>3 to 4 tsp tomato paste</li>
+<li>2 tbsp sugar</li>
+<li>3 tbsp flour</li>
+<li>6 tbsp oil</li>
+<li>4 potatoes (cut into wedges)</li>
+<li>1 bunch celery leaves (optional)</li>
+<li>Salt, pepper, paprika</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org70c365b" class="outline-3">
+<h3 id="org70c365b">Directions:</h3>
+<div class="outline-text-3" id="text-org70c365b">
+<ol class="org-ol">
+<li>Heat 2 tbsp oil in a saucepan, add the chopped onion and cook gently until it's soft.</li>
+
+<li>Remove from the heat.</li>
+
+<li>Cut the stem of the peppers off and deseed them.</li>
+
+<li>Place the ground pork in a large bowl, then season with 2 tsp salt, 1 tsp black pepper and 1 heaped tsp paprika.</li>
+
+<li>Add the crushed garlic, 1 egg, the pre-washed rice and the softened onion.</li>
+
+<li>Using your hands mix everything together, until it's well combined.</li>
+
+<li>Fill the peppers with the meat mixture (do not over-stuff them as the rice will expand).</li>
+
+<li>If you have meat-mixture left, make some meatballs from it.</li>
+
+<li>Heat 4 tbsp oil in a large saucepan, add the flour and cook stirring until it's golden brown.</li>
+
+<li>Gently pour the thick tomato juice into the pan, add a little water and mix well.</li>
+
+<li>Add 3-4 heaped tsp tomato paste, and season with salt, sugar and black pepper (and also add the celery leaves if you haves some – it's optional).</li>
+
+<li>Mix together /it should look like a nice creamy soup.</li>
+
+<li>Add the stuffed pepper and meatballs, cover, and cook on low heat at least 1 hour.</li>
+
+<li>Check it sometimes, gently stir and turn the peppers over.</li>
+
+<li>After 1 hour of cooking the peppers should be soft and the meat cooked through.</li>
+
+<li>Meanwhile cook the potato wedges in boiling salted water.</li>
+
+<li>When the potato wedges are cooked, drain them in a colander.</li>
+
+<li>Now, serve the stuffed peppers and meatballs with the tomato sauce and the boiled potatoes on side.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org624a015" class="outline-2">
+<h2 id="org624a015">Toltott Kaposzta (Hungarian Stuffed Cabbage)</h2>
+<div class="outline-text-2" id="text-org624a015">
+</div>
+<div id="outline-container-org30f633a" class="outline-3">
+<h3 id="org30f633a">Link:</h3>
+<div class="outline-text-3" id="text-org30f633a">
+<ul class="org-ul">
+<li><a href="https://www.tasteofhome.com/recipes/hungarian-stuffed-cabbage/">https://www.tasteofhome.com/recipes/hungarian-stuffed-cabbage/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org960c82c" class="outline-3">
+<h3 id="org960c82c">Ingredients:</h3>
+<div class="outline-text-3" id="text-org960c82c">
+<ul class="org-ul">
+<li>1 medium head cabbage</li>
+<li>1 can (28 ounces) sauerkraut, divided</li>
+<li>1/2 pound ground beef</li>
+<li>1/2 pound ground pork</li>
+<li>1/2 cup long grain rice, cooked</li>
+<li>1 teaspoon salt</li>
+<li>1/2 teaspoon pepper</li>
+<li>1 large egg</li>
+<li>2 bacon strips, diced</li>
+<li>1 cup chopped onion</li>
+<li>2 garlic cloves, minced</li>
+<li>1 tablespoon Hungarian paprika</li>
+<li>1/4 teaspoon cayenne pepper</li>
+<li>1 can (14-1/2 ounces) diced tomatoes, undrained</li>
+<li>1 tablespoon caraway seeds</li>
+<li>2 cups water</li>
+<li>2 tablespoons all-purpose flour</li>
+<li>1 cup sour cream</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5c78dce" class="outline-3">
+<h3 id="org5c78dce">Directions:</h3>
+<div class="outline-text-3" id="text-org5c78dce">
+<ol class="org-ol">
+<li>Remove core from head of cabbage.</li>
+
+<li>Place in a large saucepan and cover with water.</li>
+
+<li>Bring to a boil</li>
+
+<li>Boil until outer leaves loosen from head.</li>
+
+<li>Lift out cabbage and remove softened leaves.</li>
+
+<li>Return to boiling water to soften more leaves.</li>
+
+<li>Repeat until all leaves are removed.</li>
+
+<li>Remove tough center stalk from each leaf.</li>
+
+<li>Set aside 12 large leaves for rolls</li>
+
+<li>Set remaining leaves aside.</li>
+
+<li>Spoon half of the sauerkraut into a Dutch oven and set aside.</li>
+
+<li>In a bowl, combine the beef, pork, rice, salt, pepper and egg.</li>
+
+<li>In a saucepan, cook bacon until crisp.</li>
+
+<li>Drain on paper towels.</li>
+
+<li>In drippings, saute onion and garlic until tender.</li>
+
+<li>Add bacon and half of onion mixture to meat mixture and mix well.</li>
+
+<li>Preheat oven to 325°.</li>
+
+<li>Place about 3 tablespoons filling on each cabbage leaf.</li>
+
+<li>Roll up, tucking in sides.</li>
+
+<li>Place rolls, seam side down, on sauerkraut in Dutch oven.</li>
+
+<li>Coarsely chop reserved cabbage leaves and place over rolls.</li>
+
+<li>Add paprika, cayenne, tomatoes, caraway seeds, water and remaining sauerkraut to remaining onion mixture.</li>
+
+<li>Cook until heated through, and pour over rolls.</li>
+
+<li>Cover and bake for 1 hour 45 minutes.</li>
+
+<li>In a small bowl, gradually stir flour into sour cream.</li>
+
+<li>Stir in 1 to 2 tablespoons hot cooking liquid and mix well, and spoon over cabbage rolls.</li>
+
+<li>Bake, uncovered, until sauce is thickened, 15-20 minutes.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org052eaea" class="outline-2">
+<h2 id="org052eaea">Taco Cake Recipe</h2>
+<div class="outline-text-2" id="text-org052eaea">
+</div>
+<div id="outline-container-org7844d6a" class="outline-3">
+<h3 id="org7844d6a">Link:</h3>
+<div class="outline-text-3" id="text-org7844d6a">
+<ul class="org-ul">
+<li><a href="https://ingmar.app/blog/taco-cake/">https://ingmar.app/blog/taco-cake/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga914005" class="outline-2">
+<h2 id="orga914005">Tiger Bread Recipe</h2>
+<div class="outline-text-2" id="text-orga914005">
+</div>
+<div id="outline-container-orgfcc81ff" class="outline-3">
+<h3 id="orgfcc81ff">YouTube Video Link:</h3>
+<div class="outline-text-3" id="text-orgfcc81ff">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=zjMznWyYkpM">https://www.youtube.com/watch?v=zjMznWyYkpM</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd5df307" class="outline-3">
+<h3 id="orgd5df307">Ingredients:</h3>
+<div class="outline-text-3" id="text-orgd5df307">
+</div>
+<div id="outline-container-orgd9563da" class="outline-4">
+<h4 id="orgd9563da">For The Dough</h4>
+<div class="outline-text-4" id="text-orgd9563da">
+<ul class="org-ul">
+<li>500g Strong white bread flour</li>
+<li>1 Easy bake yeast sachet ((7g))</li>
+<li>1.5 tsp Unrefined golden caster sugar</li>
+<li>1.5 tsp Salt</li>
+<li>1 tbsp Butter (softened )</li>
+<li>300ml Warm water</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org03a6667" class="outline-4">
+<h4 id="org03a6667">For the topping</h4>
+<div class="outline-text-4" id="text-org03a6667">
+<ul class="org-ul">
+<li>3.5g Easy bake yeast</li>
+<li>0.5 tbsp Unrefined golden caster sugar</li>
+<li>0.5 tbsp Vegetable oil</li>
+<li>1 pinch Salt</li>
+<li>75g Ground rice</li>
+<li>6 tbsp Warm water</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb298640" class="outline-3">
+<h3 id="orgb298640">Directions:</h3>
+<div class="outline-text-3" id="text-orgb298640">
+<ol class="org-ol">
+<li>MIX: Mix the flour, yeast, sugar and salt in a big bowl.</li>
+
+<li>Using your fingertips rub in the butter until only fine ‘crumbs’ are left.</li>
+
+<li>Mix in the water with a cutlery knife.</li>
+
+<li>KNEAD: Tip onto a lightly flour dusted surface and knead for 10 minutes (or use the dough hook attachment on your mixer).</li>
+
+<li>RISE: Lightly grease the mixing bowl with some oil.</li>
+
+<li>Put the dough back in, cover the bowl with a clean tea towel and leave to rise until doubled in size.</li>
+
+<li>SHAPE: Knock back the dough by gently kneading just 5 times to get the air out.</li>
+
+<li>Shape into a smooth oval and sit on a floured baking sheet.</li>
+
+<li>PROVE: Cover the dough again with a clean tea towel and leave to prove until doubled in size again.</li>
+
+<li>Preheat your oven to 200°C (fan 180°C, gas mark 6).</li>
+
+<li>WHISK: Whisk all of the topping ingredients together until smooth.</li>
+
+<li>Leave this to rest for 10 minutes.</li>
+
+<li>BAKE: Spread the paste all over the top and sides of your loaf – use a palette knife or your hands.</li>
+
+<li>Bake for 35 minutes, until it’s golden brown and crackled and when you tap the base it sounds hollow.</li>
+
+<li>Cool on a wire rack.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfd9b2c3" class="outline-2">
+<h2 id="orgfd9b2c3">Turkey Meatloaf Recipe</h2>
+<div class="outline-text-2" id="text-orgfd9b2c3">
+</div>
+<div id="outline-container-orgd206a13" class="outline-3">
+<h3 id="orgd206a13">Link:</h3>
+<div class="outline-text-3" id="text-orgd206a13">
+<ul class="org-ul">
+<li><a href="https://www.allrecipes.com/recipe/231380/best-turkey-meatloaf/">https://www.allrecipes.com/recipe/231380/best-turkey-meatloaf/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org58b90c2" class="outline-3">
+<h3 id="org58b90c2">Ingredients:</h3>
+<div class="outline-text-3" id="text-org58b90c2">
+</div>
+<div id="outline-container-org9941138" class="outline-4">
+<h4 id="org9941138">Meatloaf Ingredients:</h4>
+<div class="outline-text-4" id="text-org9941138">
+<ul class="org-ul">
+<li>1  1/2 pounds ground turkey</li>
+<li>3/4 cup crushed buttery round crackers</li>
+<li>1/2 cup milk</li>
+<li>1 small onion, chopped</li>
+<li>1 egg</li>
+<li>1  1/2 teaspoons salt</li>
+<li>2 cloves garlic, minced</li>
+<li>1/4 teaspoon ground black pepper</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga23ae71" class="outline-4">
+<h4 id="orga23ae71">Topping Ingredients:</h4>
+<div class="outline-text-4" id="text-orga23ae71">
+<ul class="org-ul">
+<li>1/2 cup ketchup</li>
+<li>1/4 cup brown sugar</li>
+<li>1 tablespoon Worcestershire sauce</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb0e9b67" class="outline-3">
+<h3 id="orgb0e9b67">Directions:</h3>
+<div class="outline-text-3" id="text-orgb0e9b67">
+<ol class="org-ol">
+<li>Preheat oven to 350 degrees F (175 degrees C).</li>
+
+<li>Lightly grease a jelly roll pan.</li>
+
+<li>Mix ground turkey, buttery round cracker crumbs, milk, onion, egg, salt, garlic, and black pepper in a bowl</li>
+
+<li>Shape into a loaf and place on the prepared jelly roll pan.</li>
+
+<li>Mix ketchup, brown sugar, and Worcestershire sauce in a separate bowl and set aside.</li>
+
+<li>Bake meatloaf in preheated oven for 30 minutes</li>
+
+<li>Remove meatloaf from oven and drain liquids.</li>
+
+<li>Top meatloaf with ketchup topping.</li>
+
+<li>Return loaf to oven and continue baking until no longer pink in the center, about 30 minutes more.</li>
+
+<li>An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgacfc851" class="outline-2">
+<h2 id="orgacfc851">Zöldbab Krémmel Greenbeans With Cream Recipe</h2>
+<div class="outline-text-2" id="text-orgacfc851">
+</div>
+<div id="outline-container-org618c9d0" class="outline-3">
+<h3 id="org618c9d0">Link:</h3>
+<div class="outline-text-3" id="text-org618c9d0">
+<ul class="org-ul">
+<li><a href="https://www.matildaiscooking.com/recipes/date/2018-04">https://www.matildaiscooking.com/recipes/date/2018-04</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org00117dd" class="outline-3">
+<h3 id="org00117dd">Ingredients:</h3>
+<div class="outline-text-3" id="text-org00117dd">
+<ul class="org-ul">
+<li>1 kg Greenbeans</li>
+<li>1 Tablespoon of salt</li>
+<li>2 Tablespoons of Oil</li>
+<li>1 Tablespoon of butter</li>
+<li>2 Tablespoons of Flour</li>
+<li>250ml Fresh Cream</li>
+<li>1 Tablespoon of Vinegar</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org49a2c29" class="outline-3">
+<h3 id="org49a2c29">Directions:</h3>
+<div class="outline-text-3" id="text-org49a2c29">
+<ol class="org-ol">
+<li>Watch this video: <a href="https://www.youtube.com/watch?v=RrlZqF47W8c&amp;feature=emb_logo">https://www.youtube.com/watch?v=RrlZqF47W8c&amp;feature=emb_logo</a></li>
+
+<li>Watch Matilda for Directions: Total Cooking Time Approx 35-40 Minutes.</li>
+
+<li>Ensure the beans are cooked before mixing together.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Samuel Banya</p>
+<p class="date">Created: 2022-05-30 Mon 11:59</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

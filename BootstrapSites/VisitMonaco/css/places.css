@@ -1,0 +1,44 @@
+#PvBody{
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.PvHeaderRedText{
+  color: red;
+}
+
+.PvHeaderBlueText{
+  color: blue;
+}
+
+.PvHeaderOrangeText{
+  color: orange;
+}
+
+.PvNavBarLinks{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.PvLandscapePictures{
+	width: 400px;
+	height: 300px;
+}
+
+.PvPortraitPictures{
+	width: 250px;
+	height: 350px;
+}
+
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+ol{
+  display: inline-block;
+  text-align:left;
+}

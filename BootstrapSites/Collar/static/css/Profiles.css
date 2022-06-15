@@ -1,0 +1,78 @@
+* {
+	background-color: orange;
+}
+
+#PROBodyContainer {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#PROTopBannerContainer {
+	text-align: center;
+}
+
+#PROBannerLinksContainer a {
+	font-size: 18px;
+}
+
+#PROCelebrityProfilesTitle {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#PROCelebrityProfilesContainer {
+	display: block;
+	margin: auto;
+}
+
+.PROProfilePic img {
+	width: 250px;
+	height: 300px;
+	border-radius: 50%;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+
+.netWorthAndCrimeList{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.netWorthAndCrimeList li {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.netWorthHeader {
+	display: inline;
+}
+
+.netWorthAmount {
+	display: inline;
+}
+
+.whiteCollarCrimeHeader {
+	display: inline;
+}
+
+.whiteCollarCrime {
+}
+
+hr {
+	border: 0 none;
+	height: 1 px;
+	color: black;
+	background-color: black;
+}
+
+#PROFooter h1{
+	background-color: black;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	text-align: center;
+}

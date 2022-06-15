@@ -1,0 +1,142 @@
+/* Navbar on each page: */
+.navbar {
+    background-color: black;
+}
+
+#homeLink {
+    font-weight: bold;
+}
+
+#blogLink {
+    color: #fc9ba7;
+    font-weight: bold;
+}
+
+#programmingLink {
+    color: #ffe29d;
+    font-weight: bold;
+}
+
+#weatherLink {
+    color: #98a7e5;
+    font-weight: bold;
+}
+
+#artLink {
+    color: #a9f295;
+    font-weight: bold;
+}
+
+#musicLink {
+    color: #fc9ba7;    
+    font-weight: bold;
+}
+
+#radioLink {
+    color: #ffe29d;
+    font-weight: bold;    
+}
+
+/* Header Content */
+.centered-header {
+    text-align: center;
+}
+
+/* Body Content */
+.body-container {
+}
+
+.centered-section {
+    text-align: center;
+}
+
+.left-align-section {
+    margin-left: 25px;
+}
+
+/* Design for mobile site to make fonts larger: */
+/* Mobile: 360 */
+@media (min-width: 360px) and (max-width: 1000px) {
+    .header-container a {
+	font-size: 250%;
+    }
+    .body-container h1, h2, h3, li, p, button, th, td {
+	font-size: 300%;
+    }
+}
+
+/* Tablet: 768px */
+
+/* Laptop: 992px */
+
+/* Projects Page CSS Styling */
+#programming-projects-table {
+    font-family: "Georgia";
+    border-collapse: collapse;
+    margin-left: 25px;
+}
+
+#programming-projects-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+#programming-projects-table td, #programming-projects th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#programming-projects-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#programming-projects-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Art Page CSS */
+#digital-art-image-2020 {
+    width: 40%;
+    height: 40%:
+}
+
+#digital-art-image-2019 {
+    width: 40%;
+    height: 40%;
+}
+
+#gif-image {
+    width: 25%;
+    height: 25%;
+}
+
+/* Radio Page CSS */
+/* ISS Location Reciever */
+#location_details {
+    width: 735px;
+    max-width: 735px;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+#location_details div {
+    display: inline-block;
+    width: 20%;
+    background-color: green;
+    color: white;
+}
+
+#mapid {
+    /* For some reason, this line needs to be added to ALSO center this particular element despite the <section> tag present: */    
+    margin: 1rem auto;
+}
+
+/* Space Weather App */
+#space_weather_tabs {
+    width: 750px;
+    /* For some reason, this line needs to be added to ALSO center this particular element despite the <section> tag present: */
+    margin: 1rem auto;
+}

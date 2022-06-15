@@ -1,0 +1,42 @@
+body {
+    background-color: #2A0E62;
+    text-align: center;
+    /* color: #08070B; */
+    color: #ffffff;
+}
+
+/* Anchor tag styling taken from this video: */
+/* Styling HTML Anchor Tag (Link) To Look Like A Button | CSS Tutorial (https://www.youtube.com/watch?v=p5nogm7ul6A) */
+
+a {
+    height: 80px;
+    width: 250px;
+    background: linear-gradient(
+	#9365ff,
+	#6f3bff
+    );
+    place-items: center;
+    display: inline-block;
+    line-height: 70px;
+    margin-right: 10px;
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "Monaco";
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+li > a {
+    all: unset;
+}
+
+li > a {
+    color: blue;
+}

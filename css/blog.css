@@ -1,0 +1,22 @@
+body {
+    background-color: #B0A3C4;
+    color: #19033A;
+    margin: 0 auto;
+    max-width: 23cm;
+    border: 1pt solid white;
+    padding: 1em;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+pre {
+    background-color: white;
+    font-size: 12px;
+}
+
