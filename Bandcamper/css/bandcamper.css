@@ -1,0 +1,11 @@
+body {
+  background-color: #5372fc;
+  color: white;
+}
+
+#content {
+  text-align: center;
+  background-color: #020617;
+  color: #5372fc;
+  min-height: 100vh;
+}
