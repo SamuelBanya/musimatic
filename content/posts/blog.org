@@ -1,5 +1,25 @@
 #+TITLE: Musimatic Blog
 #+hugo_base_dir: ~/hub/musimatic
+* June 16, 2022
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-06-16
+:EXPORT_DATE: [2022-06-16]
+:END:
+
+I have ported over my entire site to now be a 'hugo' based blog site.
+
+Now I can easily post in single .org file and export to multiple Markdown files with ease, all with a nice theme to match.
+
+This process was a long time coming since the look of the site needed to be updated accordingly to look more professional, and I believe 'hugo' is just perfect for this kind of thing.
+
+The only thing to consider is where to re-host my existing projects, but to be honest, I can easily just port them over to GitHub Pages and run them there via a crontab job just the same, or just host them on this same box.
+
+If anything, at least the blog is up as intended, which took a lot of work to ensure that the permissions carried over.
+
+Tomorrow, I'll share a related post on my progress with the Flatiron School bootcamp I've been working on as well.
+
+~ Sam
+
 * May 12, 2022
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-05-12
