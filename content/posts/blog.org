@@ -1,12 +1,293 @@
 #+TITLE: Musimatic Blog
 #+hugo_base_dir: ~/hub/musimatic
+* June 18, 2022
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-06-18
+:EXPORT_DATE: [2022-06-18]
+:END:
+
+I am happy to have completed Phase 1 of the Flatiron School Software Development bootcamp program!
+
+It has been a learning experience in many ways for me, as I already knew a lot of JS development through various tech support jobs I have had over the past few years.
+
+However, there are a few topics that were introduced within this phase that were challenging even for someone as technical as myself.
+
+One such topic that I would like to go over within this blog post is the 'arrow' function. The idea behind 'arrow' functions is that they allow you to write less code by not having to declare 'function()' sections in your code.
+
+For example, you can write an addition function that takes in two numbers, and returns a sum that looks like the following:
+#+begin_src js
+  function add(value1, value2) {
+    return value1 + value2;
+  }
+#+end_src
+
+The cool thing is that you can shorten this a bit by using the '=>' arrow function expression:
+#+begin_src js
+const add(value1, value2) => value1 + value;
+#+end_src
+
+To the untrained eye, it reads a bit differently, and takes some time getting used to. However, if you compare this to a larger function that requires a more involved built-in method like Array.prototype.map(), you can convert something like this:
+#+begin_src js
+  const numbers = [1, 2, 3, 4, 5];
+
+  const squares = num.map(function(x) {
+    return x ** 2;
+  })
+#+end_src
+
+... And by using an arrow function, we can then convert the 'squares' function to a single one line function accordingly:
+#+begin_src js
+  const numbers = [1, 2, 3, 4, 5];
+
+  const squares = nums.map(x => x ** 2);
+#+end_src
+
+The power of using an arrow function becomes super useful when you start getting into making API calls with the 'fetch()' method.
+
+Using arrow functions becomes more useful when you start getting into using the 'fetch()' function to make API calls to an endpoint, especially when chaining '.then()' clauses after the initial call.
+
+Here's an example of a 'fetch()' API call 'localhost' server running on port 1313:
+#+begin_src js
+  fetch("http://localhost:1313")
+#+end_src
+
+Here's the same example, but this time, we are now processing the data into a resulting JSON object with the '.json()' method. Notice how we still have to use a bulky 'function() { }' section, and also have to include a 'return' statement:
+#+begin_src js
+  fetch("http://localhost:1313")
+    .then(function(response) {
+      return response.json();
+    })
+#+end_src
+
+Now, let's take this same example, and make it elegant with yet another arrow function. Notice how we can totally get rid of the 'return' statement, since the 'return' statement for an arrow function is implicity if the function only calls for one line of code:
+#+begin_src js
+  fetch("http://localhost:1313")
+    .then((response) => response.json();)
+#+end_src
+
+The cooler variation is that we can even drop the additional parentheses outside the initial 'response' since we are only dealing with a single variable. The end result is a cleaner, and easier to read function. See how nicer this looks?
+#+begin_src js
+  fetch("http://localhost:1313")
+    .then(response => response.json();)
+#+end_src
+
+With time I was able to slowly really appreciate how awesome arrow functions were as they made writing functions for various projects that much more simpler, and manageable.
+
+Though there are other topics I could go on about at a later time which were a bit tricky for myself, such as determining the 'Big O' for a given algorithm to determine its efficiency, and more advanced object orientated programming styles in JavaScript, I honestly can say that I feel a lot more confident than before in being able to reference MDN docs from Mozilla when it comes to most JavaScript methods. This skill itself is invaluable since there always will be a built-in function that you might not remember how to utilize completely, and the MDN docs page usually offers a pretty good example of how to actually use it in action.
+
+Overall, I am glad to have made it this far into the program given what I have had to balance in terms of job work load, as well as personal issues during the last few months. I am slowly making it, one day at a time, and becoming the web developer I truly want to be!
+
+By the way, here are some MDN resources for some of the JS topics mentioned above for reference:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+- https://www.freecodecamp.org/news/big-o-notation-simply-explained-with-illustrations-and-video-87d5a71c0174
+
+~ Sam
+
+* June 17, 2022
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2022-06-17
+:EXPORT_DATE: [2022-06-17]
+:END:
+
+I am happy to note that I have successfully completed the Phase 1 project for the Flatiron School Software Development bootcamp, which can be found here:
+- https://github.com/SamuelBanya/Meowser
+
+I don't have a live version of this project up yet, as I am assessing what specific platforms to possibly re-host all my pre-existing projects on, but will update this site accordingly with a list of projects when I am able to figure that portion out. I am currently debating using services like 'Netlify', 'Heroku', etc. to do so.
+
+You can watch my YouTube demonstration of my Phase 1 project here:
+- https://youtu.be/YvKMIDPTPpw
+
+Regarding the project itself, I learned a lot in terms of overall expectations of how to plan a web app in general.
+
+At first, I wanted it to be more of a web app derivative like 'Rover.com', but with access to an authenticated API such as the 'PetFinder' API.
+
+I then attempted to try to figure out how to possible utilize an actual authenticated API. The workarounds were a bit too difficult for a project only completed in a week, as they would heavily involve utilizing NodeJS with 'Express' as a workaround with the 'DotEnv' package:
+- https://www.digitalocean.com/community/tutorials/use-expressjs-to-deliver-html-files
+- https://stackabuse.com/handling-cors-with-node-js/
+- https://www.npmjs.com/package/dotenv
+
+However, after dealing with many issues of running an API call within a Chrome browser such as 'CORS' (https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), I opted to use the easier API endpoint, 'cat-fact':
+- https://cat-fact.herokuapp.com/facts
+
+I then shifted my project's focus to be centered around Wikipedia, and then obtained information regarding the cat breeds from this Wikipedia article:
+- https://en.wikipedia.org/wiki/List_of_cat_breeds
+
+I was able to scrape the related breed names for my project by using the following JS script that I placed within the Chrome Web Developer console:
+#+begin_src js
+let breedNamesList = document.querySelectorAll("th a");
+
+breedNamesList.forEach((breedName) => {
+    console.log("{");
+    console.log('"name": "', breedName.textContent, '"');
+    console.log('"link": "', breedName.href, '"');
+    console.log("},");
+})
+#+end_src
+
+I was then able to obtain all of the breed images by  utilizing the following JS script in the Chrome Web Developer console:
+#+begin_src js
+let breedImages = document.querySelectorAll("td a img");
+
+breedImages.forEach((breed) => {
+    console.log('"imageAlt": "', breed.alt, '"');
+    console.log('"imageSrc": "', breed.src, '"');
+});
+#+end_src
+
+I then utilized the following JS script to obtain a list of all of the cat related Wikipedia articles on that given page:
+#+begin_src js
+let breedWikiLinks = document.querySelectorAll("th a");
+
+breedWikiLinks.forEach((breedWikiLink) => {
+    console.log('"wikiArticleLink": "', breedWikiLink.href, '"');
+})
+#+end_src
+
+Afterwards, I then was able to pull in this cat information with this specific function which makes a fetch() call to 'db.json', and then dumps it onto the DOM so that the user can view the breeds within the related list:
+#+begin_src bash
+function displayWikiCatBreeds() {
+  fetch("http://localhost:3000/breeds")
+    .then(response => response.json())
+    .then(data => {
+      let breedSelectTag = document.querySelector("#breedSelect");
+      breedSelectTag.innerHTML = "";
+      data.forEach((catBreed) => {
+        let optionTag = document.createElement("option");
+        optionTag.value = catBreed["link"];
+        optionTag.textContent = catBreed["name"];
+        breedSelectTag.append(optionTag);
+      });
+    });
+}
+#+end_src
+
+I then started creating three separate event listeners for three separate buttons:
+- One button to be used to grab a cat breed image
+- A second button to be used to place the cat breed Wikipedia article onto the page
+- A third button to be used to grab a random cat fact to be placed onto the page
+
+The first cat breed image button utilizes a fetch() request to make a 'GET' request for 'db.json' itself:
+#+begin_src js
+catImageButton.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    // Clear out Wikipedia iframe if present on page:
+    let wikipediaIFrame = document.querySelector("#wikipediaIFrame");
+    clearElement(wikipediaIFrame);
+
+    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
+    let resultsHeader = document.querySelector("#resultsHeader");
+    let resultsParagraph = document.querySelector("#resultsParagraph");
+
+    clearElement(resultsHeader);
+    clearElement(resultsParagraph);
+
+    let breedSelectTag = document.querySelector("#breedSelect");
+    let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+
+    fetch("http://localhost:3000/breeds")
+      .then(response => response.json())
+      .then(data => {
+        let filteredObject = data.filter(element => {
+          return element.name == breedName;
+        });
+
+        let breedHeaderName = filteredObject[0]["name"];
+        let filteredImageLink = filteredObject[0]["imageSrc"];
+
+        let resultsHeader = document.querySelector("#resultsHeader");
+        resultsHeader.textContent = breedHeaderName;
+
+        let breakTag = document.createElement("br");
+
+        let breedImage = document.createElement("img");
+        breedImage.src = filteredImageLink;
+
+        resultsHeader.append(breakTag);
+
+        resultsHeader.append(breedImage);
+      });
+  });
+#+end_src
+
+The second Wikipedia article button simply makes another 'fetch()' call to 'db.json' to obtain the related Wikipedia article:
+#+begin_src js
+  let catWikiButton = document.querySelector("#catWikiButton");
+
+  catWikiButton.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    let breedSelectTag = document.querySelector("#breedSelect");
+    let breedLink = breedSelectTag.options[breedSelectTag.selectedIndex].value;
+    let breedName = breedSelectTag.options[breedSelectTag.selectedIndex].textContent;
+    breedLink = breedLink.toString().replace(/\s/g, '');
+
+    // Clear out 'resultsHeader' and 'resultsParagraph' if present on page:
+    let resultsHeader = document.querySelector("#resultsHeader");
+    let resultsParagraph = document.querySelector("#resultsParagraph");
+
+    clearElement(resultsHeader);
+    clearElement(resultsParagraph);
+
+    // Place wikipedia article contents into <iframe> within 'resultsParagraph' location
+    let wikipediaIFrame = document.createElement("iframe");
+    wikipediaIFrame.src = breedLink;
+    wikipediaIFrame.id = "wikipediaIFrame";
+    resultsParagraph.append(wikipediaIFrame);
+  });
+#+end_src
+
+The third random cat fact button was implemented by adding a 'click' event listener to a '#catFactButton' element. I then made a 'fetch()' call to the 'cat-fact' API. Afterwards, I converted the response into a JSON object, and then selected a random fact using the built-in 'Math.random()' library to pick a value from 0 to 4 so I can index into it properly. I then placed the result onto the DOM accordingly:
+#+begin_src js
+let catFactButton = document.querySelector("#catFactButton");
+
+  catFactButton.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    fetch("https://cat-fact.herokuapp.com/facts")
+      .then(response => response.json())
+      .then(data => {
+        // Pick a random fact using Math.random() with 4 numbers for 5 index values from 0 to 4:
+        let choiceMax = data.length - 1;
+
+        let choiceMin = 0;
+        // From MDN Docs:
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
+        let choiceNumber = Math.floor(Math.random() * (choiceMax - choiceMin) + choiceMin);
+
+        let randomChoice = data[choiceNumber];
+
+        // Clear out Wikipedia iframe if present on page:
+        let wikipediaIFrame = document.querySelector("#wikipediaIFrame");
+        clearElement(wikipediaIFrame);
+
+        let resultsHeader = document.querySelector("#resultsHeader");
+        resultsHeader.textContent = "Random Cat Fact: ";
+
+        let resultsParagraph = document.querySelector("#resultsParagraph");
+        resultsParagraph.textContent = randomChoice["text"];
+      });
+  });
+#+end_src
+
+And that about wraps up the Phase 1 project itself. It was simple and effective, but to be honest, it did not start out that way. I learned a lot about how to really set expectations going forward on projects, and to have quicker functional prototypes to avoid having to struggle too much on a specific aspect of a project.
+
+With this in mind, I am looking forward to more exciting web development challenges to tackle!
+
+~ Sam
+
 * June 16, 2022
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2022-06-16
 :EXPORT_DATE: [2022-06-16]
 :END:
 
-I have ported over my entire site to now be a 'hugo' based blog site.
+I have ported over my entire site to now be a 'hugo' based blog site, the repo of which can be found here:
+- https://github.com/samuelbanya/musimatic
 
 Now I can easily post in single .org file and export to multiple Markdown files with ease, all with a nice theme to match.
 
