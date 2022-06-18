@@ -1,9 +1,9 @@
 #+TITLE: Musimatic Blog
 #+hugo_base_dir: ~/hub/musimatic
-* June 18, 2022
+* Completion Of Phase 1 For Flatiron School Software Development Bootcamp
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2022-06-18
-:EXPORT_DATE: [2022-06-18]
+:EXPORT_FILE_NAME: Completion-Of-Phase-1-For-Flatiron-School-Software-Development-Bootcamp
+:EXPORT_DATE: [2022-06-17]
 :END:
 
 I am happy to have completed Phase 1 of the Flatiron School Software Development bootcamp program!
@@ -86,10 +86,10 @@ By the way, here are some MDN resources for some of the JS topics mentioned abov
 
 ~ Sam
 
-* June 17, 2022
+* Completion Of Phase 1 Project For Flatiron School Software Development Bootcamp
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2022-06-17
-:EXPORT_DATE: [2022-06-17]
+:EXPORT_FILE_NAME: Completion-Of-Phase-1-Project-For-Flatiron-School-Software-Development-Bootcamp
+:EXPORT_DATE: [2022-06-16]
 :END:
 
 I am happy to note that I have successfully completed the Phase 1 project for the Flatiron School Software Development bootcamp, which can be found here:
@@ -280,10 +280,10 @@ With this in mind, I am looking forward to more exciting web development challen
 
 ~ Sam
 
-* June 16, 2022
+* June 15, 2022
 :PROPERTIES:
-:EXPORT_FILE_NAME: 2022-06-16
-:EXPORT_DATE: [2022-06-16]
+:EXPORT_FILE_NAME: 2022-06-15
+:EXPORT_DATE: [2022-06-15]
 :END:
 
 I have ported over my entire site to now be a 'hugo' based blog site, the repo of which can be found here:

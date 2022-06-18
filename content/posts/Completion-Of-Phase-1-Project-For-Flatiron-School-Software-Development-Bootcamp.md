@@ -1,7 +1,7 @@
 +++
-title = "June 17, 2022"
+title = "Completion Of Phase 1 Project For Flatiron School Software Development Bootcamp"
 author = ["Samuel Banya"]
-date = 2022-06-17T00:00:00-04:00
+date = 2022-06-16T00:00:00-04:00
 draft = false
 +++
 
