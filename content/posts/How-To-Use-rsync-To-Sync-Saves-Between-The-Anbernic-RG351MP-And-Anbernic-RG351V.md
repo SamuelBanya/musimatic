@@ -140,25 +140,25 @@ Here's an example of how to use Bash aliases in this case to make your life easi
 I could create a 'mpup' Bash alias to run the first command on the 'RG351MP' to sync UP to the file server:
 
 ```bash
-alias mpup=rsync -av root@rg351mp:/storage/saves /media/REDHDD/EmulatorsFolder
+alias mpup="rsync -av root@rg351mp:/storage/saves /media/REDHDD/EmulatorsFolder"
 ```
 
 I could also create a "vup" Bash alias to run the first command on the 'RG351V' to sync UP to the file server:
 
 ```bash
-alias vup=rsync -av root@rg351v:/storage/saves /media/REDHDD/EmulatorsFolder
+alias vup="rsync -av root@rg351v:/storage/saves /media/REDHDD/EmulatorsFolder"
 ```
 
 I could then make the reverse 'vdown' Bash alias to bring the latest saves from the file server DOWN to the 'RG351V'
 
 ```bash
-alias vdown=rsync -av /media/REDHDD/EmulatorsFolder/saves root@rg351v:/storage
+alias vdown="rsync -av /media/REDHDD/EmulatorsFolder/saves root@rg351v:/storage"
 ```
 
 I could also then make the reverse 'mpdown' Bash alias to bring the latest saves from the file server DOWN to the 'RG351MP'
 
 ```bash
-alias mpdown=rsync -av /media/REDHDD/EmulatorsFolder/saves root@rg351mp:/storage
+alias mpdown="rsync -av /media/REDHDD/EmulatorsFolder/saves root@rg351mp:/storage"
 ```
 
 You would then just need to place these commands into your '~/.bashrc' config, and you would be good to go!
