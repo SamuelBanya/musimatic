@@ -16,16 +16,16 @@ The cool application that I am going to explore in this blog post is how to make
 
 NOTE:
 
--   This guide assumes you know how to create 'ssh' keys on different machines
--   Also, this guide assumes you are running these commands on a Linux laptop or desktop computer since its just easier with Linux to do this kind of admin tasks on Linux than other OS's
--   If you ALREADY have existing saves on your retro handheld, then I would say follow this blog post first to set everything up, and then place the SD card of the retro handheld in your Linux computer to then move over the remaining '.srm' saves to the '/saves' folder you setup accordingly.
+-   This guide assumes you know how to create 'ssh' keys on different machines.
+-   Also, this guide assumes you are running these commands on a Linux laptop or desktop computer since its just easier with Linux to do this kind of admin tasks on Linux than other OS's.
+-   If you ALREADY have existing saves on your retro handheld, then I would say follow this blog post first to set everything up, and then place the SD card of the retro handheld in your Linux computer to then move over the remaining '.srm' saves to the '/storage/saves' folder you setup accordingly.
 
 What you will need to have the following:
 
--   A central server that is capable of running 'rsync': This could include a 'Raspberry Pi', old Dell Optiplex or laptop, etc, basically anything that could run Linux on your local LAN network
--   An Anbernic RG351V, an Anbernic RG351MP, (or both like in my case)
--   Also, make sure that you're using the latest version of '351Elec' on the handheld devices ("Pineapple Forest" is what I'm using for this guide)
--   Ideally, a Linux laptop or desktop computer that you can ssh into all of these devices so you don't have to just use the central server to do all this
+-   A central server that is capable of running 'rsync': This could include a 'Raspberry Pi', old Dell Optiplex or laptop, etc, basically anything that could run Linux on your local LAN network.
+-   An Anbernic RG351V, an Anbernic RG351MP, (or both like in my case).
+-   Also, make sure that you're using the latest version of '351Elec' on the handheld devices ("Pineapple Forest" is what I'm using for this guide).
+-   Ideally, a Linux laptop or desktop computer that you can ssh into all of these devices so you don't have to just use the central server to do all this.
 
 With this in mind, let's get started.
 
