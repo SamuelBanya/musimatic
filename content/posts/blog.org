@@ -17,7 +17,7 @@ The cool application that I am going to explore in this blog post is how to make
 NOTE:
 - This guide assumes you know how to create 'ssh' keys on different machines
 - Also, this guide assumes you are running these commands on a Linux laptop or desktop computer since its just easier with Linux to do this kind of admin tasks on Linux than other OS's
-- If you ALREADY have existing saves on your retro handheld, then I would say follow this blog post first to set everything up, and then placed the SD card of the retro handheld in your Linux computer to then move over the remaining saves to the '/saves' folder you setup accordingly.
+- If you ALREADY have existing saves on your retro handheld, then I would say follow this blog post first to set everything up, and then place the SD card of the retro handheld in your Linux computer to then move over the remaining '.srm' saves to the '/saves' folder you setup accordingly.
 
 What you will need to have the following:
 - A central server that is capable of running 'rsync': This could include a 'Raspberry Pi', old Dell Optiplex or laptop, etc, basically anything that could run Linux on your local LAN network
@@ -36,7 +36,7 @@ I simply used this command to install 'rsync', but you might need to modify this
 sudo dnf install rsync
 #+end_src
 
-The next step is to pick a file path location where you want to dump your emulator saves to. In my case, I have a harddrive mounted to '/media/REDHDD', and used the '/media/REDHDD/EmulatorsFolder/saves' directory. Keep this in mind for the 'rsync' commands later in the blog post.
+The next step is to pick a file path location on your Linux server where you want to dump your emulator saves to. In my case, I have a harddrive automatically mounted to '/media/REDHDD' via a cronjob that starts when my Linux server boots up. As a result, I used the '/media/REDHDD/EmulatorsFolder/saves' directory. Keep this in mind for the 'rsync' commands later in the blog post.
 
 After that, you will then need to be able to 'ssh' into each of the handheld devices. Here is the default 'ssh' command with its associated password for the default 'ssh' user on the 'Anbernic RG351MP' and 'Anbernic RG351V' devices. If you have BOTH the 'Anbernic RG351V' and 'Anbernic RG351MP', please open up two separate terminal windows to do the following commands in tandem:
 
@@ -46,24 +46,26 @@ Anbernic RG351MP version of the 'ssh' command:
 #+begin_src bash
 ssh root@rg351mp
 
-# NOTE: Enter in the password as the following without the hashtag:
+# NOTE: Once it prompts you for a password, enter in the following password as the following without the hashtag:
 # 351elec
-# Then, press the 'Enter' key
+# Then, press the 'Enter' key on your keyboard
 #+end_src
 
 Anbernic RG351V version of the 'ssh' command:
 #+begin_src bash
 ssh root@rg351v
 
-# NOTE: Enter in the password as the following without the hashtag:
+# NOTE: Once it prompts you for a password, enter in the following password as the following without the hashtag:
 # 351elec
-# Then, press the 'Enter' key
+# Then, press the 'Enter' key on your keyboard
 #+end_src
 
-Now that we are connected into the retro handheld via 'ssh', you'll want to do the following command (NOTE: If you have BOTH Anbernic devices, repeat this command in each separate terminal window):
+Now that we are connected into the retro handheld via 'ssh', you'll want to do the following command to make a 'saves' directory on the SD card (NOTE: If you have BOTH Anbernic devices, repeat this command in each separate terminal window):
 #+begin_src bash
 mkdir saves
 #+end_src
+
+Great, we now created a dedicated 'saves' folder on the SD card. On a separate note, we will later refer to this file path as '/storage/saves' since 351Elec mounts an SD card in the '/storage' mountpoint by default, and also due to the fact that we created this directory in the 'root' of the SD card. Hence, '/storage' (root of the SD card) + 'saves' (directory we just created) --> '/storage/saves'.
 
 Now, let's change our focus to 'Retroarch' on the retro handheld devices themselves by doing the following steps:
 - Turn on the given retro handheld, let '351Elec' boot successfully, and then navigate to 'Tools > Start 64bit RetroArch'.
@@ -75,24 +77,26 @@ Now, let's change our focus to 'Retroarch' on the retro handheld devices themsel
 
 Now for the testing portion of this blog post:
 
-Pick either of your retro handhelds and pick a game where you know that the game will save internally. In my case, I used 'Super Mario World', and deliberately beat a previous 'Ghost House' level in a different section of the map to force the game to prompt me to 'Save and Continue'.
+Pick a retro game where you know the game itself would have saved onto the cartridge in real life. Ex: A save point in some Final Fantasy RPG, or Chrono Trigger, is a perfect example of this since when you save the game, it would have saved to the actual cartridge's memory in real life. In the case of emulators like this, when you save your progress while playing a ROM in an emulator like this, RetroArch will create a corresponding '.srm' save file in the folder we chose above, aka '/storage/saves'. On a related note, the '.srm' file will have the same name of the corresponding ROM itself, just with the '.srm' file extension, so they are super easy to spot in a file manager application.
+
+In my case, I used 'Super Mario World', and deliberately beat a previous 'Ghost House' level in a different section of the map to force the game to prompt me to 'Save and Continue'.
 
 Now that we know we have saved our game accordingly, we want to sync our latest battery save to our central file server accordingly.
 
-Here are the related 'rsync' commands you'll need to sync up your save to your file server, so note, PLEASE pay attention to what you're doing.
+Here are the related 'rsync' commands you'll need to sync up your save to your file server, so note, PLEASE pay attention to what you're doing since I don't want you to lose progress on your games.
 
 Here are the 'rsync' commands to sync your game save up to the central file server:
 
-NOTE:
-- Please adjust the second portion of the command, '/media/REDHDD/EmulatorsFolder' accordingly to whatever file path you want to place them onto your file server, since this is just what I personally do for my saves:
-
-ANOTHER NOTE:
+GENERAL RSYNC NOTE:
 - This is what tripped me up when I first figured out the 'rsync' command in this scenario, but if you think about it, this is more of an 'rsync' file path type idea:
 - The rsync command's second argument file path directory is always one directory up from what you think it should be:
 - Ex using the first set of commands below to sync file from the retro handheld UP to the file server:
-- Instead of using '/media/REDHDD/EmulatorsFolder/saves' as the second argument, I had to instead use '/media/REDHDD/EmulatorsFolder' instead
+- Instead of using '/media/REDHDD/EmulatorsFolder/saves' as the second argument, I had to instead use '/media/REDHDD/EmulatorsFolder' instead.
 - Ex using the second set of commands below from the file server DOWN to the retro handheld:
-- Instead of using 'root@rg351mp:/storage/saves' as the second argument, I had to instead use 'root@rg351mp:/storage' as the second argument
+- Instead of using 'root@rg351mp:/storage/saves' as the second argument, I had to instead use 'root@rg351mp:/storage' as the second argument.
+
+NOTE:
+- Please adjust the second portion of the command, '/media/REDHDD/EmulatorsFolder' accordingly to whatever file path you want to place them onto your file server, since this is just what I personally do for my saves:
 
 From The RG351MP To File Server:
 #+begin_src bash
@@ -106,7 +110,7 @@ rsync -av root@rg351v:/storage/saves /media/REDHDD/EmulatorsFolder
 
 Then, to sync them from the file server to the other handheld, you can then use these commands accordingly:
 
-NOTE: Please adjust the second portion of the command, '/media/REDHDD/EmulatorsFolder' accordingly to whatever file path you want to place them onto your file server, since this is just what I personally do for my saves:
+NOTE: Please adjust the first portion of the command, '/media/REDHDD/EmulatorsFolder' accordingly to whatever file path you want to place them onto your file server, since this is just what I personally do for my saves:
 
 From File Server To RG351MP:
 #+begin_src bash
