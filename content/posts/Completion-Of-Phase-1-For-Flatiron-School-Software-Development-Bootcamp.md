@@ -64,7 +64,7 @@ fetch("http://localhost:1313")
   })
 ```
 
-Now, let's take this same example, and make it elegant with yet another arrow function. Notice how we can totally get rid of the 'return' statement, since the 'return' statement for an arrow function is implicity if the function only calls for one line of code:
+Now, let's take this same example, and make it elegant with yet another arrow function. Notice how we can totally get rid of the 'return' statement, since the 'return' statement for an arrow function is implicit if the function only calls for one line of code:
 
 ```js
 fetch("http://localhost:1313")
