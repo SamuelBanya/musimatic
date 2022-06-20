@@ -591,6 +591,8 @@ https://frandallfarmer.github.io/neohabitat-doc/docs// - 'Neohabitat', a site th
 - https://www.littlesounddj.com/lsd/index.php - 'LSDJ', a chiptune program that can be used to create chiptune music on an actual Gameboy, Gameboy emulator, or even retro handheld gaming device
 - https://openborgames.com/ - 'Openborgames.com', a site that hosts 'openbor' games which are basically open source beat-em-ups akin to 'Streets of Rage' but with different sprites, levels, etc.
 - https://github.com/DCurrent/openbor - 'openbor', a royalty free sprite-based side scrolling gaming engine which allows users to create beat-em-up games
+- https://retropie.org.uk/ - 'Retropie', an emulator based operating system that you can install on a Raspberry Pi, Odroid device, or PC to play retro video games
+- https://www.retrobat.ovh/index.html - 'Retrobat', an operating system that has an EmulationStation frontend with RetroArch and standalone emulators
 * Food Sites
 - https://www.recipelink.com/ - Great old-school recipe site with copycat recipes from major restaurants
 - https://www.justapinch.com/ - Recipe site for quick recipes
