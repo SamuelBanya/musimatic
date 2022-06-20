@@ -334,6 +334,7 @@
 - https://depp.brause.cc/dotemacs/ - Depp Brause's literate Emacs configuration
 - https://impaktor.gitlab.io/dot_emacs.html - 'Impaktor' user's literate Emacs configuration
 - https://erickgnavar.github.io/emacs-config/ - Erick Navarro's literate Emacs configuration
+- https://git.qorg11.net/emaks.git/tree/config.org - 'qorg' user's literate Emacs configuration
 - https://github.com/noctuid/dotfiles/blob/master/emacs/.emacs.d/awaken.org - Fox Kiester's Emacs config
 - https://github.com/afontaine/.emacs.d - Andrew Fontaine's Emacs config
 - https://lupan.pl/dotemacs/ - Emacs fan's programming based Emacs config
@@ -466,6 +467,7 @@
 - https://jblevins.org/projects/emacs-color-themes/ - Jason Blevins's page on color themes for Emacs
 - https://www.masteringemacs.org/article/complete-guide-mastering-eshell - Emacs blog post on how to master the 'eshell' component of Emacs
 - https://isamert.net/2019/11/14/running-sql-on-org-mode-tables.html -  İsa Mert Gürbüz's Emacs blog post on how to run SQL commands on table entries within an Org Mode table
+- https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml - 'qorg' user's blog post on how to create a static generated site using just Emacs Org Mode
 * Emacs Package Links
 - https://github.com/emacs-tw/awesome-emacs - GitHub version of "Awesome Emacs", which showcases great Emacs packages
 - https://awesome.wansal.co/editors--emacs - An 'Awesome' curation of Emacs packages to check out
@@ -763,6 +765,13 @@ https://frandallfarmer.github.io/neohabitat-doc/docs// - 'Neohabitat', a site th
 - https://seasip.info/ - Personal website of John Elliot
 - https://www.increasinglyadequate.com/index.html - A very minimalistic blog on tech (BSD, Linux), Minnesota, music, and politics
 - https://www.increasinglyadequate.com/cmus.html - Blog post on how to use 'cmus', the ncurses-based music player for Linux
+- https://qorg11.net/info.en.xhtml - 'qorg' user's personal website that hosts a blog, comment section, a webring, and a related Git repo
+- https://kill-9.xyz/ - A site of similar minded programmers and computer enthusiasts from a Korean basketweaving forum
+- https://ebin.city/ - ebin.city, a privacy minded servers provider website
+- https://concealed.world/about/ - 'concealed.world', a computer enthusiast website with a blog, webring, a GIT server, a Minetest server, and an IRC server
+- https://tilde.team/~lemon/ - 'tocjo' user's personal website with its own dedicated webring
+- https://honeypot.im/ - Baobab's personal website which offers a suite of self-hosted services that are free to use which include Invidious, Jitsi, Mastodon, email services, XMPP services
+- https://getimiskon.xyz/ - 'getimiskon' user's personal website complete with a blog, personal projects, and a webring
 * Guitar Pedal Sites
 - https://buildyourownclone.com/ - DIY Guitar Effects Pedal and Amplifier Kits – Build Your Own Clone
 - https://tagboardeffects.blogspot.com/ - Guitar FX Layouts
