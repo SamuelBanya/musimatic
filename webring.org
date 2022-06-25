@@ -468,6 +468,7 @@
 - https://www.masteringemacs.org/article/complete-guide-mastering-eshell - Emacs blog post on how to master the 'eshell' component of Emacs
 - https://isamert.net/2019/11/14/running-sql-on-org-mode-tables.html -  İsa Mert Gürbüz's Emacs blog post on how to run SQL commands on table entries within an Org Mode table
 - https://qorg11.net/tech_posts/org_mode_as_ssg.xhtml - 'qorg' user's blog post on how to create a static generated site using just Emacs Org Mode
+- https://mullikine.github.io/posts/setting-up-lsp-with-emacs-attempt-2/ - Great blog post on how to setup 'lsp mode' with Emacs
 * Emacs Package Links
 - https://github.com/emacs-tw/awesome-emacs - GitHub version of "Awesome Emacs", which showcases great Emacs packages
 - https://awesome.wansal.co/editors--emacs - An 'Awesome' curation of Emacs packages to check out
