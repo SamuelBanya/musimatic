@@ -96,7 +96,9 @@ I then used the following prompts for the 'certbot' wizard:
 -   2: apps.musimatic.xyz
 -   2: Redirect - Make all requests redirect to secure HTTPS access.
 
-I then was greeted with a message stating that this process was successful, and I am now able to see the basic page at 'apps.musimatic.xyz' without a problem!
+I then was greeted with a message stating that this process was successful, and I am now able to see the basic page at 'apps.musimatic.xyz' without a problem:
+
+-   <https://apps.musimatic.xyz/>
 
 Going forward, I plan on being able to deploy a 'React' website that hosts my projects site on that section of the site, so it should be pretty cool to see where it goes next. At least the heavy lifting of the networking side of this is complete, so that should be good going forward.
 
