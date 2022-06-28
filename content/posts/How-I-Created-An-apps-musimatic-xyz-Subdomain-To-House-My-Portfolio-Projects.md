@@ -104,7 +104,7 @@ Going forward, I plan on being able to deploy a 'React' website that hosts my pr
 
 For now, I have created a corresponding GitHub repo for the 'apps' portion of my website which can be found here:
 
--   <https://github.com/SamuelBanya/musimaticapps>
+-   <https://github.com/SamuelBanya/apps>
 
 Also, if I plan on creating related '&lt;a&gt;&lt;/a&gt;' anchor tags on that '/var/www/apps' subdomain for 'index.html' for any specific projects, I noted the following as an example:
 
