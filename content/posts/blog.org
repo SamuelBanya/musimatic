@@ -1,5 +1,169 @@
 #+TITLE: Musimatic Blog
 #+hugo_base_dir: ~/hub/musimatic
+* Completion Of Phase 2 For Flatiron School Software Development Bootcamp
+:PROPERTIES:
+:EXPORT_FILE_NAME: Completion-Of-Phase-2-For-Flatiron-School-Software-Development-Bootcamp
+:EXPORT_DATE: [2022-08-12]
+:END:
+
+I am happy to note that I have successfully completed the requirements of Phase 2 for the Flatiron School Software Development Bootcamp.
+
+Overall, it was not that easy to complete, but I am very proud that I did it. React itself was a very new topic for me, so unlike the previous phase where I completely knew what I was doing, I felt like I was thrown into the deep end with a floatable raft that comprises the React docs themselves.
+
+React to me is a very neat framework that clearly has its reasons for its design choices. It aims to be a framework where you can really build an all-in-one page app that flows so nicely with parent and child components being able to pass down 'props' which contain related attributes or callback functions that can be used seamlessly throughout a project.
+
+One particular topic I would like to focus on within this post is the 'useEffect' hook and why I find it to be one of the selling points for React as it shows just how powerful React is in terms of being able to update a page in real-time.
+
+The 'useEffect' React hook allows you to call a load event when a page fully renders. This means that you can totally take advantage of using an API call to a local 'db.json' with a fetch() call when a page loads. This is awesome because you can show components such as images being updated in real time.
+
+A good example of this would be from my own Phase 2 project mentioned in my earlier post. In this project, I had to grab the 'photos' object from the related '/photos' endpoint. In order to do this, I had to utilize 'useEffect' and call the endpoint accordingly, and make sure to pass in the 'photos' variable I created with the 'useState' hook so that I can ensure I was including the most up-to-date array, as shown by this snippet from my 'Board.js' component:
+#+begin_src js
+  useEffect(() => {
+    fetch("http://localhost:3000/photos", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setPhotos(data);
+      });
+  }, [photos]);
+#+end_src
+
+I even ended up using the 'useEffect' hook in the overarching parent component, 'App.js', to set the default theme of the project to be the light theme, 'App light', as shown with this 'useEffect' example from the 'App.js' component snippet here. You'll notice that in this example however, I am passing an empty dependency array as the second argument to 'useEffect' so that the function call to the 'setTheme' function is only called once:
+#+begin_src js
+  useEffect(() => {
+    setTheme("App light");
+  }, []);
+#+end_src
+
+Overall, the 'useEffect' hook as seen by the two examples above has its importance for allowing a project to be dynamic to be able to continuously call a function if needed, or simply call it once.
+
+The 'useEffect' hook itself's Docs page can be found here for reference, NOTE: Stick to the 'Function' components sections if you're not used to creating 'Class' components in React:
+- https://reactjs.org/docs/hooks-effect.html
+
+Thanks for reading my post!
+
+~ Sam
+* Completion Of Phase 2 Project For Flatiron School Software Development Bootcamp
+:PROPERTIES:
+:EXPORT_FILE_NAME: Completion-Of-Phase-2-Project-For-Flatiron-School-Software-Development-Bootcamp
+:EXPORT_DATE: [2022-08-11]
+:END:
+
+I am pretty stoked to have finished my Phase 2 project for the Flatiron School Software Development bootcamp called 'Back To The Drawing Board', which can be found here:
+- https://github.com/samuelbanya/backtothedrawingboard
+
+This project runs locally, so you will have to use the 'git clone' command to pull that project down to your local machine, and install necessary dependencies with 'npm install' in the root directory.
+
+Also, this utilizes the 'json-server' dependency, so you would have to install it with 'npm install json-server', and then run the project accordingly with the following commands:
+#+begin_src bash
+json-server --watch db.json
+npm start
+#+end_src
+
+You can watch my YouTube demonstration video of this project here:
+- https://www.youtube.com/watch?v=LyFX5oBJiZk
+
+OVerall, this project was a bit more enjoyable to work on than the Phase 1 project since I had more of a cohesive and easier idea to implement instead of my previous project which started out as a clone of 'Rover.com'. This time around I decided to simply make an image reference board app in which you can upload art images with a name and hyperlink to a canvas. Once on the page, the user can then drag the images around, and resize them to suit the art you're working on.
+
+I was able to get the last two functions through the 'Draggable' and 'Re-resizable' libraries found here respectively:
+- https://www.npmjs.com/package/react-draggable
+- https://www.npmjs.com/package/re-resizable
+
+After a bit of research, I actually found the perfect live code sandbox demo that was similar to the functionality I wanted in my app, which is the following:
+- https://stackblitz.com/edit/react-draggable-and-resizable-pictures?file=index.js
+
+In order to get a similar functionality in my project, I had to build out my app with an app hierarchy that allowed me to be able to utilize 'props' to pass down attributes and callback functions to be able to control what's being shown on screen.
+
+The relationships of the components present for the project include the following ideas:
+- The 'App.js' parent component is responsible for the routing as well as the 'useState' section that controls the overall theme of the app
+- The 'About.js' child component details the functionality of the app itself
+- The 'Board.js' child component does a lot of the heavy lifting for the image board itself as it uses the 'useEffect' hook to grab images that were stored onto the 'db.json' database with a 'GET' request via 'json-server', and also handles deleting images via a callback function that is later passed to the 'Photo' component
+- The 'Photo.js' component contains the individual photo card elements that contain the '<Draggable>' and '<Resizable>' components respectively which can be dragged across the screen and resized at will
+- The 'Theme.js' component uses the 'onChange' event to grab the '<select>' tag's value and pass it up to the 'App.js' component to ultimately change the theme with an associated callback function
+- The 'Upload.js' component uses a fetch() request to store the 'photoName' and 'photoLink' of the image that the user provided which is then displayed later onto the 'Board.js' component
+
+As you can imagine, dealing with these components at times can be a bit rough mentally, but once you get the hang of being able to pass 'props' back and forth between parent and child components, it becomes more of a balancing act to make sure everything is working correctly.
+
+Another major roadblock I faced was actually how to implement 'V6' style routing into the project as newer projects created with the 'create-react-app' template from React demand that you utilize the 'V6' style of routing. With a bit of research, I found out this particular page on 'react router' to help a ton for this issue:
+- https://reactrouter.com/docs/en/v6/getting-started/overview
+
+The fix basically is to install the necessary 'v6' component accordingly and to adjust the routing given the ideas from the blog post above to utilize the '<Routes>' and '<Route>' component to conform to the 'V6' style:
+#+begin_src bash
+npm install react-router-dom@6
+#+end_src
+
+The main part that threw me off for a bit was how to actually deal with individual 'photo' components I wanted to create. I figured out that this required the use of a '.map()' iteration so that I could iterate through the entire 'photos' object returned from 'db.json'. I placed this into the contents of a related variable, which is shown in the related snippet from the 'return' statement for the 'Board.js' component below. Even indexing into the specific sections of the 'photo' object to create the 'photoName' and 'photoLink' variables respectively was a slight challenge, but a bit fun since I got to work with slightly complicated data structures as a result:
+#+begin_src js
+  const photoToDisplay = photos.map((photo) => {
+    return (
+      <div>
+        <Photo
+          key={photo["id"]}
+          id={photo["id"]}
+          photoName={photo["dataArray"][0]["photoName"]}
+          photoLink={photo["dataArray"][0]["photoLink"]}
+          onDeletePhoto={handleDeletePhoto}
+        />
+      </div>
+    );
+  });
+
+  return <div>{photoToDisplay}</div>;
+#+end_src
+
+Inside the 'Photo.js' component, I had to then utilize a set of nested components so that both 'Draggable' and 'Resizable' components could be used, which is shown in this return statement snippet from the 'Photo.js' component:
+#+begin_src js
+  return (
+    <Draggable>
+      <Resizable
+        id={id}
+        className="imgClass"
+        defaultSize={{
+          width: 100,
+          height: 100,
+        }}
+        style={{
+          background: `url(${photoLink})`,
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
+        }}
+        lockAspectRatio={true}
+      >
+        <button onClick={handleDeletePhoto}>❌</button>
+      </Resizable>
+    </Draggable>
+  );
+#+end_src
+
+I was able to handle obtaining the photos themselves with a related fetch() call in the 'Board.js' component which calls 'db.json' via 'json-server' via the React based 'useEffect' hook. On this same note, the one thing that almost tripped me up was the use of the second parameter for the 'useEffect' call to literally utilize the same 'useState' variable called 'photos' so that I can store the contents of the filtered array into it. This was so that I could display the images in real time, even if I deleted one from the 'Board.js' component itself via the related callback function, which is shown in this snippet:
+#+begin_src js
+function Board() {
+  const [photos, setPhotos] = useState([]);
+
+  function handleDeletePhoto(id) {
+    const updatedPhotosArray = photos.filter((photo) => photo.id !== id);
+    setPhotos(updatedPhotosArray);
+  }
+
+  useEffect(() => {
+    fetch("http://localhost:3000/photos", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setPhotos(data);
+      });
+  }, [photos]);
+#+end_src
+
+Overall, I think this is a great showcase of how much of React I've learned so far, and it really is a great simple, but effective web app written in React!
 * How I Created The 'morrowind-emacs-theme' For Emacs, And Pushed It To MELPA For Review
 :PROPERTIES:
 :EXPORT_FILE_NAME: How-I-Created-The-morrowind-emacs-theme-For-Emacs-And-Pushed-It-To-MELPA-For-Review
