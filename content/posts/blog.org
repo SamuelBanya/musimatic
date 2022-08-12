@@ -3,7 +3,7 @@
 * Completion Of Phase 2 For Flatiron School Software Development Bootcamp
 :PROPERTIES:
 :EXPORT_FILE_NAME: Completion-Of-Phase-2-For-Flatiron-School-Software-Development-Bootcamp
-:EXPORT_DATE: [2022-08-12]
+:EXPORT_DATE: [2022-08-11]
 :END:
 
 I am happy to note that I have successfully completed the requirements of Phase 2 for the Flatiron School Software Development Bootcamp.
@@ -50,7 +50,7 @@ Thanks for reading my post!
 * Completion Of Phase 2 Project For Flatiron School Software Development Bootcamp
 :PROPERTIES:
 :EXPORT_FILE_NAME: Completion-Of-Phase-2-Project-For-Flatiron-School-Software-Development-Bootcamp
-:EXPORT_DATE: [2022-08-11]
+:EXPORT_DATE: [2022-08-10]
 :END:
 
 I am pretty stoked to have finished my Phase 2 project for the Flatiron School Software Development bootcamp called 'Back To The Drawing Board', which can be found here:
