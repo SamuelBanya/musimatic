@@ -83,6 +83,7 @@ The previous command opened the running ‘json-server’ Heroku instance in a n
 -   <https://drawingboardjsonserver.herokuapp.com/>
 
 I then went back to my original project's repo, aka the second repo in the context of this deployment, and modified each of the fetch() requests to point to the Heroku app’s actual API endpoint instead:
+
 Example from ‘Board.js’ that was modified accordingly:
 
 ```js
