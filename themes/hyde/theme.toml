@@ -1,7 +1,0 @@
-name = "Hyde"
-license = "MIT"
-licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
-description = "A blog website created by Samuel Banya"
-tags = ["blog", "company"]
-features = ["blog", "themes", "disqus"]
-min_version = 0.53
