@@ -264,4 +264,62 @@ class FoodsController < ApplicationController
 end
 ```
 
+The authentication process for Rails involves the use of the '.authenticate' method which checks to see if the 'bcrypt' encrypted password provided to the backend is correct, and returns 'self' if this is correct. If it is not, then it returns false which then prevents the user from being able to sign into the application.
+
+This is better explained in this reference pages:
+
+-   <https://www.apidock.com/rails/ActiveModel/SecurePassword/InstanceMethodsOnActivation/authenticate>
+-   <https://api.rubyonrails.org/classes/ActionController/HttpAuthentication/Basic.html>
+-   <https://en.wikipedia.org/wiki/Bcrypt>
+
+This is also better represented in my code within the 'Sessions' controller of my project as it helps create a session for a given user only when they are authorized to do so:
+
+```ruby
+class SessionsController < ApplicationController
+    skip_before_action :authorize, only: :create
+
+    def create
+        user = User.find_by(username: params[:username])
+        if user&.authenticate(params[:password])
+            session[:user_id] = user.id
+            render json: user
+        else
+            render json: { errors: ["Invalid username or password"] }, status: :unauthorized
+        end
+    end
+
+    def destroy
+        session.delete :user_id
+        head :no_content
+    end
+end
+```
+
+After that, the overarching 'application' controller is then responsible for assigning the current user to the '@current_user' variable if a valid authenticated session is found. The '@current_user' variable is used throughout my project's Rails backend as it is useful to just use '@current_user' for various backend methods instead of having to repeat the process of finding the specific logged in user each time. This is shown here within the 'ApplicationController':
+
+```ruby
+class ApplicationController < ActionController::API
+  include ActionController::Cookies
+
+rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
+
+before_action :authorize
+
+private
+
+def authorize
+  # NOTE: This is exactly how the /cookouts route knows what user has logged in since when the user logs in,
+  # This information is passed in via the params
+  @current_user = User.find_by(id: session[:user_id])
+
+  render json: { errors: ["Not authorized"] }, status: :unauthorized unless @current_user
+end
+
+def render_unprocessable_entity_response(exception)
+  render json: { errors: exception.record.errors.full_messages }, status: :unprocessable_entity
+end
+
+end
+```
+
 Though using Rails is slightly more complicated than what was presented earlier, it does a lot of the heavy lifting for you, and is very powerful. Honestly, I would come back to it later on to make an API as I believe this it's strong point, so I'm looking forward to potentially using it again for another side project in the future.
