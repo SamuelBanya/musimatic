@@ -24,7 +24,9 @@ Then, run this command to install the project's components:
 ```bash
 npm install
 npm install --prefix client
-gem install
+bundle install
+rails db:create
+rails db:migrate
 ```
 
 Its Rails backend can then be run locally with the following Bash command within the root of the project directory:
